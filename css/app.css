@@ -6,10 +6,10 @@ html {
 }
 body {
 	color: #333;
-    font: normal 400 1.6rem/1.5 "Quicksand", sans-serif;
+    font: normal 400 2rem/1.5 "PT Serif", Georgia, serif;
 }
 .wrapper {
-    width: 580px;
+    width: 720px;
     max-width: 96%;
     margin: auto;
 }
@@ -40,8 +40,12 @@ h4 {
 ***********************************/
 .post-title a {
     color: #333;
-
-    &:hover {
-        color: red;
-    }
+    text-decoration: none;
+}
+.post-content a {
+    color: #333;
+}
+.post-title a:hover,
+.post-content a:hover {
+    color: red;
 }

@@ -29,13 +29,13 @@ function renderSinglePost(post) {
         '<div class="post-image">' +
         renderImage(fields.featuredImage[0], fields.slug) +
         '</div>' +
-        '<div class="post-details">' +
+        '<div class="post-content">' +
         renderPostDetails(fields) +
         '</div>' +
         '</div>'
     } else {
         return '<div class="post-list">' +
-          '<div class="post-details">' +
+          '<div class="post-content">' +
           renderPostDetails(fields) +
           '</div>' +
           '</div>'
