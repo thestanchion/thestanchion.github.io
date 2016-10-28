@@ -16,8 +16,7 @@ contentfulClient.getEntries({
   })
 
 function renderPosts(posts) {
-  return '<h1>Posts</h1>' +
-    '<div class="posts">' +
+  return '<div class="posts">' +
     posts.map(renderSinglePost).join('\n') +
     '</div>'
 }
