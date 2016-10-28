@@ -1,0 +1,47 @@
+/***********************************
+ASH ROBBINS
+***********************************/
+html {
+    font-size: 62.5%;
+}
+body {
+	color: #333;
+    font: normal 400 1.6rem/1.5 "Quicksand", sans-serif;
+}
+.wrapper {
+    width: 580px;
+    max-width: 96%;
+    margin: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "PT Serif", Georgia, serif;
+	font-weight: 700;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 26px;
+}
+h4 {
+    font-size: 20px;
+}
+
+
+/* ASH ROBBINS
+***********************************/
+.post-title a {
+    color: #333;
+
+    &:hover {
+        color: red;
+    }
+}
