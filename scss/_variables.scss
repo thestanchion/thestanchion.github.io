@@ -1,0 +1,28 @@
+// Base text size
+$pixelBase : 10;
+
+// Colours
+$primaryColour : #e5127d;
+$secondaryColour: #10c69d;
+$tertiaryColour: #595959;
+
+$black: #1a1a1a;
+$white: #fff;
+$dividerColor: #e4e4e4;
+
+// Font colours
+$bodyText: #fff;
+
+// Variables for site fonts
+$titleFont: "Antonio", sans-serif;
+$bodyFont: "PT Serif", Georgia, serif;
+
+// Grid system
+$maxColCount : 12;
+$verticalRowSpacing: 2;
+$horizontalSpacing : 1.8;
+$verticalSpacing : 1.8;
+
+// -- //
+$pageWidth: 118 + $horizontalSpacing * 2;
+$pageWidthInner: 118;

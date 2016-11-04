@@ -1,17 +1,11 @@
 /***********************************
 ASH ROBBINS
 ***********************************/
-@font-face {
-  font-family: 'Antonio';
-  src: url('../fonts/Antonio-Bold.ttf')  format('truetype');
-}
 html {
     font-size: 62.5%;
 }
 body {
-    margin: 20px;
-	color: #fff;
-    background: #1a1a1a;
+	color: #333;
     font: normal 400 2rem/1.5 "PT Serif", Georgia, serif;
 }
 .wrapper {
@@ -25,9 +19,8 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Antonio", Georgia, serif;
+	font-family: "PT Serif", Georgia, serif;
 	font-weight: 700;
-    text-transform: uppercase;
 }
 h1 {
     font-size: 40px;
@@ -44,4 +37,24 @@ h4 {
 
 img {
     max-width: 100%;
+}
+
+
+/* ASH ROBBINS
+***********************************/
+.post {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px dashed #ddd;
+}
+.post-title a {
+    color: #333;
+    text-decoration: none;
+}
+.post-content a {
+    color: #333;
+}
+.post-title a:hover,
+.post-content a:hover {
+    color: red;
 }

@@ -5,18 +5,13 @@ var scss_src = './scss/**/',
     scss_dist = './css/',
     scss_prefix = 'last 5 versions';
 
-var font_name = 'example',
-    font_class_name = 'icon',
-    font_src = './fonts/',
-    icon_src = './fonts/icons/';
-
 var js_src = './js/',
     js_dist = './js/',
     js_file = 'app.js',
     js_concat_files = ['partial/libs/jquery.min.js', 'partial/main.js'];
 
-var img_src = './images/**/',
-    img_dist = './images/';
+var img_src = './img/**/',
+    img_dist = './img/';
 
 // dependencies
 var gulp = require('gulp'),
@@ -96,31 +91,6 @@ var customReporter = function (file) {
     }
 };
 
-// SVG font creation
-// @requires gulp-iconfont
-// @requires gulp-consolidate
-// @requires gulp-rename
-gulp.task('icon_font', function () {
-    gulp.src([icon_src + '*.svg'])
-        .pipe(iconfont({
-            fontName: font_name,
-            normalize: true,
-            fontHeight: 1001
-        }))
-        .on('glyphs', function (glyphs) {
-            gulp.src(font_src +'/font_template.css')
-                .pipe(consolidate('lodash', {
-                    glyphs: glyphs,
-                    fontName: font_name,
-                    fontPath: '.' + font_src,
-                    className: font_class_name
-                }))
-                .pipe(rename('_icons.scss'))
-                .pipe(gulp.dest('./scss/base/'));
-        })
-        .pipe(gulp.dest(font_src));
-});
-
 // Uglify JS App file
 // @requires gulp-uglify
 // @requires task: js_concat
@@ -184,6 +154,6 @@ gulp.task('watch_prod', function () {
 // gulp prod
 gulp.task('prod', ['scss_prod', 'js_concat', 'js_uglify', 'imagemin']);
 // gulp dev
-gulp.task('dev', ['icon_font', 'scss_dev', 'js_concat', 'js_lint', 'imagemin', 'watch_dev']);
+gulp.task('dev', ['scss_dev', 'js_concat', 'js_lint', 'imagemin', 'watch_dev']);
 // gulp
-gulp.task('default', ['icon_font', 'scss_dev', 'js_concat', 'js_lint', 'watch_dev']);
+gulp.task('default', ['scss_dev', 'js_concat', 'js_lint', 'watch_dev']);

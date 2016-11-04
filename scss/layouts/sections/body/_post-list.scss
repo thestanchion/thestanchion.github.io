@@ -1,0 +1,85 @@
+/* POSTS
+***********************************/
+.post {
+    width: 50%;
+    width: calc(50% - 10px);
+    float: left;
+    @include u(margin-bottom, 2);
+
+    .post-title a,
+    .post-content a {
+        color: $white;
+
+        &:hover {
+            color: $primaryColour;
+        }
+    }
+    .post-image {
+        position: relative;
+        @include u(height, 20);
+        overflow: hidden;
+
+        img {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            min-width: 100%;
+            height: auto;
+            width: auto;
+            margin: auto;
+        }
+    }
+    .post-title a {
+        text-decoration: none;
+    }
+    .post-date {
+        font-size: 16px;
+        @include Antonio-Bold;
+    }
+    &:first-child {
+        position: relative;
+        width: 100%;
+
+        .post-details,
+        .post-title,
+        .post-date {
+            position: absolute;
+        }
+        .post-image {
+            width: 100%;
+            height: calc(100vh - 100px);
+            max-height: 90%;
+        }
+        .post-details {
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+        .post-title {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60%;
+            @include u(font-size, 6);
+            text-align: center;
+        }
+        .post-date {
+            left: 0;
+            right: 0;
+            bottom: 200px;
+            @include u(width, 12);
+            margin: auto;
+            @include u(padding, 1);
+            background: $black;
+            color: $white;
+            text-align: center;
+        }
+    }
+    &:nth-child(even):not(:first-child) {
+        clear: left;
+        margin-right: 20px;
+    }
+}

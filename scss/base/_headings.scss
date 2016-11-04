@@ -1,0 +1,11 @@
+/******************************************
+HEADINGS
+******************************************/
+/**
+ * By default, all headings are always ‘just a bit bigger’ than body copy.
+ * Any font, size, color, etc. styling is done based on the purpose of the heading.
+ * See classes below which detail styles for specific heading uses.
+ */
+h1, h2, h3, h4, h5, h6 {
+    @include Antonio-Bold;
+}

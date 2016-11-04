@@ -1,0 +1,41 @@
+// --------------- // Header Styles // --------------- //
+
+// Generic header styles for all devices
+.site-header {
+    overflow: hidden;
+    margin-bottom: 20px;
+
+    h1,
+    ul {
+        margin: 0;
+    }
+    h1 {
+        float: left;
+        line-height: 1;
+
+        a {
+            color: $white;
+            text-decoration: none;
+        }
+    }
+    ul {
+        float: right;
+        list-style: none;
+
+        a {
+            color: $white;
+            font-family: "Antonio", sans-serif;
+            font-size: 16px;
+            text-decoration: none;
+            text-transform: uppercase;
+
+            &:hover {
+                color: $primaryColour;
+            }
+        }
+    }
+    li {
+        display: inline-block;
+        margin: 10px 0 0 20px;
+    }
+}

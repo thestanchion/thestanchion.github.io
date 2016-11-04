@@ -1,0 +1,139 @@
+// --------------- // Structure // --------------- //
+.wrapper {
+  @include u(width, 118);
+  margin: 0 auto;
+}
+
+.page {
+    @include u(max-width, $pageWidth);
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    background: #fff;
+}
+
+.main-content {
+    @include u(min-height, 34.5);
+    @include clearfix();
+    position: relative;
+}
+
+.main-body {
+    @include u(padding, 2, $horizontalSpacing);
+    @include u(font-size, 1.6);
+    @include w((
+        default: "63.75%",
+        1199: 12
+    ));
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    float: left;
+    min-height: 1px;
+    line-height: 1.4;
+}
+
+.main-sidebar {
+    @include u(padding, 2, $horizontalSpacing);
+    @include u(margin, 1, 0);
+    @include w((
+        default: "25%",
+        1199: 12
+    ));
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    min-height: 1px;
+    float: right;
+}
+// --------------- // Grid // --------------- //
+.container {
+    @include u(padding, 0);
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 0;
+    clear: both;
+}
+
+%row,
+.row {
+    @include u(padding, $verticalRowSpacing, 0);
+    display: block;
+    font-size: 0;
+    *zoom: 1;
+}
+
+.row:before,
+.row:after {
+    content: ' ';
+    display: table;
+    width: 0;
+}
+
+.row:after {
+    clear: both;
+}
+
+.row-center {
+    @extend %row;
+    text-align: center;
+}
+
+// --------------- // Col styles // --------------- //
+%col,
+*[class*="col-"] {
+    @include u(padding, $verticalSpacing, $horizontalSpacing);
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    min-height: 1px;
+}
+
+@for $i from 1 through $maxColCount {
+    .col-#{$i} {
+        width: percentage($i/$maxColCount);
+    }
+}
+@for $i from 1 through $maxColCount {
+    %col-#{$i} {
+        width: percentage($i/$maxColCount);
+    }
+}
+@for $i from 1 through $maxColCount {
+    .col-push-#{$i} {
+        left: percentage($i/$maxColCount);
+    }
+}
+
+// --------------- // Default pull classes // --------------- //
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+// --------------- // Equal height row // --------------- //
+.equal-row {
+    display: flex;
+    flex-wrap: wrap;
+
+    &:before,
+    &:after {
+        content: none;
+    }
+}
+
+.equal-row > *[class*="col-"],
+.equal-row > div {
+    display: flex;
+}
+
+.equal-row > *[class*="col-"] > *,
+.equal-row > div > * {
+    width: 100%;
+}
