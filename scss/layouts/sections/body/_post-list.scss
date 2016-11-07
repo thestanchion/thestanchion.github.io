@@ -16,7 +16,8 @@
     }
     .post-image {
         position: relative;
-        @include u(height, 20);
+        @include u(height, 30);
+        @include u(margin-bottom, 1);
         overflow: hidden;
 
         img {
