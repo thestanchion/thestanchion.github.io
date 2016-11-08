@@ -92,8 +92,7 @@ h4:first-child {
 
 p {
     @include u(margin, 0, 0, 1.2, 0);
-    @include u(font-size, 1.6);
-    line-height: 1.4;
+    line-height: 1.8;
     vertical-align: top;
     display: block;
     clear: both;
@@ -119,13 +118,12 @@ li {
 }
 
 a {
-    color: $secondaryColour;
+    color: $primaryColour;
     text-decoration: none;
 }
 
 a:hover {
-    border-bottom: 0;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 @include bp_max(1199px) {

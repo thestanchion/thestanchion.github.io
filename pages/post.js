@@ -18,25 +18,23 @@ PC.pages.post.renderHTML = function (params) {
 
 function renderSingleProduct(post) {
   var fields = post.fields
-  return '<div class="post">' +
+  return '<div class="single-post">' +
     '<div class="post-image">' +
-      renderImage(fields.featuredImage[0]) +
-    '</div>' +
-    '<div class="post-header">' +
-      '<h1>' + fields.title + '</h1>' +
-    '</div>' +
-    '<div class="post-categories">' +
-      fields.categories.map(function (category) {
-        return category.fields.title
-      }).join(', ') +
+      renderImage(fields.featuredImage, fields.slug) +
+      '<h1 class="post-title">' + fields.title + '</h1>' +
     '</div>' +
     '<div class="post-content">' + marked(fields.body) + '</div>' +
+    '<div class="post-categories">' +
+      fields.categories.map(function (category) {
+        return '<a href="#" title="View all posts in ' + category.fields.title + '">' + category.fields.title + '</a>'
+      }).join(', ') +
+    '</div>' +
   '</div>'
 }
 
-function renderImage(image) {
+function renderImage(image, slug) {
   if(image && image.fields.file) {
-    return '<img src="' + image.fields.file.url + '" width="300" height="300" />'
+    return '<img src="' + image.fields.file.url + '" alt="' + slug + '" />'
   } else {
     return ''
   }

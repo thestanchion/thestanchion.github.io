@@ -488,8 +488,7 @@ h4:first-child {
 
 p {
   margin: 0rem 0rem 1.2rem 0rem;
-  font-size: 1.6rem;
-  line-height: 1.4;
+  line-height: 1.8;
   vertical-align: top;
   display: block;
   clear: both;
@@ -519,13 +518,12 @@ li {
 }
 
 a {
-  color: #10c69d;
+  color: #e5127d;
   text-decoration: none;
 }
 
 a:hover {
-  border-bottom: 0;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 @media all and (max-width: 74.9375em) {
@@ -1297,7 +1295,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post:first-child .post-image {
-  width: 100%;
+  width: calc(100% + 40px);
+  margin-left: -2rem;
   height: calc(100vh - 100px);
   max-height: 90%;
 }
@@ -1307,17 +1306,32 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   left: 0;
   right: 0;
+  width: calc(100% + 40px);
+  margin-left: -2rem;
 }
 
 .post:first-child .post-title {
   top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  width: 60%;
-  font-size: 6rem;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 3rem 20rem;
+  margin: auto;
+  background: #fff;
+  color: #1a1a1a;
+  font-size: 6.6rem;
   text-align: center;
+}
+
+.post:first-child .post-title a {
+  color: #1a1a1a;
+}
+
+.post:first-child .post-title a:hover {
+  color: #e5127d;
 }
 
 .post:first-child .post-date {
@@ -1335,4 +1349,65 @@ h1, h2, h3, h4, h5, h6 {
 .post:nth-child(even):not(:first-child) {
   clear: left;
   margin-right: 20px;
+}
+
+/* SINGLE POSTS
+***********************************/
+.single-post .post-title,
+.single-post .post-content,
+.single-post .post-categories {
+  width: 70rem;
+  margin: auto;
+}
+
+.single-post .post-image {
+  position: relative;
+  width: calc(100% + 40px);
+  height: calc(100vh - 100px);
+  max-height: 90%;
+  margin-left: -2rem;
+  margin-bottom: 3rem;
+  overflow: hidden;
+}
+
+.single-post .post-image img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-width: 100%;
+  height: auto;
+  width: auto;
+  margin: auto;
+}
+
+.single-post .post-title {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 3rem 20rem;
+  margin: auto;
+  background: #fff;
+  color: #1a1a1a;
+  font-size: 6.6rem;
+  text-align: center;
+}
+
+.single-post .post-content {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.single-post .post-categories {
+  font-family: 'Antonio', arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-transform: uppercase;
 }

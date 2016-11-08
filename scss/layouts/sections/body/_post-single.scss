@@ -1,0 +1,54 @@
+/* SINGLE POSTS
+***********************************/
+.single-post {
+    .post-title,
+    .post-content,
+    .post-categories {
+        @include u(width, 70);
+        margin: auto;
+    }
+    .post-image {
+        position: relative;
+        width: calc(100% + 40px);
+        height: calc(100vh - 100px);
+        max-height: 90%;
+        @include u(margin-left, -2);
+        @include u(margin-bottom, 3);
+        overflow: hidden;
+
+        img {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            min-width: 100%;
+            height: auto;
+            width: auto;
+            margin: auto;
+        }
+    }
+    .post-title {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        right: 0;
+        width: 100%;
+        @include u(padding, 3, 20);
+        margin: auto;
+        background: $white;
+        color: $black;
+        @include u(font-size, 6.6);
+        text-align: center;
+    }
+    .post-content {
+        @include u(font-size, 2);
+        @include u(margin-bottom, 3);
+    }
+    .post-categories {
+        @include Antonio-Bold;
+        @include u(font-size, 1.5);
+        text-transform: uppercase;
+    }
+}
