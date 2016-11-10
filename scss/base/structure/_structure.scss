@@ -1,7 +1,8 @@
 // --------------- // Structure // --------------- //
 .wrapper {
-  @include u(width, 118);
-  margin: 0 auto;
+    @include u(width, 72);
+    max-width: 96%;
+    margin: 0 auto;
 }
 
 .page {

@@ -3,6 +3,7 @@
 // Generic header styles for all devices
 .site-header {
     overflow: hidden;
+    @include u(margin-bottom, 2);
 
     h1,
     ul {

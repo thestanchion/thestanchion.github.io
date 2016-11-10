@@ -39,8 +39,6 @@ function renderSingleProduct(post) {
   return '<div class="post">' +
     '<div class="post-image">' +
       renderImage(fields.featuredImage, fields.slug) +
-    '</div>' +
-    '<div class="post-details">' +
       renderProductDetails(fields) +
     '</div>' +
   '</div>'

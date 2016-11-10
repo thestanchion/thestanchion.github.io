@@ -24,11 +24,11 @@ function renderSingleProduct(post) {
       '<h1 class="post-title">' + fields.title + '</h1>' +
       '<date class="post-date">' + fields.date + '</date>' +
     '</div>' +
-    '<div class="post-content">' + marked(fields.body) + '</div>' +
-    '<div class="post-categories">' +
+    '<div class="post-content wrapper">' + marked(fields.body) + '</div>' +
+    '<div class="post-categories wrapper">' +
       fields.categories.map(function (category) {
         return '<a href="#" title="View all posts in ' + category.fields.title + '">' + category.fields.title + '</a>'
-      }).join(', ') +
+    }).join(' | ') +
     '</div>' +
   '</div>'
 }

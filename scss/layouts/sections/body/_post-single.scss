@@ -1,12 +1,6 @@
 /* SINGLE POSTS
 ***********************************/
 .single-post {
-    .post-title,
-    .post-content,
-    .post-categories {
-        @include u(width, 70);
-        margin: auto;
-    }
     .post-image {
         position: relative;
         width: calc(100% + 40px);
@@ -28,8 +22,11 @@
             margin: auto;
         }
     }
-    .post-title {
+    .post-title,
+    .post-date {
         position: absolute;
+    }
+    .post-title {
         top: 50%;
         transform: translateY(-50%);
         left: 0;
@@ -43,18 +40,12 @@
         text-align: center;
     }
     .post-date {
-        position: absolute;
         left: 0;
-        right: 0;
-        bottom: 200px;
-        @include u(width, 12);
-        margin: auto;
-        @include u(padding, 1);
-        background: $black;
+        top: 50%;
         color: $white;
         @include u(font-size, 1.6);
         @include Antonio-Bold;
-        text-align: center;
+        transform: translateY(-50%) rotate(270deg);
     }
     .post-content {
         @include u(font-size, 2);

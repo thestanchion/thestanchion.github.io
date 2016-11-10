@@ -1,10 +1,11 @@
 /* POSTS
 ***********************************/
 .post {
-    width: 50%;
-    width: calc(50% - 10px);
+    width: 33%;
+    width: calc(33% - 20px);
     float: left;
     @include u(margin-bottom, 2);
+    margin-left: 20px;
 
     .post-title a,
     .post-content a {
@@ -16,27 +17,14 @@
     }
     .post-image {
         position: relative;
-        @include u(height, 30);
         @include u(margin-bottom, 1);
         overflow: hidden;
-
-        img {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            min-width: 100%;
-            height: auto;
-            width: auto;
-            margin: auto;
-        }
     }
     .post-title a {
         text-decoration: none;
     }
     .post-date {
-        font-size: 16px;
+        @include u(font-size, 1.6);
         @include Antonio-Bold;
     }
     &:first-child {
@@ -85,18 +73,17 @@
         }
         .post-date {
             left: 0;
-            right: 0;
-            bottom: 200px;
-            @include u(width, 12);
-            margin: auto;
-            @include u(padding, 1);
-            background: $black;
+            top: 50%;
             color: $white;
-            text-align: center;
+            transform: translateY(-50%) rotate(270deg);
         }
     }
-    &:nth-child(even):not(:first-child) {
+    &:nth-child(3n+2):not(:first-child) {
         clear: left;
-        margin-right: 20px;
+        margin-left: 0;
     }
+}
+
+@media only screen and (max-width: 1060px) {
+
 }

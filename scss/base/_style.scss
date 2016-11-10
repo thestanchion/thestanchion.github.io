@@ -34,11 +34,6 @@ body {
     background: $white;
     font: normal 400 2rem/1.5 "PT Serif", Georgia, serif;
 }
-.wrapper {
-    width: 720px;
-    max-width: 96%;
-    margin: auto;
-}
 
 h1 {
     @include u(font-size, 4);
@@ -104,11 +99,6 @@ p {
     display: block;
     clear: both;
 
-    @include bp_max(1199px) {
-        @include u(font-size, 1.4);
-        @include u(line-height, 2.4);
-    }
-
     > img {
         @include u(padding, 1);
         box-sizing: content-box;
@@ -118,10 +108,6 @@ p {
 li {
     @include u(font-size, 1.6);
     @include u(margin-bottom, 0.8);
-
-    @include bp_max(1199px) {
-        @include u(font-size, 1.4);
-    }
 }
 
 a {
@@ -131,13 +117,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-@include bp_max(1199px) {
-    big {
-        @include u(font-size, 1.6);
-        @include u(line-height, 2.4);
-    }
 }
 
 img {
