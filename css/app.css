@@ -1,10 +1,6 @@
 /***********************************
 ASH ROBBINS
 ***********************************/
-@font-face {
-  font-family: 'Antonio';
-  src: url('../fonts/Antonio-Bold.ttf')  format('truetype');
-}
 html {
     font-size: 62.5%;
 }

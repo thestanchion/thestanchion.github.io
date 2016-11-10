@@ -415,7 +415,6 @@ section {
 
 html {
   font: 62.5%/1.2 "PT Serif", Georgia, serif;
-  color: #fff;
   word-wrap: break-word;
   overflow-x: hidden;
 }
@@ -427,6 +426,15 @@ body {
 
 body {
   padding: 2rem;
+  color: #1a1a1a;
+  background: #fff;
+  font: normal 400 2rem/1.5 "PT Serif", Georgia, serif;
+}
+
+.wrapper {
+  width: 720px;
+  max-width: 96%;
+  margin: auto;
 }
 
 h1 {
@@ -963,17 +971,16 @@ select {
 FONTS
 ******************************************/
 @font-face {
-  font-family: Gotham-Bold;
-  src: url("../../fonts/Antonio-Bold.eot");
-  src: url("../../fonts/Antonio-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Antonio-Bold.woff") format("woff"), url("../../fonts/Antonio-Bold.ttf") format("truetype"), url("../../fonts/Antonio-Bold.svg#Gotham-Bold") format("svg");
+  font-family: "Antonio";
+  src: url("../../fonts/Antonio-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
-    font-family: Gotham-Bold;
-    src: url("../../fonts/Antonio-Bold.svg#Gotham-Bold") format("svg");
+    font-family: "Antonio";
+    src: url("../../fonts/Antonio-Bold.svg#Antonio") format("svg");
   }
 }
 
@@ -989,6 +996,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Antonio', arial, serif;
   font-weight: 700;
   font-style: normal;
+  text-transform: uppercase;
 }
 
 .btn-default, .btn-primary, .btn-success, .btn-info, .btn-danger, .btn-link,
@@ -1194,7 +1202,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .site-header {
   overflow: hidden;
-  margin-bottom: 20px;
 }
 
 .site-header h1,
@@ -1208,7 +1215,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-header h1 a {
-  color: #fff;
+  color: #1a1a1a;
   text-decoration: none;
 }
 
@@ -1218,8 +1225,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-header ul a {
-  color: #fff;
-  font-family: "Antonio", sans-serif;
+  color: #1a1a1a;
+  font-family: 'Antonio', arial, serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
@@ -1245,7 +1254,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .post .post-title a,
 .post .post-content a {
-  color: #fff;
+  color: #1a1a1a;
 }
 
 .post .post-title a:hover,
@@ -1285,7 +1294,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .post:first-child {
   position: relative;
-  width: 100%;
+  width: calc(100% + 40px);
+  margin-left: -2rem;
 }
 
 .post:first-child .post-details,
@@ -1295,8 +1305,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post:first-child .post-image {
-  width: calc(100% + 40px);
-  margin-left: -2rem;
+  width: 100%;
   height: calc(100vh - 100px);
   max-height: 90%;
 }
@@ -1320,14 +1329,14 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   padding: 3rem 20rem;
   margin: auto;
-  background: #fff;
-  color: #1a1a1a;
+  background: #1a1a1a;
+  color: #fff;
   font-size: 6.6rem;
   text-align: center;
 }
 
 .post:first-child .post-title a {
-  color: #1a1a1a;
+  color: #fff;
 }
 
 .post:first-child .post-title a:hover {
@@ -1393,9 +1402,26 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   padding: 3rem 20rem;
   margin: auto;
-  background: #fff;
-  color: #1a1a1a;
+  background: #1a1a1a;
+  color: #fff;
   font-size: 6.6rem;
+  text-align: center;
+}
+
+.single-post .post-date {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 200px;
+  width: 12rem;
+  margin: auto;
+  padding: 1rem;
+  background: #1a1a1a;
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: 'Antonio', arial, serif;
+  font-weight: 700;
+  font-style: normal;
   text-align: center;
 }
 

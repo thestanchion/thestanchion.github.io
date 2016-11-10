@@ -22,6 +22,7 @@ function renderSingleProduct(post) {
     '<div class="post-image">' +
       renderImage(fields.featuredImage, fields.slug) +
       '<h1 class="post-title">' + fields.title + '</h1>' +
+      '<date class="post-date">' + fields.date + '</date>' +
     '</div>' +
     '<div class="post-content">' + marked(fields.body) + '</div>' +
     '<div class="post-categories">' +

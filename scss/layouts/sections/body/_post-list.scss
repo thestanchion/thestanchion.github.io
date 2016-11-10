@@ -8,7 +8,7 @@
 
     .post-title a,
     .post-content a {
-        color: $white;
+        color: $black;
 
         &:hover {
             color: $primaryColour;
@@ -41,7 +41,8 @@
     }
     &:first-child {
         position: relative;
-        width: 100%;
+        width: calc(100% + 40px);
+        @include u(margin-left, -2);
 
         .post-details,
         .post-title,
@@ -49,8 +50,7 @@
             position: absolute;
         }
         .post-image {
-            width: calc(100% + 40px);
-            @include u(margin-left, -2);
+            width: 100%;
             height: calc(100vh - 100px);
             max-height: 90%;
         }
@@ -70,13 +70,13 @@
             width: 100%;
             @include u(padding, 3, 20);
             margin: auto;
-            background: $white;
-            color: $black;
+            background: $black;
+            color: $white;
             @include u(font-size, 6.6);
             text-align: center;
 
             a {
-                color: $black;
+                color: $white;
 
                 &:hover {
                     color: $primaryColour;

@@ -37,9 +37,23 @@
         width: 100%;
         @include u(padding, 3, 20);
         margin: auto;
-        background: $white;
-        color: $black;
+        background: $black;
+        color: $white;
         @include u(font-size, 6.6);
+        text-align: center;
+    }
+    .post-date {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 200px;
+        @include u(width, 12);
+        margin: auto;
+        @include u(padding, 1);
+        background: $black;
+        color: $white;
+        @include u(font-size, 1.6);
+        @include Antonio-Bold;
         text-align: center;
     }
     .post-content {

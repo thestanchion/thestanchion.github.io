@@ -58,8 +58,15 @@ function setupHistory() {
 function setupNavAnchorListeners() {
   document.querySelector('body').addEventListener('click', function (ev) {
     ev.preventDefault()
-    if(ev.target.tagName.toLowerCase() === 'a' && 'nav' in ev.target.dataset) {
-      PC.navigate(ev.target.href)
+    var tag;
+    if (ev.target.tagName.toLowerCase() === 'a') {
+        tag = ev.target;
+    } else if (ev.target.tagName.toLowerCase() === 'img') {
+        tag = ev.target.parentNode;
+    }
+
+    if (tag.tagName.toLowerCase() === 'a' && 'nav' in tag.dataset) {
+      PC.navigate(tag.href)
     }
   }, false)
 }

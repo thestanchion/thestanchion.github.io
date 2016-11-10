@@ -20,7 +20,6 @@ section {
 
 html {
     font: 62.5%/1.2 $bodyFont;
-    color: $bodyText;
     word-wrap: break-word;
     overflow-x: hidden;
 }
@@ -31,6 +30,14 @@ body {
 }
 body {
     @include u(padding, 2);
+	color: $black;
+    background: $white;
+    font: normal 400 2rem/1.5 "PT Serif", Georgia, serif;
+}
+.wrapper {
+    width: 720px;
+    max-width: 96%;
+    margin: auto;
 }
 
 h1 {
