@@ -11,15 +11,9 @@
         overflow: hidden;
 
         img {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            min-width: 100%;
-            height: auto;
-            width: auto;
-            margin: auto;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
     }
     .post-title,
@@ -55,5 +49,22 @@
         @include Antonio-Bold;
         @include u(font-size, 1.5);
         text-transform: uppercase;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .single-post {
+        .post-title {
+            @include u(padding, 3, 6);
+            @include u(font-size, 5);
+        }
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .single-post {
+        .post-title {
+            @include u(font-size, 2.2);
+        }
     }
 }
