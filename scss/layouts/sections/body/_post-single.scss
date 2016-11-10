@@ -63,8 +63,17 @@
 
 @media only screen and (max-width: 730px) {
     .single-post {
+        .post-image {
+            height: 50vh;
+        }
         .post-title {
-            @include u(font-size, 2.2);
+            @include u(font-size, 2.8);
+        }
+        .post-date {
+            left: -10px;
+        }
+        .post-content {
+            @include u(font-size, 1.6);
         }
     }
 }

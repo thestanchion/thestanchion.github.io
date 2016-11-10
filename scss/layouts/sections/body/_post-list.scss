@@ -119,6 +119,18 @@
         .post-title {
             @include u(font-size, 2.2);
         }
+
+        &:first-child {
+            .post-image {
+                height: 50vh;
+            }
+            .post-title {
+                @include u(font-size, 2.8);
+            }
+            .post-date {
+                left: -10px;
+            }
+        }
     }
 }
 
