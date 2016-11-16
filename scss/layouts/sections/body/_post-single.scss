@@ -8,6 +8,7 @@
         max-height: 90%;
         @include u(margin-left, -2);
         @include u(margin-bottom, 3);
+        @include u(padding, 0, 2);
         overflow: hidden;
 
         img {
