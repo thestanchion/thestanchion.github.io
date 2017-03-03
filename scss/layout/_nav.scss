@@ -1,0 +1,35 @@
+/******************************************
+NAV
+******************************************/
+.nav {
+    &__item {
+        margin: 0;
+    }
+    &__link {
+        display: block;
+        position: relative;
+        padding: 10px 0;
+        border: 0;
+        color: $white;
+        text-decoration: none;
+
+        &:hover {
+            background-color: lighten($black, 10%);
+        }
+        &:before,
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 9999px;
+            background-color: inherit;
+        }
+        &:before {
+            right: 100%;
+        }
+        &:after {
+            left: 100%;
+        }
+    }
+}

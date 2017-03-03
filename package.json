@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "Gulp template",
   "private": true,
-  "author": "James Bliss <jamesbliss@redweb.com>",
-  "contributors": [
-    "Michael Craddock <michaelcraddock@redweb.com>"
-  ],
+  "author": "Ash Robbins",
   "devDependencies": {
     "beepbeep": "^1.2.0",
     "gulp": "^3.9.1",
@@ -24,6 +21,7 @@
     "gulp-util": "^3.0.6",
     "imagemin-pngquant": "^4.1.0",
     "jshint-stylish": "^2.0.1",
-    "lodash": "^3.9.3"
+    "lodash": "^3.9.3",
+    "gulp-livereload": "^3.8.1"
   }
 }

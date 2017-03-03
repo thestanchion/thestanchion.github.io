@@ -1,0 +1,39 @@
+/******************************************
+SIDEBAR
+******************************************/
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow-x: hidden;
+    width: 40%;
+    height: 100%;
+    padding: rem-calc(60 80);
+    background-color: $black;
+
+    &__title {
+        position: relative;
+        display: inline-block;
+        padding: rem-calc(30 0);
+        background-color: $primary-colour;
+        color: $white;
+        font-size: rem-calc(30);
+
+        &:before,
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 9999px;
+            background-color: inherit;
+        }
+        &:before {
+            right: 100%;
+        }
+        &:after {
+            left: 100%;
+        }
+    }
+}

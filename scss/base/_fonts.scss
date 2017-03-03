@@ -1,0 +1,52 @@
+/******************************************
+FONTS
+******************************************/
+@mixin font-face($font-family, $file-path, $font-weight, $font-style) {
+  @font-face {
+    font-family: $font-family;
+      src: url('#{$file-path}.eot');
+      src: url('#{$file-path}.eot?#iefix') format('embedded-opentype'),
+           url('#{$file-path}.woff') format('woff'),
+           url('#{$file-path}.ttf') format('truetype'),
+           url('#{$file-path}.svg##{$font-family}') format('svg');
+    font-weight: $font-weight;
+    font-style: $font-style;
+  }
+  // Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-rendering/
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    @font-face {
+      font-family: $font-family;
+        src: url('#{$file-path}.svg##{$font-family}') format('svg');
+    }
+  }
+}
+
+// @include font-face(Gotham-Bold, '../fonts/Gotham-Bold', 700, normal);
+// @include font-face(Gotham-Medium, '../fonts/Gotham-Medium', 400, normal);
+// @include font-face(Gotham-Book, '../fonts/Gotham-Book', 400, normal);
+// @include font-face(Gotham-Italic, '../fonts/Gotham-MediumItalic', 400, italic);
+//
+//
+// @mixin Gotham-Bold {
+//   font-family: 'Gotham-Bold', arial, serif;
+//   font-weight: 700;
+//   font-style: normal;
+// }
+//
+// @mixin Gotham-Medium {
+//   font-family: 'Gotham-Medium', arial, sans-serif;
+//   font-weight: 400;
+//   font-style: normal;
+// }
+//
+// @mixin Gotham-Book {
+//   font-family: 'Gotham-Book', arial, sans-serif;
+//   font-weight: 400;
+//   font-style: normal;
+// }
+//
+// @mixin Gotham-Italic {
+//   font-family: 'Gotham-Italic', arial, sans-serif;
+//   font-weight: 400;
+//   font-style: italic;
+// }
