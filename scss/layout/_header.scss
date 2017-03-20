@@ -1,21 +1,16 @@
 /******************************************
-SIDEBAR
+HEADER
 ******************************************/
-.sidebar {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    overflow-x: hidden;
-    width: 40%;
-    height: 100%;
-    padding: rem-calc(60 80);
+.header {
+    width: 100%;
+    margin-bottom: rem-calc(60);
+    padding: rem-calc(40 0 20);
     background-color: $black;
+    text-align: center;
 
     &__title {
         position: relative;
-        display: inline-block;
-        padding: rem-calc(30 0);
+        margin: rem-calc(0 0 20);
         background-color: $primary-colour;
         color: $white;
         font-size: rem-calc(30);
@@ -34,6 +29,18 @@ SIDEBAR
         }
         &:after {
             left: 100%;
+        }
+        &:hover {
+            background: $white;
+        }
+    }
+    &__home-link {
+        display: block;
+        padding: rem-calc(30 0);
+        color: $white;
+
+        &:hover {
+            color: $black;
         }
     }
 }

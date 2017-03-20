@@ -2,33 +2,87 @@
 <html>
     <head>
         <title>Ash Robbins</title>
-        <!-- <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Droid+Serif:700|PT+Serif:700" rel="stylesheet"> -->
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 
         <link rel="stylesheet" type="text/css" href="css/main.css" />
     </head>
     <body>
-        <section class="sidebar">
-            <h1 class="sidebar__title">
-                Site<br>
-                Name
-            </h1>
-            <nav class="nav">
-                <ul class="nav__list u-no-list">
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">One</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">Two</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">Three</a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
-        <main class="main">
-            <p>fasfsadfasd as dg sad as asdgsd sdas dgsdga sdgsd sdg</p>
-        </main>
+        <script type="x-template" id="post-list">
+            <main class="wrapper post-list">
+                <article class="post" v-for="post in $root.posts">
+                    <h2 class="heading-post">
+                        <router-link :to="{ name: 'post', params: { slug: post.slug }}" :title="post.title">{{ post.title }}</router-link>
+                    </h2>
+                    <span class="post__date">{{ post.date }}</span>
+                </article>
+            </main>
+        </script>
+
+        <script type="x-template" id="post">
+            <main class="wrapper">
+                <article class="post">
+                    <h2 class="heading-post">
+                        {{ $root.selectedPost.title }}
+                    </h2>
+                    <span class="post__date">{{ $root.selectedPost.date }}</span>
+                </article>
+            </main>
+        </script>
+
+        <div id="app">
+            <header class="header">
+                <h1 class="header__title">
+                    <router-link to="/" class="header__home-link">Site name</router-link>
+                </h1>
+                <nav class="nav">
+                    <ul class="nav__list u-no-list">
+                        <li class="nav__item">
+                            <router-link to="/one" class="nav__link">One</router-link>
+                        </li>
+                        <li class="nav__item">
+                            <router-link to="/two" class="nav__link">Two</router-link>
+                        </li>
+                        <li class="nav__item">
+                            <router-link to="/three" class="nav__link">Three</router-link>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <router-view></router-view>
+
+            <!-- <main class="wrapper post-list">
+                <article class="post" v-for="post in posts">
+                    <h2 class="heading-post">
+                        <router-link :to="{ name: 'post', params: { slug: post.slug }}" :title="post.title">{{ post.title }}</router-link>
+                    </h2>
+                    <span class="post__date">{{ post.date }}</span>
+                </article>
+            </main> -->
+
+        </div>
+        <!-- <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
+        <script>
+            // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyBb_aT0EJCnUnvr-WTFqbxS0T1UXXN8LS4",
+                authDomain: "personal-site-22ce8.firebaseapp.com",
+                databaseURL: "https://personal-site-22ce8.firebaseio.com",
+                storageBucket: "personal-site-22ce8.appspot.com",
+                messagingSenderId: "678334779328"
+            };
+            firebase.initializeApp(config);
+        </script> -->
+
+        <!-- Vue -->
+        <script src="https://unpkg.com/vue/dist/vue.js"></script>
+        <!-- Firebase -->
+        <script src="https://gstatic.com/firebasejs/3.5.2/firebase.js"></script>
+        <!-- VueFire -->
+        <script src="https://unpkg.com/vuefire/dist/vuefire.js"></script>
+        <!-- Vue-router -->
+        <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+
+        <script src="js/app.js"></script>
     </body>
 </html>

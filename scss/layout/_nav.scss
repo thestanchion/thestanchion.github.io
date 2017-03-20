@@ -3,33 +3,24 @@ NAV
 ******************************************/
 .nav {
     &__item {
+        display: inline-block;
         margin: 0;
     }
     &__link {
-        display: block;
+        display: inline-block;
         position: relative;
-        padding: 10px 0;
+        padding: 6px 10px;
         border: 0;
         color: $white;
+        font-style: italic;
+        font-weight: 900;
         text-decoration: none;
+        text-transform: uppercase;
 
-        &:hover {
-            background-color: lighten($black, 10%);
-        }
-        &:before,
-        &:after {
-            content: "";
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 9999px;
-            background-color: inherit;
-        }
-        &:before {
-            right: 100%;
-        }
-        &:after {
-            left: 100%;
+        &:hover,
+        &.router-link-active {
+            background-color: $white;
+            color: $black;
         }
     }
 }
