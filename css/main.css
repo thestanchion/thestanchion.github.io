@@ -486,8 +486,12 @@ body {
   line-height: 1.4;
   background-color: #fefefe; }
 
-.wrapper {
-  width: 96%;
+.wrapper, .single-post .heading-post,
+.single-post .post__date,
+.single-post .post__content > *:not(pre):not(blockquote),
+.single-post .post__content pre code,
+.single-post .post__content blockquote > * {
+  width: 92%;
   max-width: 64rem;
   margin: 0 auto 6rem; }
 
@@ -812,12 +816,54 @@ POST LIST
   padding-top: 3rem;
   border-top: 2px solid #e73c3c; }
 
-.post-list .post__date {
-  color: #888888; }
-
 .post-list .heading-post {
   margin-bottom: 1rem; }
   .post-list .heading-post a {
     color: #2a2a2a; }
   .post-list .heading-post a:hover {
     color: #e73c3c; }
+
+/******************************************
+POST
+******************************************/
+.post__date {
+  display: block;
+  color: #888; }
+
+.single-post {
+  margin-bottom: 6rem; }
+  .single-post .post__date {
+    margin-bottom: 3.3rem; }
+  .single-post .heading-post,
+  .single-post .post__date,
+  .single-post .post__content > *:not(pre):not(blockquote),
+  .single-post .post__content pre code,
+  .single-post .post__content blockquote > * {
+    display: block;
+    margin-bottom: 3rem; }
+  .single-post .post__content a:hover {
+    padding: 0.2rem 0.5rem;
+    background-color: #2a2a2a;
+    color: #fefefe; }
+  .single-post .post__content h3 {
+    font-size: 2rem; }
+  .single-post .post__content pre,
+  .single-post .post__content code {
+    background-color: #F7DA63;
+    border: 0;
+    color: #876e07;
+    font-size: 1.6rem;
+    font-weight: normal; }
+  .single-post .post__content pre {
+    margin-bottom: 3rem;
+    padding: 2rem 0; }
+    .single-post .post__content pre code {
+      margin-bottom: 0; }
+  .single-post .post__content p code {
+    white-space: nowrap; }
+  .single-post .post__content blockquote {
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+    background-color: #58b8ce;
+    color: #143c46;
+    font-style: italic; }

@@ -36,13 +36,9 @@ const Post = {
 db.ref("posts").once("value", function() {
     if (app._route.params.slug) {
         var slug = app._route.params.slug;
-
-        for (var i in app.posts) {
-            if (app.posts[i].slug == slug) {
-                app._data.selectedPost = app.posts[i];
-            }
-        }
+        app.setPost(slug);
     }
+    console.log(app);
 });
 
 // 2. Define some routes
@@ -90,7 +86,20 @@ const app = new Vue({
     },
     data: {
         selectedPost: {
-            title: ""
+            title: "",
+            content: ""
+        }
+    },
+    methods: {
+        setPost: function(val) {
+            for (var i in app.posts) {
+                if (app.posts[i].slug == val) {
+                    app._data.selectedPost = app.posts[i];
+                }
+            }
+        },
+        date: function (date) {
+            return moment(date).fromNow();
         }
     },
     watch: {

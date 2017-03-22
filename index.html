@@ -13,18 +13,19 @@
                     <h2 class="heading-post">
                         <router-link :to="{ name: 'post', params: { slug: post.slug }}" :title="post.title">{{ post.title }}</router-link>
                     </h2>
-                    <span class="post__date">{{ post.date }}</span>
+                    <span class="post__date">{{ $root.date(post.date) }}</span>
                 </article>
             </main>
         </script>
 
         <script type="x-template" id="post">
-            <main class="wrapper">
-                <article class="post">
+            <main>
+                <article class="single-post">
                     <h2 class="heading-post">
                         {{ $root.selectedPost.title }}
                     </h2>
-                    <span class="post__date">{{ $root.selectedPost.date }}</span>
+                    <span class="post__date">{{ $root.date($root.selectedPost.date) }}</span>
+                    <div class="post__content" v-html="$root.selectedPost.content"></div>
                 </article>
             </main>
         </script>
@@ -82,6 +83,8 @@
         <script src="https://unpkg.com/vuefire/dist/vuefire.js"></script>
         <!-- Vue-router -->
         <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+        <!-- Moment JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
 
         <script src="js/app.js"></script>
     </body>
