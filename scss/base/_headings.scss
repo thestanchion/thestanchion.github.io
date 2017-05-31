@@ -6,26 +6,25 @@ HEADINGS
  * Any font, size, color, etc. styling is done based on the purpose of the heading.
  * See classes below which detail styles for specific heading uses.
  */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: $title-font;
     font-size: 1.25rem;
-    font-style: italic;
-    font-weight: 900;
-    text-transform: uppercase;
+    font-weight: 700;
 }
 
-.heading-page {
-    font-size: rem-calc(36);
+.heading__page {
+    font-size: rem-calc(30);
     color: $primary-colour;
     margin-bottom: rem-calc(30);
 }
-.heading-section {
-    font-size: rem-calc(30);
+.heading__section {
+    font-size: rem-calc(24);
     color: $secondary-colour;
     margin-bottom: rem-calc(30);
 }
-.heading-post {
-    font-size: rem-calc(26);
+.heading__post {
+    font-size: rem-calc(22);
     color: $black;
     margin-bottom: rem-calc(30);
 }

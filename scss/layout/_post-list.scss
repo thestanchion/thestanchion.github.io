@@ -1,15 +1,13 @@
 /******************************************
 POST LIST
 ******************************************/
-.post-list {
-    .post {
-        & + .post {
-            margin-top: rem-calc(30);
-            padding-top: rem-calc(30);
-            border-top: 2px solid $primary-colour;
-        }
+.c-post-list {
+    .c-post + .c-post {
+        margin-top: rem-calc(40);
+        padding-top: rem-calc(40);
+        border-top: 1px solid $divider-color;
     }
-    .heading-post {
+    .heading__post {
         margin-bottom: rem-calc(10);
 
         a {

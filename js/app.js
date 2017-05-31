@@ -1,115 +1,104 @@
-var firebaseApp = firebase.initializeApp({
-    apiKey: "AIzaSyBb_aT0EJCnUnvr-WTFqbxS0T1UXXN8LS4",
-    authDomain: "personal-site-22ce8.firebaseapp.com",
-    databaseURL: "https://personal-site-22ce8.firebaseio.com",
-    storageBucket: "personal-site-22ce8.appspot.com",
-    messagingSenderId: "678334779328"
-})
-var db = firebaseApp.database()
-
-// 1. Define route components.
-// These can be imported from other files
-const Home = { template: '#post-list' }
-const One = { template: '<div>one</div>' }
-const Two = { template: '<div>two</div>' }
-const Three = { template: '<div>three</div>' }
+const PostList = {
+    template: "#post-list"
+}
 const Post = {
-    template: '#post',
-    //root: this.config.root,
+    template: "#post",
     methods: {
-        getPost: function() {
-            var slug = this.$route.params.slug;
+        setPost: function() {
+            var arr = this.$root.posts,
+                slug = this.$route.params.slug;
 
-            for (var i in this.$root.posts) {
-                var post = this.$root.posts[i];
-                if (post.slug == slug) {
-                    this.$root.selectedPost = post;
+            if (!arr.length) {
+                return;
+            }
+            var app = this.$root;
+
+            for (var i = 0; i < arr.length; i++) {
+                var post = arr[i];
+                if (post.fields.slug === slug) {
+                    app.selectedPost = post;
                 }
             }
         }
     },
     mounted: function() {
-        this.getPost();
+        this.setPost();
+    },
+    watch: {
+        "$route": function() {
+            this.setPost();
+        },
+        "$root.posts": function() {
+            this.setPost();
+        }
     }
 }
 
-db.ref("posts").once("value", function() {
-    if (app._route.params.slug) {
-        var slug = app._route.params.slug;
-        app.setPost(slug);
-    }
-    console.log(app);
-});
+const routes = [
+  { path: '/', component: PostList },
+  { path: '/:slug', component: Post },
+];
 
-// 2. Define some routes
-// Each route should map to a component. The "component" can
-// either be an actual component constructor created via
-// Vue.extend(), or just a component options object.
-// We'll talk about nested routes later.
-// const routes = [
-//     { path: '/', component: Home },
-//     { path: '/one', component: One },
-//     { path: '/two', component: Two },
-//     { path: '/three', component: Three },
-//     { path: '/post/:slug', component: Post }
-// ]
+const router = new VueRouter({routes});
 
-// 3. Create the router instance and pass the `routes` option
-// You can pass in additional options here, but let's
-// keep it simple for now.
-const router = new VueRouter({
-  // short for routes: routes
-  routes: [
-      {
-          path: '/',
-          component: Home
-      },
-      { path: '/one', component: One },
-      { path: '/two', component: Two },
-      { path: '/three', component: Three },
-      {
-          path: '/post/:slug',
-          name: 'post',
-          component: Post
-      }
-  ]
-})
-
-// 4. Create and mount the root instance.
-// Make sure to inject the router with the router option to make the
-// whole app router-aware.
 const app = new Vue({
     router,
-    firebase: {
-      // simple syntax, bind as an array by default
-      posts: db.ref('posts')
-    },
+    el: "#app",
     data: {
+        postsUrl: "http://cdn.contentful.com/spaces/weq54bjgnfu0/entries?access_token=a4c20263d7f1b8a2833150885c18128343da15ed3f711ec59beac1b8fa4687f3&content_type=2wKn6yEnZewu2SCCkus4as",
+        posts: [],
         selectedPost: {
-            title: "",
-            content: ""
-        }
+            "fields": {}
+        },
+        assets: [],
+        entries: []
     },
     methods: {
-        setPost: function(val) {
-            for (var i in app.posts) {
-                if (app.posts[i].slug == val) {
-                    app._data.selectedPost = app.posts[i];
+        getApiData: function(url) {
+            var _this = this,
+                fetchArgs = {
+                    method: "GET",
+                    mode: "cors"
                 }
+
+            fetch(_this.postsUrl, fetchArgs).then(function(response){
+                return response.json();
+            })
+            .then(function(response) {
+                _this.posts = response.items;
+                _this.assets = response.includes.Asset;
+                _this.entries = response.includes.Entry;
+                _this.posts = _.orderBy(_this.posts, function(e) { return e.fields.date }, 'desc');
+            });
+        },
+        formatDate: function(val, format) {
+            if (val) {
+                var date = new Date(val);
+                return moment(date).format(format);
             }
         },
-        date: function (date) {
-            return moment(date).fromNow();
+        postLink: function(val) {
+            if (val) {
+                return "/" + val;
+            }
+        },
+        categoryName: function(id) {
+            var _this = this;
+            var categoryTitle;
+            _.forEach(_this.entries, function(category) {
+                if (category.sys.id == id) {
+                    categoryTitle = category.fields.title;
+                }
+            });
+            return categoryTitle;
+        },
+        renderMarkdown: function(content) {
+            var converter = new showdown.Converter();
+
+            return converter.makeHtml(content);
         }
     },
-    watch: {
-        posts: {
-            handler: function() {
-                console.log("changed");
-            },
-            deep: true
-        }
+    created: function() {
+        this.getApiData();
     }
-}).$mount('#app')
-
-// Now the app has started!
+});

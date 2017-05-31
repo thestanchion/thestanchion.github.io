@@ -8,83 +8,73 @@
     </head>
     <body>
         <script type="x-template" id="post-list">
-            <main class="wrapper post-list">
-                <article class="post" v-for="post in $root.posts">
-                    <h2 class="heading-post">
-                        <router-link :to="{ name: 'post', params: { slug: post.slug }}" :title="post.title">{{ post.title }}</router-link>
-                    </h2>
-                    <span class="post__date">{{ $root.date(post.date) }}</span>
-                </article>
+            <main class="wrapper">
+                <header class="c-header wrapper">
+                    <h1 class="heading__page">
+                        <router-link to="/" class="c-header__home-link">Site name</router-link>
+                    </h1>
+                </header>
+                <section class="c-post-list">
+                    <article class="c-post" v-for="post in $root.posts" v-if="post.fields.slug">
+                        <h2 class="heading__post">
+                            <router-link v-bind:to="$root.postLink(post.fields.slug)" :title="post.fields.title">{{ post.fields.title }}</router-link>
+                        </h2>
+                        <span class="c-post__date">{{ $root.formatDate(post.fields.date, 'Do MMMM YYYY') }}</span>
+                        <ul class="u-no-list c-post__categories">
+                            <li v-for="category in post.fields.categories" class="c-post__category">
+                                <a href="#">{{ $root.categoryName(category.sys.id) }}</a>
+                            </li>
+                        </ul>
+                    </article>
+                </section>
             </main>
         </script>
 
         <script type="x-template" id="post">
-            <main>
-                <article class="single-post">
-                    <h2 class="heading-post">
-                        {{ $root.selectedPost.title }}
-                    </h2>
-                    <span class="post__date">{{ $root.date($root.selectedPost.date) }}</span>
-                    <div class="post__content" v-html="$root.selectedPost.content"></div>
+            <main class="wrapper">
+                <header class="c-header wrapper">
+                    <h1 class="heading__page heading__page--single">
+                        {{ $root.selectedPost.fields.title }}
+                    </h1>
+                </header>
+                <article class="c-single-post">
+                    <span class="c-post__date">{{ $root.formatDate($root.selectedPost.fields.date) }}</span>
+                    <div class="c-post__content" v-html="$root.renderMarkdown($root.selectedPost.fields.body)"></div>
                 </article>
             </main>
         </script>
 
         <div id="app">
-            <header class="header">
-                <h1 class="header__title">
-                    <router-link to="/" class="header__home-link">Site name</router-link>
-                </h1>
-                <nav class="nav">
-                    <ul class="nav__list u-no-list">
-                        <li class="nav__item">
-                            <router-link to="/one" class="nav__link">One</router-link>
+            <nav class="c-nav">
+                <div class="wrapper">
+                    <router-link to="/" class="h1 heading__post">a.</router-link>
+                    <ul class="c-nav__list u-no-list">
+                        <li class="c-nav__item">
+                            <router-link to="/one" class="c-nav__link">One</router-link>
                         </li>
-                        <li class="nav__item">
-                            <router-link to="/two" class="nav__link">Two</router-link>
+                        <li class="c-nav__item">
+                            <router-link to="/two" class="c-nav__link">Two</router-link>
                         </li>
-                        <li class="nav__item">
-                            <router-link to="/three" class="nav__link">Three</router-link>
+                        <li class="c-nav__item">
+                            <router-link to="/three" class="c-nav__link">Three</router-link>
                         </li>
                     </ul>
-                </nav>
-            </header>
+                </div>
+            </nav>
 
             <router-view></router-view>
-
-            <!-- <main class="wrapper post-list">
-                <article class="post" v-for="post in posts">
-                    <h2 class="heading-post">
-                        <router-link :to="{ name: 'post', params: { slug: post.slug }}" :title="post.title">{{ post.title }}</router-link>
-                    </h2>
-                    <span class="post__date">{{ post.date }}</span>
-                </article>
-            </main> -->
-
         </div>
-        <!-- <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
-        <script>
-            // Initialize Firebase
-            var config = {
-                apiKey: "AIzaSyBb_aT0EJCnUnvr-WTFqbxS0T1UXXN8LS4",
-                authDomain: "personal-site-22ce8.firebaseapp.com",
-                databaseURL: "https://personal-site-22ce8.firebaseio.com",
-                storageBucket: "personal-site-22ce8.appspot.com",
-                messagingSenderId: "678334779328"
-            };
-            firebase.initializeApp(config);
-        </script> -->
 
         <!-- Vue -->
         <script src="https://unpkg.com/vue/dist/vue.js"></script>
-        <!-- Firebase -->
-        <script src="https://gstatic.com/firebasejs/3.5.2/firebase.js"></script>
-        <!-- VueFire -->
-        <script src="https://unpkg.com/vuefire/dist/vuefire.js"></script>
+        <!-- Lodash -->
+        <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
         <!-- Vue-router -->
         <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
         <!-- Moment JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+        <!-- Markdown -->>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.6.4/showdown.min.js"></script>
 
         <script src="js/app.js"></script>
     </body>

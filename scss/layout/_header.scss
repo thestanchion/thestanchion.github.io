@@ -1,46 +1,23 @@
 /******************************************
 HEADER
 ******************************************/
-.header {
+.c-header {
     width: 100%;
     margin-bottom: rem-calc(60);
-    padding: rem-calc(40 0 20);
-    background-color: $black;
+    padding: rem-calc(20 0);
+    border-bottom: 1px solid $divider-color;
     text-align: center;
+}
+.c-header .heading__page {
+    position: relative;
+    margin: rem-calc(0 0 20);
+    font-size: rem-calc(30);
+}
+.c-header__home-link {
+    display: block;
+    color: $black;
 
-    &__title {
-        position: relative;
-        margin: rem-calc(0 0 20);
-        background-color: $primary-colour;
-        color: $white;
-        font-size: rem-calc(30);
-
-        &:before,
-        &:after {
-            content: "";
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 9999px;
-            background-color: inherit;
-        }
-        &:before {
-            right: 100%;
-        }
-        &:after {
-            left: 100%;
-        }
-        &:hover {
-            background: $white;
-        }
-    }
-    &__home-link {
-        display: block;
-        padding: rem-calc(30 0);
-        color: $white;
-
-        &:hover {
-            color: $black;
-        }
+    &:hover {
+        color: $primary-colour;
     }
 }

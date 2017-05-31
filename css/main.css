@@ -486,14 +486,14 @@ body {
   line-height: 1.4;
   background-color: #fefefe; }
 
-.wrapper, .single-post .heading-post,
-.single-post .post__date,
-.single-post .post__content > *:not(pre):not(blockquote),
-.single-post .post__content pre code,
-.single-post .post__content blockquote > * {
+.wrapper, .c-single-post .heading-post,
+.c-single-post .c-post__date,
+.c-single-post .c-post__content > *:not(pre):not(blockquote),
+.c-single-post .c-post__content pre code,
+.c-single-post .c-post__content blockquote > * {
   width: 92%;
   max-width: 64rem;
-  margin: 0 auto 6rem; }
+  margin: 0 auto; }
 
 h1,
 h2,
@@ -503,7 +503,6 @@ h5,
 h6 {
   color: #2a2a2a;
   font-family: inherit;
-  text-transform: uppercase;
   margin: 0 0 3rem; }
 
 h1 {
@@ -730,138 +729,146 @@ HEADINGS
  * Any font, size, color, etc. styling is done based on the purpose of the heading.
  * See classes below which detail styles for specific heading uses.
  */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Source Sans Pro", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1.25rem;
-  font-style: italic;
-  font-weight: 900;
-  text-transform: uppercase; }
+  font-weight: 700; }
 
-.heading-page {
-  font-size: 3.6rem;
+.heading__page {
+  font-size: 3rem;
   color: #e73c3c;
   margin-bottom: 3rem; }
 
-.heading-section {
-  font-size: 3rem;
+.heading__section {
+  font-size: 2.4rem;
   color: #58b8ce;
   margin-bottom: 3rem; }
 
-.heading-post {
-  font-size: 2.6rem;
+.heading__post {
+  font-size: 2.2rem;
   color: #2a2a2a;
   margin-bottom: 3rem; }
 
 /******************************************
 HEADER
 ******************************************/
-.header {
+.c-header {
   width: 100%;
   margin-bottom: 6rem;
-  padding: 4rem 0 2rem;
-  background-color: #2a2a2a;
+  padding: 2rem 0;
+  border-bottom: 1px solid #e4e4e4;
   text-align: center; }
-  .header__title {
-    position: relative;
-    margin: 0 0 2rem;
-    background-color: #e73c3c;
-    color: #fefefe;
-    font-size: 3rem; }
-    .header__title:before, .header__title:after {
-      content: "";
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      width: 9999px;
-      background-color: inherit; }
-    .header__title:before {
-      right: 100%; }
-    .header__title:after {
-      left: 100%; }
-    .header__title:hover {
-      background: #fefefe; }
-  .header__home-link {
-    display: block;
-    padding: 3rem 0;
-    color: #fefefe; }
-    .header__home-link:hover {
-      color: #2a2a2a; }
+
+.c-header .heading__page {
+  position: relative;
+  margin: 0 0 2rem;
+  font-size: 3rem; }
+
+.c-header__home-link {
+  display: block;
+  color: #2a2a2a; }
+  .c-header__home-link:hover {
+    color: #e73c3c; }
 
 /******************************************
 NAV
 ******************************************/
-.nav__item {
+.c-nav {
+  padding: 2rem 0;
+  font-size: 1.4rem; }
+
+.c-nav__list {
+  float: right; }
+
+.c-nav__item {
   display: inline-block;
   margin: 0; }
 
-.nav__link {
+.c-nav__link {
   display: inline-block;
   position: relative;
   padding: 6px 10px;
   border: 0;
-  color: #fefefe;
-  font-style: italic;
-  font-weight: 900;
-  text-decoration: none;
-  text-transform: uppercase; }
-  .nav__link:hover, .nav__link.router-link-active {
-    background-color: #fefefe;
-    color: #2a2a2a; }
-
-/******************************************
-POST LIST
-******************************************/
-.post-list .post + .post {
-  margin-top: 3rem;
-  padding-top: 3rem;
-  border-top: 2px solid #e73c3c; }
-
-.post-list .heading-post {
-  margin-bottom: 1rem; }
-  .post-list .heading-post a {
-    color: #2a2a2a; }
-  .post-list .heading-post a:hover {
+  color: #2a2a2a;
+  text-decoration: none; }
+  .c-nav__link:hover, .c-nav__link.router-link-active {
     color: #e73c3c; }
 
 /******************************************
 POST
 ******************************************/
-.post__date {
+.c-post__date {
   display: block;
-  color: #888; }
+  color: #888;
+  font-size: 1.4rem; }
 
-.single-post {
+.c-post__category {
+  display: inline-block;
+  font-size: 1.4rem; }
+
+.c-post__category + .c-post__category:before {
+  display: inline-block;
+  content: ",";
+  margin-right: 0.4rem; }
+
+.c-post__content h2,
+.c-post__content .h2 {
+  font-size: 2rem; }
+
+/******************************************
+POST LIST
+******************************************/
+.c-post-list .c-post + .c-post {
+  margin-top: 4rem;
+  padding-top: 4rem;
+  border-top: 1px solid #e4e4e4; }
+
+.c-post-list .heading__post {
+  margin-bottom: 1rem; }
+  .c-post-list .heading__post a {
+    color: #2a2a2a; }
+  .c-post-list .heading__post a:hover {
+    color: #e73c3c; }
+
+/******************************************
+POST
+******************************************/
+.heading__page--single {
+  color: #2a2a2a; }
+
+.c-single-post {
   margin-bottom: 6rem; }
-  .single-post .post__date {
+  .c-single-post .c-post__date {
     margin-bottom: 3.3rem; }
-  .single-post .heading-post,
-  .single-post .post__date,
-  .single-post .post__content > *:not(pre):not(blockquote),
-  .single-post .post__content pre code,
-  .single-post .post__content blockquote > * {
+  .c-single-post .heading-post,
+  .c-single-post .c-post__date,
+  .c-single-post .c-post__content > *:not(pre):not(blockquote),
+  .c-single-post .c-post__content pre code,
+  .c-single-post .c-post__content blockquote > * {
     display: block;
     margin-bottom: 3rem; }
-  .single-post .post__content a:hover {
+  .c-single-post .c-post__content a:hover {
     padding: 0.2rem 0.5rem;
     background-color: #2a2a2a;
     color: #fefefe; }
-  .single-post .post__content h3 {
+  .c-single-post .c-post__content h3 {
     font-size: 2rem; }
-  .single-post .post__content pre,
-  .single-post .post__content code {
+  .c-single-post .c-post__content pre,
+  .c-single-post .c-post__content code {
     background-color: #F7DA63;
     border: 0;
     color: #876e07;
     font-size: 1.6rem;
     font-weight: normal; }
-  .single-post .post__content pre {
+  .c-single-post .c-post__content pre {
     margin-bottom: 3rem;
     padding: 2rem 0; }
-    .single-post .post__content pre code {
+    .c-single-post .c-post__content pre code {
       margin-bottom: 0; }
-  .single-post .post__content p code {
+  .c-single-post .c-post__content p code {
     white-space: nowrap; }
-  .single-post .post__content blockquote {
+  .c-single-post .c-post__content blockquote {
     margin-bottom: 3rem;
     padding-top: 3rem;
     background-color: #58b8ce;

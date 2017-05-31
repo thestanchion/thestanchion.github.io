@@ -1,31 +1,25 @@
 /******************************************
 POST
 ******************************************/
-.post {
-    &__date {
-        display: block;
-        color: $grey;
-    }
+.heading__page--single {
+    color: $black;
 }
-
-.single-post {
+.c-single-post {
     margin-bottom: rem-calc(60);
 
-    .post {
-        &__date {
-            margin-bottom: rem-calc(33);
-        }
+    .c-post__date {
+        margin-bottom: rem-calc(33);
     }
     .heading-post,
-    .post__date,
-    .post__content > *:not(pre, blockquote),
-    .post__content pre code,
-    .post__content blockquote > * {
+    .c-post__date,
+    .c-post__content > *:not(pre, blockquote),
+    .c-post__content pre code,
+    .c-post__content blockquote > * {
         @extend .wrapper;
         display: block;
         margin-bottom: rem-calc(30);
     }
-    .post__content {
+    .c-post__content {
         a:hover {
             padding: rem-calc(2 5);
             background-color: $black;
