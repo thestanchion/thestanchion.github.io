@@ -124,8 +124,8 @@ const app = new Vue({
     router,
     el: "#app",
     data: {
-        postsUrl: "http://cdn.contentful.com/spaces/weq54bjgnfu0/entries?access_token=a4c20263d7f1b8a2833150885c18128343da15ed3f711ec59beac1b8fa4687f3&content_type=2wKn6yEnZewu2SCCkus4as",
-        pagesUrl: "http://cdn.contentful.com/spaces/weq54bjgnfu0/entries?access_token=a4c20263d7f1b8a2833150885c18128343da15ed3f711ec59beac1b8fa4687f3&content_type=page",
+        postsUrl: "https://cdn.contentful.com/spaces/weq54bjgnfu0/entries?access_token=a4c20263d7f1b8a2833150885c18128343da15ed3f711ec59beac1b8fa4687f3&content_type=2wKn6yEnZewu2SCCkus4as",
+        pagesUrl: "https://cdn.contentful.com/spaces/weq54bjgnfu0/entries?access_token=a4c20263d7f1b8a2833150885c18128343da15ed3f711ec59beac1b8fa4687f3&content_type=page",
         categoriesUrl: "&fields.categories.sys.id[match]=",
         posts: [],
         pages: [],
