@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Ash Robbins</title>
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i,900,900i|Source+Serif+Pro:400,700" rel="stylesheet">
 
         <link rel="stylesheet" type="text/css" href="css/main.css" />
     </head>
@@ -10,9 +10,8 @@
         <script type="x-template" id="post-list">
             <main class="wrapper">
                 <header class="c-header wrapper">
-                    <h1 class="heading__page">
-                        <router-link to="/" class="c-header__home-link">Site name</router-link>
-                    </h1>
+                    <h1 class="heading__page c-header__home-link">ash robbins<span class="s-red">.</span></h1>
+                    <p class="c-header__tagline">Front End Developer at <a href="http://www.redweb.com" title="Redweb">Redweb</a></p>
                 </header>
                 <section class="c-post-list">
                     <article class="c-post" v-for="post in $root.posts" v-if="post.fields.slug">
@@ -22,7 +21,46 @@
                         <span class="c-post__date">{{ $root.formatDate(post.fields.date, 'Do MMMM YYYY') }}</span>
                         <ul class="u-no-list c-post__categories">
                             <li v-for="category in post.fields.categories" class="c-post__category">
-                                <a href="#">{{ $root.categoryName(category.sys.id) }}</a>
+                                <router-link v-bind:to="$root.categoryLink(category.sys.id)">
+                                    {{ $root.categoryName(category.sys.id) }}
+                                </router-link>
+                            </li>
+                        </ul>
+                    </article>
+                </section>
+            </main>
+        </script>
+
+        <script type="x-template" id="page">
+            <main class="wrapper">
+                <header class="c-header wrapper">
+                    <h1 class="heading__page c-header__home-link">{{ $root.selectedPage.fields.title }}<span class="s-red">.</span></h1>
+                </header>
+                <section class="c-single-post">
+                    <article class="c-post">
+                        {{ $root.selectedPage.fields.body }}
+                    </article>
+                </section>
+            </main>
+        </script>
+
+        <script type="x-template" id="category">
+            <main class="wrapper">
+                <header class="c-header wrapper">
+                    <h1 class="heading__page c-header__home-link">posts tagged '{{ $root.selectedCategory }}'<span class="s-red">.</span></h1>
+
+                </header>
+                <section class="c-post-list">
+                    <article class="c-post" v-for="post in $root.categoryList" v-if="post.fields.slug">
+                        <h2 class="heading__post">
+                            <router-link v-bind:to="$root.postLink(post.fields.slug)" :title="post.fields.title">{{ post.fields.title }}</router-link>
+                        </h2>
+                        <span class="c-post__date">{{ $root.formatDate(post.fields.date, 'Do MMMM YYYY') }}</span>
+                        <ul class="u-no-list c-post__categories">
+                            <li v-for="category in post.fields.categories" class="c-post__category">
+                                <router-link v-bind:to="$root.categoryLink(category.sys.id)">
+                                    {{ $root.categoryName(category.sys.id) }}
+                                </router-link>
                             </li>
                         </ul>
                     </article>
@@ -32,13 +70,20 @@
 
         <script type="x-template" id="post">
             <main class="wrapper">
-                <header class="c-header wrapper">
+                <header class="c-header c-header--single wrapper">
                     <h1 class="heading__page heading__page--single">
                         {{ $root.selectedPost.fields.title }}
                     </h1>
                 </header>
                 <article class="c-single-post">
-                    <span class="c-post__date">{{ $root.formatDate($root.selectedPost.fields.date) }}</span>
+                    <span class="c-post__date">{{ $root.formatDate($root.selectedPost.fields.date, 'Do MMMM YYYY') }}</span>
+                    <ul class="u-no-list c-post__categories">
+                        <li v-for="category in $root.selectedPost.fields.categories" class="c-post__category">
+                            <router-link v-bind:to="$root.categoryLink(category.sys.id)">
+                                {{ $root.categoryName(category.sys.id) }}
+                            </router-link>
+                        </li>
+                    </ul>
                     <div class="c-post__content" v-html="$root.renderMarkdown($root.selectedPost.fields.body)"></div>
                 </article>
             </main>
@@ -47,16 +92,16 @@
         <div id="app">
             <nav class="c-nav">
                 <div class="wrapper">
-                    <router-link to="/" class="h1 heading__post">a.</router-link>
+                    <router-link to="/" class="h1 heading__post">a<span class="s-red">.</span></router-link>
                     <ul class="c-nav__list u-no-list">
                         <li class="c-nav__item">
-                            <router-link to="/one" class="c-nav__link">One</router-link>
+                            <router-link to="/page/about" class="c-nav__link">About</router-link>
                         </li>
                         <li class="c-nav__item">
-                            <router-link to="/two" class="c-nav__link">Two</router-link>
+                            <a href="http://www.codepen.io/ashrobbins" target="_blank" class="c-nav__link">Codepen</a>
                         </li>
                         <li class="c-nav__item">
-                            <router-link to="/three" class="c-nav__link">Three</router-link>
+                            <a href="http://www.twitter.com/ash_robbins" target="_blank" class="c-nav__link">Twitter</a>
                         </li>
                     </ul>
                 </div>
@@ -73,7 +118,7 @@
         <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
         <!-- Moment JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
-        <!-- Markdown -->>
+        <!-- Markdown -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.6.4/showdown.min.js"></script>
 
         <script src="js/app.js"></script>

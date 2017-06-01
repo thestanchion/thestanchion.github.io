@@ -35,7 +35,9 @@ body {
     line-height: 1.4;
     background-color: $white;
 }
-
+#app {
+    margin-bottom: rem-calc(60);
+}
 .wrapper {
     width: 92%;
     max-width: rem-calc(640);
@@ -84,7 +86,7 @@ h4:first-child {
 }
 
 p {
-    margin: rem-calc(0 0 12 0);
+    margin: rem-calc(0 0 20 0);
     vertical-align: top;
     display: block;
     clear: both;
@@ -171,6 +173,29 @@ code {
     background-color: #f5f5f5;
     border: 1px solid #ccc;
     border-radius: $global-radius;
+    background-color: $tertiary-colour;
+    border: 0;
+    color: darken($tertiary-colour, 40%);
+    font-size: rem-calc(16);
+    font-weight: normal;
+}
+pre {
+    margin-bottom: rem-calc(30);
+    padding: rem-calc(30 0 0);
+
+    code {
+        margin-bottom: 0;
+    }
+}
+p code {
+    white-space: nowrap;
+}
+blockquote {
+    margin-bottom: rem-calc(30);
+    padding-top: rem-calc(30);
+    background-color: $primary-colour;
+    font-family: $serif-font;
+    color: $white;
 }
 
 hr {
@@ -266,12 +291,13 @@ video {
 
 // --------------- // Blockquote  // --------------- //
 blockquote {
-    padding: rem-calc(1 0 1 1);
-    margin: rem-calc(0 0 2 0);
-    border-left: 5px solid lighten($body-text, 50%);
+    overflow: hidden;
+    padding: rem-calc(30 0 0);
+    margin: rem-calc(0 0 30 0);
+    border-left: rem-calc(10) solid $black;
 
     p {
-        font-size: rem-calc(18);
+        font-size: rem-calc(16);
     }
 
     footer {
@@ -285,6 +311,9 @@ blockquote {
         &:before {
             content: '- ';
         }
+    }
+    a {
+        color: $black;
     }
 }
 

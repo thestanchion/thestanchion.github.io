@@ -8,6 +8,9 @@ HEADER
     border-bottom: 1px solid $divider-color;
     text-align: center;
 }
+.c-header--single {
+    margin-bottom: rem-calc(30);
+}
 .c-header .heading__page {
     position: relative;
     margin: rem-calc(0 0 20);
@@ -16,8 +19,7 @@ HEADER
 .c-header__home-link {
     display: block;
     color: $black;
-
-    &:hover {
-        color: $primary-colour;
-    }
+}
+.c-header__tagline {
+    color: $grey;
 }

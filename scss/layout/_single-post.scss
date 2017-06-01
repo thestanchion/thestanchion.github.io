@@ -7,12 +7,16 @@ POST
 .c-single-post {
     margin-bottom: rem-calc(60);
 
-    .c-post__date {
-        margin-bottom: rem-calc(33);
-    }
-    .heading-post,
     .c-post__date,
-    .c-post__content > *:not(pre, blockquote),
+    .c-post__categories {
+        text-align: center;
+    }
+    .c-post__date {
+        margin-bottom: rem-calc(10);
+    }
+    .c-post__categories {
+        margin-bottom: rem-calc(30);
+    }
     .c-post__content pre code,
     .c-post__content blockquote > * {
         @extend .wrapper;
@@ -20,39 +24,13 @@ POST
         margin-bottom: rem-calc(30);
     }
     .c-post__content {
-        a:hover {
+        p a:hover {
             padding: rem-calc(2 5);
             background-color: $black;
             color: $white;
         }
         h3 {
             font-size: rem-calc(20);
-        }
-        pre,
-        code {
-            background-color: $tertiary-colour;
-            border: 0;
-            color: darken($tertiary-colour, 40%);
-            font-size: rem-calc(16);
-            font-weight: normal;
-        }
-        pre {
-            margin-bottom: rem-calc(30);
-            padding: rem-calc(20 0);
-
-            code {
-                margin-bottom: 0;
-            }
-        }
-        p code {
-            white-space: nowrap;
-        }
-        blockquote {
-            margin-bottom: rem-calc(30);
-            padding-top: rem-calc(30);
-            background-color: $secondary-colour;
-            color: darken($secondary-colour, 40%);
-            font-style: italic;
         }
     }
 }
