@@ -354,3 +354,9 @@ select {
     border-top-color: $body-text;
   }
 }
+
+@media only screen and (max-width: 500px) {
+    body {
+        font-size: rem-calc(16);
+    }
+}

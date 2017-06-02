@@ -745,6 +745,10 @@ select {
     border: 8px solid transparent;
     border-top-color: #4a4a4a; }
 
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 1.6rem; } }
+
 /******************************************
 STYLE OVERRIDES
 ******************************************/
@@ -780,6 +784,12 @@ h1, h2, h3, h4, h5, h6,
   color: #2a2a2a;
   margin-bottom: 3rem; }
 
+@media only screen and (max-width: 500px) {
+  .heading__page {
+    font-size: 2.4rem; }
+  .heading__post {
+    font-size: 1.8rem; } }
+
 /******************************************
 HEADER
 ******************************************/
@@ -795,8 +805,7 @@ HEADER
 
 .c-header .heading__page {
   position: relative;
-  margin: 0 0 2rem;
-  font-size: 3rem; }
+  margin: 0 0 2rem; }
 
 .c-header__home-link {
   display: block;
@@ -850,6 +859,11 @@ POST
 .c-post__content h2,
 .c-post__content .h2 {
   font-size: 2rem; }
+
+@media only screen and (max-width: 500px) {
+  .c-post__content h2,
+  .c-post__content .h2 {
+    font-size: 1.8rem; } }
 
 /******************************************
 POST LIST

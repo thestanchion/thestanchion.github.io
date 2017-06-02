@@ -28,3 +28,12 @@ h1, h2, h3, h4, h5, h6,
     color: $black;
     margin-bottom: rem-calc(30);
 }
+
+@media only screen and (max-width: 500px) {
+    .heading__page {
+        font-size: rem-calc(24);
+    }
+    .heading__post {
+        font-size: rem-calc(18);
+    }
+}

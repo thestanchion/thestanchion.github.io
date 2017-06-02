@@ -19,3 +19,9 @@ POST
 .c-post__content .h2 {
     font-size: rem-calc(20);
 }
+@media only screen and (max-width: 500px) {
+    .c-post__content h2,
+    .c-post__content .h2 {
+        font-size: rem-calc(18);
+    }
+}
