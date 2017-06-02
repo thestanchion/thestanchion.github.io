@@ -1,5 +1,8 @@
 const PostList = {
-    template: "#post-list"
+    template: "#post-list",
+    mounted: function() {
+        this.$root.scrollTop();
+    }
 }
 const Page = {
     template: "#page",
@@ -21,6 +24,7 @@ const Page = {
         }
     },
     mounted: function() {
+        this.$root.scrollTop();
         this.setPost();
     },
     watch: {
@@ -52,6 +56,7 @@ const Post = {
         }
     },
     mounted: function() {
+        this.$root.scrollTop();
         this.setPost();
     },
     watch: {
@@ -96,6 +101,7 @@ const Category = {
         }
     },
     mounted: function() {
+        this.$root.scrollTop();
         this.$root.categoryList = [];
         this.getList();
     },
@@ -143,6 +149,9 @@ const app = new Vue({
         pageEntries: []
     },
     methods: {
+        scrollTop: function() {
+            window.scrollTo(0, 0);
+        },
         getApiData: function(url) {
             var _this = this,
                 fetchArgs = {
