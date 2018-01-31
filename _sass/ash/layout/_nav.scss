@@ -3,17 +3,30 @@ NAV
 ******************************************/
 .c-nav-trigger {
     position: fixed;
-    top: 3vh;
-    right: 3vh;
+    top: 0;
+    right: 0;
+    width: rem-calc(180);
+    height: rem-calc(180);
+    padding: 0;
+    background: $primary-colour;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+    transition: all .2s ease;
 
     svg {
+        position: fixed;
+        top: 3vh;
+        right: 3vh;
         width: rem-calc(40);
         height: rem-calc(40);
     }
+    &:hover {
+        width: rem-calc(200);
+        height: rem-calc(200);
+    }
 }
 .c-nav {
-    padding: rem-calc(20 0);
-    font-size: rem-calc(14);
+
 }
 .c-nav__list {
     float: right;

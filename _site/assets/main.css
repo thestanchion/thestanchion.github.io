@@ -547,7 +547,7 @@ li {
   margin-bottom: 0.8rem; }
 
 a {
-  color: #e73c3c;
+  color: #ff5158;
   text-decoration: none;
   transition: color linear .1s; }
 
@@ -628,14 +628,14 @@ p code {
 blockquote {
   margin-bottom: 3rem;
   padding-top: 3rem;
-  background-color: #e73c3c;
+  background-color: #ff5158;
   font-family: "Source Serif Pro", Georgia, serif;
   color: #fefefe; }
 
 hr {
   margin: 0.3rem 0;
   border: none;
-  border-top: 3px solid #e73c3c; }
+  border-top: 3px solid #ff5158; }
 
 address {
   margin: 0 0 1.2rem 0;
@@ -760,7 +760,7 @@ select {
 STYLE OVERRIDES
 ******************************************/
 .s-red {
-  color: #e73c3c; }
+  color: #ff5158; }
 
 /******************************************
 HEADINGS
@@ -788,7 +788,7 @@ h1, h2, h3, h4, h5, h6,
 
 .c-heading--page {
   font-size: 3rem;
-  color: #e73c3c;
+  color: #ff5158;
   margin-bottom: 3rem; }
 
 .c-heading--section {
@@ -836,15 +836,24 @@ NAV
 ******************************************/
 .c-nav-trigger {
   position: fixed;
-  top: 3vh;
-  right: 3vh; }
+  top: 0;
+  right: 0;
+  width: 18rem;
+  height: 18rem;
+  padding: 0;
+  background: #ff5158;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+  transition: all .2s ease; }
   .c-nav-trigger svg {
+    position: fixed;
+    top: 3vh;
+    right: 3vh;
     width: 4rem;
     height: 4rem; }
-
-.c-nav {
-  padding: 2rem 0;
-  font-size: 1.4rem; }
+  .c-nav-trigger:hover {
+    width: 20rem;
+    height: 20rem; }
 
 .c-nav__list {
   float: right;
@@ -862,7 +871,7 @@ NAV
   color: #2a2a2a;
   text-decoration: none; }
   .c-nav__link:hover, .c-nav__link.router-link-active {
-    color: #e73c3c; }
+    color: #ff5158; }
 
 @media all and (max-width: 43.75em) {
   .c-nav-trigger svg {
@@ -905,7 +914,7 @@ POST LIST
   .c-post-list .heading__post a {
     color: #2a2a2a; }
   .c-post-list .heading__post a:hover {
-    color: #e73c3c; }
+    color: #ff5158; }
 
 /******************************************
 POST

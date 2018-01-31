@@ -1,0 +1,13 @@
+// ===================
+// ==    Spinner    ==
+// ===================
+
+.c-spinner {
+	display: block;
+	margin-bottom: rem-calc(30);
+	text-align: center;
+}
+.c-spinner path,
+.c-spinner svg {
+	fill: $brand-primary;
+}
