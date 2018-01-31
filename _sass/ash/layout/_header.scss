@@ -1,0 +1,24 @@
+/******************************************
+HEADER
+******************************************/
+.c-header {
+    width: 100%;
+    margin-bottom: rem-calc(60);
+    padding: rem-calc(20 0);
+    border-bottom: 1px solid $divider-color;
+    text-align: center;
+}
+.c-header--single {
+    margin-bottom: rem-calc(30);
+}
+.c-header .heading__page {
+    position: relative;
+    margin: rem-calc(0 0 20);
+}
+.c-header__home-link {
+    display: block;
+    color: $black;
+}
+.c-header__tagline {
+    color: $grey;
+}

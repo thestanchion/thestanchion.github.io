@@ -1,0 +1,49 @@
+/******************************************
+HEADINGS
+******************************************/
+/**
+ * By default, all headings are always ‘just a bit bigger’ than body copy.
+ * Any font, size, color, etc. styling is done based on the purpose of the heading.
+ * See classes below which detail styles for specific heading uses.
+ */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: $title-font;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.c-heading--site {
+    font-size: 14vmin;
+}
+.c-heading--tagline {
+    display: inline;
+    padding-top: rem-calc(10);
+    font-size: 4vmin;
+    border-top: 5px solid $white;
+}
+.c-heading--page {
+    font-size: rem-calc(30);
+    color: $primary-colour;
+    margin-bottom: rem-calc(30);
+}
+.c-heading--section {
+    font-size: rem-calc(24);
+    color: $secondary-colour;
+    margin-bottom: rem-calc(30);
+}
+.c-heading--post {
+    font-size: rem-calc(22);
+    color: $black;
+    margin-bottom: rem-calc(30);
+}
+
+@media only screen and (max-width: 500px) {
+    .c-heading--page {
+        font-size: rem-calc(24);
+    }
+    .c-heading--post {
+        font-size: rem-calc(18);
+    }
+}

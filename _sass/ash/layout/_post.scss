@@ -1,0 +1,27 @@
+/******************************************
+POST
+******************************************/
+.c-post__date {
+    display: block;
+    color: $grey;
+    font-size: rem-calc(14);
+}
+.c-post__category {
+    display: inline-block;
+    font-size: rem-calc(14);
+}
+.c-post__category + .c-post__category:before {
+    display: inline-block;
+    content: ",";
+    margin-right: rem-calc(4);
+}
+.c-post__content h2,
+.c-post__content .h2 {
+    font-size: rem-calc(20);
+}
+@media only screen and (max-width: 500px) {
+    .c-post__content h2,
+    .c-post__content .h2 {
+        font-size: rem-calc(18);
+    }
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+    {% include head.html %}
+
+    <body class="home">
+        {% include nav-trigger.html %}
+        {% include nav.html %}
+
+        <main class="c-wrapper--home" aria-label="Content">
+            <h1 class="c-heading--site">{{ site.title }}</h1>
+            <h2 class="c-heading--tagline">{{ page.tagline }}</h2>
+        </main>
+
+    </body>
+
+</html>
