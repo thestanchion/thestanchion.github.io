@@ -839,6 +839,7 @@ NAV
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 2;
   width: 18rem;
   height: 18rem;
   padding: 0;
@@ -851,15 +852,28 @@ NAV
     top: 3vh;
     right: 3vh;
     width: 4rem;
-    height: 4rem; }
+    height: 4rem;
+    padding: 0 0.5rem; }
   .c-nav-trigger:hover {
     width: 20rem;
     height: 20rem; }
+  .c-nav-trigger path {
+    opacity: 1;
+    transition: all linear .2s; }
+  .c-nav-trigger.active path:nth-child(1) {
+    transform: rotate(45deg);
+    transform-origin: 0 0; }
+  .c-nav-trigger.active path:nth-child(2) {
+    opacity: 0; }
+  .c-nav-trigger.active path:nth-child(3) {
+    transform: rotate(-45deg);
+    transform-origin: 0 100%; }
 
 .c-nav {
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 1;
   width: 18rem;
   height: 18rem;
   padding: 0;

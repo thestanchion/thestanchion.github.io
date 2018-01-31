@@ -5,5 +5,13 @@
 // Notes:
 ******************************************/
 $(".c-nav-trigger").on("click", function() {
-    $(".c-nav").addClass("open");
-})
+    var _this = $(this);
+
+    if (_this.hasClass("active")) {
+        $(this).removeClass("active");
+        $(".c-nav").removeClass("open");
+    } else {
+        $(this).addClass("active");
+        $(".c-nav").addClass("open");
+    }
+});
