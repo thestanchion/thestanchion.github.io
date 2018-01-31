@@ -500,7 +500,8 @@ body {
   max-width: 64rem;
   margin: 0 auto; }
 
-.c-wrapper--home {
+.c-wrapper--home,
+.c-nav__wrapper {
   margin: 30vmin 0 0 10vmin; }
 
 h1,
@@ -855,23 +856,41 @@ NAV
     width: 20rem;
     height: 20rem; }
 
-.c-nav__list {
-  float: right;
-  margin: 0; }
+.c-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 18rem;
+  height: 18rem;
+  padding: 0;
+  background: #ff5158;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+  transition: all 1s ease; }
+  .c-nav.open {
+    width: 200%;
+    height: 200%;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%); }
+
+.c-nav__wrapper {
+  position: fixed;
+  top: 0;
+  left: 0; }
 
 .c-nav__item {
-  display: inline-block;
-  margin: 0; }
+  display: block;
+  margin: 0 0 3rem 0; }
 
 .c-nav__link {
   display: inline-block;
   position: relative;
-  padding: 6px 10px;
-  border: 0;
-  color: #2a2a2a;
-  text-decoration: none; }
+  color: #fefefe;
+  font-family: "Oswald", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 5rem;
+  text-transform: uppercase; }
   .c-nav__link:hover, .c-nav__link.router-link-active {
-    color: #ff5158; }
+    color: #2a2a2a; }
 
 @media all and (max-width: 43.75em) {
   .c-nav-trigger svg {

@@ -54,7 +54,8 @@ body {
     max-width: rem-calc(640);
     margin: 0 auto;
 }
-.c-wrapper--home {
+.c-wrapper--home,
+.c-nav__wrapper {
     margin: 30vmin 0 0 10vmin;
 }
 
