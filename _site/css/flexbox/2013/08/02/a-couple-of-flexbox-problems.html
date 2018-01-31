@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>A couple of problems I’ve found using Flexbox | Ash Robbins</title>
+<meta name="generator" content="Jekyll v3.7.2" />
+<meta property="og:title" content="A couple of problems I’ve found using Flexbox" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Let me preface this post by saying that Flexbox is completely ace, and there are so many awesome use-cases for it. The particular one I’m going to talk about here is a grid layout for a product listing. Four columns, two rows, and just a simple image and price for each item. The site I’m working on is WIP but as an example let’s say it could be the grid of products in the pen below. (Will only work in Chrome and latest Opera)." />
+<meta property="og:description" content="Let me preface this post by saying that Flexbox is completely ace, and there are so many awesome use-cases for it. The particular one I’m going to talk about here is a grid layout for a product listing. Four columns, two rows, and just a simple image and price for each item. The site I’m working on is WIP but as an example let’s say it could be the grid of products in the pen below. (Will only work in Chrome and latest Opera)." />
+<link rel="canonical" href="http://localhost:4000/css/flexbox/2013/08/02/a-couple-of-flexbox-problems.html" />
+<meta property="og:url" content="http://localhost:4000/css/flexbox/2013/08/02/a-couple-of-flexbox-problems.html" />
+<meta property="og:site_name" content="Ash Robbins" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2013-08-02T16:35:36+01:00" />
+<script type="application/ld+json">
+{"description":"Let me preface this post by saying that Flexbox is completely ace, and there are so many awesome use-cases for it. The particular one I’m going to talk about here is a grid layout for a product listing. Four columns, two rows, and just a simple image and price for each item. The site I’m working on is WIP but as an example let’s say it could be the grid of products in the pen below. (Will only work in Chrome and latest Opera).","@type":"BlogPosting","url":"http://localhost:4000/css/flexbox/2013/08/02/a-couple-of-flexbox-problems.html","headline":"A couple of problems I’ve found using Flexbox","dateModified":"2013-08-02T16:35:36+01:00","datePublished":"2013-08-02T16:35:36+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/css/flexbox/2013/08/02/a-couple-of-flexbox-problems.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Ash Robbins" />
+  
+
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+    
+    
+    <a class="site-title" rel="author" href="/">Ash Robbins</a>
+
+    
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          
+            
+            
+          
+            
+            
+            <a class="page-link" href="/about/">About</a>
+            
+          
+            
+            
+            <a class="page-link" href="/blog/">Blog</a>
+            
+          
+            
+            
+            <a class="page-link" href="/source/index.html.erb">Welcome to Middleman</a>
+            
+          
+            
+            
+            <a class="page-link" href="/">Ash Robbins</a>
+            
+          
+            
+            
+          
+            
+            
+          
+        </div>
+      </nav>
+    
+  </div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="c-heading--page p-name" itemprop="name headline">A couple of problems I&#39;ve found using Flexbox</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2013-08-02T16:35:36+01:00" itemprop="datePublished">
+        
+        Aug 2, 2013
+      </time>
+      </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Let me preface this post by saying that Flexbox is completely ace, and there are so many awesome use-cases for it. The particular one I’m going to talk about here is a grid layout for a product listing. Four columns, two rows, and just a simple image and price for each item. The site I’m working on is WIP but as an example let’s say it could be the grid of products in the pen below. (Will only work in Chrome and latest Opera).</p>
+
+<iframe id="cp_embed_mnoqd" src="//codepen.io/ashrobbins/embed/mnoqd?height=423&amp;theme-id=0&amp;slug-hash=mnoqd&amp;user=ashrobbins&amp;default-tab=result" scrolling="no" frameborder="0" height="423" allowtransparency="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe>
+
+<p>Pretty simple. If you view the HTML you’ll see it’s nothing more than a simple <code class="highlighter-rouge">ul</code>, with each list item containing an <code class="highlighter-rouge">img</code> and an <code class="highlighter-rouge">h1</code>.</p>
+
+<p>The CSS has some basic reset styles and then gets into the two classes <code class="highlighter-rouge">.products</code> and <code class="highlighter-rouge">.product</code>.</p>
+
+<p>The <code class="highlighter-rouge">.products</code> class is where most of the flexbox work is done here. First we change the <code class="highlighter-rouge">display</code> property to <code class="highlighter-rouge">flex</code> - there are five lines for this as there are browsers which need a vendor prefix, and also some browsers who still need the older flexbox syntax. <a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/">See here</a> for an overview of where flexbox is at right now.</p>
+
+<p>The next declaration on <code class="highlighter-rouge">.products</code> is <code class="highlighter-rouge">flex-flow: row wrap;</code>. <code class="highlighter-rouge">flex-flow</code> is a shorthand property used to define both <code class="highlighter-rouge">flex-direction</code> and <code class="highlighter-rouge">flex-wrap</code> at the same time. So in this declaration we are telling the flex-items to display from left to right, and to wrap onto a new line when they run out of room.</p>
+
+<h2 id="wrapping-in-firefox-and-safari">Wrapping in Firefox and Safari</h2>
+
+<p>The first problem I came across is that Firefox and Safari currently don’t recognise or support the <code class="highlighter-rouge">flex-wrap</code> property, meaning that the items will just continue to flow outside of the parent container. You’d need to write a fallback for these browsers that don’t support wrapping.</p>
+
+<p>View this post in Firefox to see what this looks like.</p>
+
+<h2 id="alignment-issues">Alignment issues</h2>
+
+<p>The other problem is a bit of a tricky one. If you’re listing products in a grid, it’s highly likely that you’re pulling that data from a database of items. It’s therefore highly likely that you’ll quite often have a list of items that doesn’t give you enough items to fill up each row.</p>
+
+<p>I want my items to have space between them, and for the last one in each row to butt up to the right hand edge of the parent container. This is possible by applying the property <code class="highlighter-rouge">justify-content</code> with a value of <code class="highlighter-rouge">space-between</code> to the container. This will line up the first item in a row with the left edge of the container, and the last item in the row to the right edge of the container, with the remaining space distributed evenly between all the items in the row.</p>
+
+<iframe id="cp_embed_mexFs" src="//codepen.io/ashrobbins/embed/mexFs?height=444&amp;theme-id=344&amp;slug-hash=mexFs&amp;user=ashrobbins&amp;default-tab=result" scrolling="no" frameborder="0" height="444" allowtransparency="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe>
+
+<p>As you can see, the top row looks great, but the second row looks a bit pants. It is possible to make the products align in the way I want, by changing the <code class="highlighter-rouge">justify-content</code> value to <code class="highlighter-rouge">flex-start</code>. However this doesn’t then distribute remaining space on a row between the product items. In theory I could make each item 25% wide, and then add an inner wrapper to each one so I can apply padding and create the effect of space between the items, but it just feels like there should be a built in solution via CSS.</p>
+
+<iframe id="cp_embed_ofJqg" src="//codepen.io/ashrobbins/embed/ofJqg?height=467&amp;theme-id=344&amp;slug-hash=ofJqg&amp;user=ashrobbins&amp;default-tab=result" scrolling="no" frameborder="0" height="467" allowtransparency="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe>
+
+<p>I’m probably being too picky here. This solution is perfectly fine and works in Chrome. Obviously it isn’t ready to be used in a production environment yet because of the lack of browser support. But I’d love to know if there is a way to align the items distributing the available space evenly, but also aligning items in a row to the left.</p>
+
+  </div>
+
+  
+
+  <a class="u-url" href="/css/flexbox/2013/08/02/a-couple-of-flexbox-problems.html" hidden></a>
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Ash Robbins</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            
+              Ash Robbins
+            
+            </li>
+            
+            <li><a class="u-email" href="mailto:ashleyrobbins3@gmail.com">ashleyrobbins3@gmail.com</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+  
+  
+  
+  <li><a href="https://github.com/ashrobbins"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">ashrobbins</span></a></li>
+  
+  
+  
+  <li><a href="https://www.twitter.com/ash_robbins"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">ash_robbins</span></a></li>
+  
+  
+  
+</ul>
+
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Front End Developer</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-31T08:05:11+00:00</updated><id>http://localhost:4000/</id><title type="html">Ash Robbins</title><subtitle>Front End Developer</subtitle><entry><title type="html">Angular scope in your console</title><link href="http://localhost:4000/angular/2015/07/21/angular-scope-in-your-console.html" rel="alternate" type="text/html" title="Angular scope in your console" /><published>2015-07-21T16:35:36+01:00</published><updated>2015-07-21T16:35:36+01:00</updated><id>http://localhost:4000/angular/2015/07/21/angular-scope-in-your-console</id><content type="html" xml:base="http://localhost:4000/angular/2015/07/21/angular-scope-in-your-console.html">&lt;p&gt;Sometimes it can be really useful to inspect the data you’re working with on an Angular build. There are some plugins and extensions to help with this, like the Batarang extension for Chrome.&lt;/p&gt;
+
+&lt;p&gt;I prefer to have my scope in my dev tools console while I’m looking at a page. That way I can see how the data changes as I interact with the page, or view the data returned from an API. There’s a simple command which lets you do that.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;angular.element($0).scope();
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Select an element in Chrome’s dev tools, paste that into the dev tools console and hit return. You’ll get an interactive model of the scope for the selected element.&lt;/p&gt;</content><author><name></name></author><summary type="html">Sometimes it can be really useful to inspect the data you’re working with on an Angular build. There are some plugins and extensions to help with this, like the Batarang extension for Chrome.</summary></entry><entry><title type="html">Things that piss me off about the internet vol.1</title><link href="http://localhost:4000/rant/2015/04/01/things-that-piss-me-off-v1.html" rel="alternate" type="text/html" title="Things that piss me off about the internet vol.1" /><published>2015-04-01T16:35:36+01:00</published><updated>2015-04-01T16:35:36+01:00</updated><id>http://localhost:4000/rant/2015/04/01/things-that-piss-me-off-v1</id><content type="html" xml:base="http://localhost:4000/rant/2015/04/01/things-that-piss-me-off-v1.html">&lt;p&gt;There are a lot of things that piss me off about the web industry and the internet in general, so I thought I’d start a series of posts where I can rant about them.&lt;/p&gt;
+
+&lt;h2 id=&quot;sketchnotes-from-conference-talks&quot;&gt;Sketchnotes from conference talks&lt;/h2&gt;
+&lt;p&gt;What the hell is the point in these? They are just scribblings that don’t capture anything about a talk, and are essentially a collection of disconnected sentences that barely relate to the subject.&lt;/p&gt;
+
+&lt;p&gt;How is that useful to anyone? It’s a collection of random words! You’re meant to take notes so you dont forget stuff and you can read it back later.&lt;/p&gt;
+
+&lt;p&gt;Sketchnotes are basically just a way for people to show everyone else how good they are at drawing. They just give people something else to post on Twitter, and have no use to anyone except the person who drew them.&lt;/p&gt;
+
+&lt;h2 id=&quot;cat-pictures&quot;&gt;Cat pictures&lt;/h2&gt;
+&lt;p&gt;Don’t get me wrong I think cats are ace, I’ve got a couple of my own. But who decided that every demo site or placeholder image should be a picture of a kitten?&lt;/p&gt;
+
+&lt;p&gt;Have a bit of imagination, there’s bloody cats everywhere!&lt;/p&gt;
+
+&lt;p&gt;##Coffee
+As soon as someone decides to embark on a career in the web industry, they also feel they need to become a bloody coffee connoisseur. Ordering in weird and random kinds of coffee from all over the world. It all stinks as much as each other so it makes no difference.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Have you tried these new beans from the arse-end of Ecuador? They are so aromatic and offer a much fuller flavour. I’m off to grind some beans right now actually. Don’t be silly, of course I will measure them out first! I could never go back to instant, oh god no.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;em&gt;Random hipster&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Piss off and fetch me a brew. And no I don't care what tea bags you use.&lt;/p&gt;
+
+&lt;h5 id=&quot;ive-realised-im-a-very-easily-annoyed-person&quot;&gt;(I’ve realised I’m a very easily annoyed person.)&lt;/h5&gt;</content><author><name></name></author><summary type="html">There are a lot of things that piss me off about the web industry and the internet in general, so I thought I’d start a series of posts where I can rant about them.</summary></entry><entry><title type="html">AngularJS - ngHide for oldIE</title><link href="http://localhost:4000/css/angular/2015/01/14/angularjs-nghide-for-old-ie.html" rel="alternate" type="text/html" title="AngularJS - ngHide for oldIE" /><published>2015-01-14T15:35:36+00:00</published><updated>2015-01-14T15:35:36+00:00</updated><id>http://localhost:4000/css/angular/2015/01/14/angularjs-nghide-for-old-ie</id><content type="html" xml:base="http://localhost:4000/css/angular/2015/01/14/angularjs-nghide-for-old-ie.html">&lt;p&gt;Yeah I know I know, old IEs are dumb and should be run over by a bus or thrown off a bridge and blah blah blah. But sometimes 20% of your client’s users are using IE7, and another 20% on top of that use IE8, so you’ve got to deal with it.&lt;/p&gt;
+
+&lt;p&gt;The trouble is, to support these browsers you need to include a legacy version of Angular, but some pretty basic directives don’t work in these browsers,&lt;a href=&quot;https://github.com/angular/angular.js/commit/c785267eb8780d8b7658ef93ebb5ebddd566294d&quot;&gt;for example ngHide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hiding and showing elements based on whether a scope object is &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; is one of the most common things we do with Angular, so at work we built a custom directive which will work across all browsers.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;angular.module('ar.directives', [])
+.directive('arHide', function () {
+    return {
+        scope: {
+            arHide: &quot;=&quot;
+        },
+        link: function (scope, element) {
+            scope.$watch(&quot;arHide&quot;, function () {
+                if (scope.arHide) {
+                    element.addClass(&quot;ng-hide&quot;);
+                } else {
+                    element.removeClass(&quot;ng-hide&quot;);
+                }
+            });
+        }
+    };
+});
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I’ve created a new module called &lt;code class=&quot;highlighter-rouge&quot;&gt;ar.directives&lt;/code&gt;, and a new directive called &lt;code class=&quot;highlighter-rouge&quot;&gt;arHide&lt;/code&gt;. You can call these what you want, &lt;em&gt;ar&lt;/em&gt; is just my initials.&lt;/p&gt;
+
+&lt;h3 id=&quot;isolated-scope&quot;&gt;Isolated scope&lt;/h3&gt;
+
+&lt;p&gt;I’ve then got an &lt;em&gt;isolated scope&lt;/em&gt; on the directive, and I’ve created a property within it called &lt;em&gt;arHide&lt;/em&gt;. The name of this property will correspond to the way I use the directive in my markup (&lt;code class=&quot;highlighter-rouge&quot;&gt;ar-hide&lt;/code&gt;), therefore I can use the shorthand &lt;code class=&quot;highlighter-rouge&quot;&gt;arHide: &quot;=&quot;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our isolated scope property will always take the value of the &lt;code class=&quot;highlighter-rouge&quot;&gt;ar-hide&lt;/code&gt; attribute whenever we use it in our app, and it’s clever enough to recognise the camel-case and look for its equivalent hyphenated attribute.&lt;/p&gt;
+
+&lt;h3 id=&quot;adding-functionality&quot;&gt;Adding functionality&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;link&lt;/code&gt; option can be used when you want a directive to manipulate the DOM. In this case I’ll be adding and removing the &lt;code class=&quot;highlighter-rouge&quot;&gt;ng-hide&lt;/code&gt; class when an argument is true or false.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;link&lt;/code&gt; accepts three arguments:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;scope&lt;/code&gt;, which in this case is my isolated scope from earlier&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;element&lt;/code&gt;, which is the element this directive is called from&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;attrs&lt;/code&gt;, which is a reference to the attributes of the &lt;code class=&quot;highlighter-rouge&quot;&gt;element&lt;/code&gt; passed in&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I don’t need &lt;code class=&quot;highlighter-rouge&quot;&gt;attrs&lt;/code&gt; in this case so I’ve left it out.&lt;/p&gt;
+
+&lt;p&gt;I use &lt;code class=&quot;highlighter-rouge&quot;&gt;$.watch&lt;/code&gt; to keep a constant eye on the argument provided in &lt;code class=&quot;highlighter-rouge&quot;&gt;arHide&lt;/code&gt;, which translates to the &lt;code class=&quot;highlighter-rouge&quot;&gt;ar-hide&lt;/code&gt; attribute in the markup. When this argument resolves to &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; I add the class &lt;code class=&quot;highlighter-rouge&quot;&gt;ng-hide&lt;/code&gt;, if it’s false the class gets removed. Simple as that.&lt;/p&gt;
+
+&lt;h3 id=&quot;markup&quot;&gt;Markup&lt;/h3&gt;
+
+&lt;p&gt;Using the new directive is really simple.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//The element will be hidden if 'valueToTest' is true
+&amp;lt;p ar-hide=&quot;valueToTest&quot;&amp;gt;Hide me if true&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Yeah I know I know, old IEs are dumb and should be run over by a bus or thrown off a bridge and blah blah blah. But sometimes 20% of your client’s users are using IE7, and another 20% on top of that use IE8, so you’ve got to deal with it.</summary></entry><entry><title type="html">Simple check for old IE</title><link href="http://localhost:4000/js/browsers/2014/08/22/simple-check-for-old-ie.html" rel="alternate" type="text/html" title="Simple check for old IE" /><published>2014-08-22T16:35:36+01:00</published><updated>2014-08-22T16:35:36+01:00</updated><id>http://localhost:4000/js/browsers/2014/08/22/simple-check-for-old-ie</id><content type="html" xml:base="http://localhost:4000/js/browsers/2014/08/22/simple-check-for-old-ie.html">&lt;p&gt;On a recent project I needed to be able to detect if a user was browsing using IE8 or 7, and serve different functionality to them if that was true.&lt;/p&gt;
+
+&lt;p&gt;After looking around a really easy way to do this is to simply check whether the browsers supports the &lt;code class=&quot;highlighter-rouge&quot;&gt;leadingWhiteSpace&lt;/code&gt; feature, using jQuery’s &lt;code class=&quot;highlighter-rouge&quot;&gt;$.supports&lt;/code&gt; method.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;if ($.support.leadingWhitespace == false) {
+    var oldIE = true;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Old versions of Internet Explorer don’t support this feature, and therefore &lt;code class=&quot;highlighter-rouge&quot;&gt;oldIE&lt;/code&gt; will be false on these browsers. You could then apply a conditional class to your &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; tag to style something differently, or write a quick &lt;code class=&quot;highlighter-rouge&quot;&gt;if&lt;/code&gt; statement to check the value of &lt;code class=&quot;highlighter-rouge&quot;&gt;oldIE&lt;/code&gt; before executing some script for example.&lt;/p&gt;</content><author><name></name></author><summary type="html">On a recent project I needed to be able to detect if a user was browsing using IE8 or 7, and serve different functionality to them if that was true.</summary></entry><entry><title type="html">A couple of problems I’ve found using Flexbox</title><link href="http://localhost:4000/css/flexbox/2013/08/02/a-couple-of-flexbox-problems.html" rel="alternate" type="text/html" title="A couple of problems I've found using Flexbox" /><published>2013-08-02T16:35:36+01:00</published><updated>2013-08-02T16:35:36+01:00</updated><id>http://localhost:4000/css/flexbox/2013/08/02/a-couple-of-flexbox-problems</id><content type="html" xml:base="http://localhost:4000/css/flexbox/2013/08/02/a-couple-of-flexbox-problems.html">&lt;p&gt;Let me preface this post by saying that Flexbox is completely ace, and there are so many awesome use-cases for it. The particular one I’m going to talk about here is a grid layout for a product listing. Four columns, two rows, and just a simple image and price for each item. The site I’m working on is WIP but as an example let’s say it could be the grid of products in the pen below. (Will only work in Chrome and latest Opera).&lt;/p&gt;
+
+&lt;iframe id=&quot;cp_embed_mnoqd&quot; src=&quot;//codepen.io/ashrobbins/embed/mnoqd?height=423&amp;amp;theme-id=0&amp;amp;slug-hash=mnoqd&amp;amp;user=ashrobbins&amp;amp;default-tab=result&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; height=&quot;423&quot; allowtransparency=&quot;true&quot; class=&quot;cp_embed_iframe&quot; style=&quot;width: 100%; overflow: hidden;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Pretty simple. If you view the HTML you’ll see it’s nothing more than a simple &lt;code class=&quot;highlighter-rouge&quot;&gt;ul&lt;/code&gt;, with each list item containing an &lt;code class=&quot;highlighter-rouge&quot;&gt;img&lt;/code&gt; and an &lt;code class=&quot;highlighter-rouge&quot;&gt;h1&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The CSS has some basic reset styles and then gets into the two classes &lt;code class=&quot;highlighter-rouge&quot;&gt;.products&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;.product&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;.products&lt;/code&gt; class is where most of the flexbox work is done here. First we change the &lt;code class=&quot;highlighter-rouge&quot;&gt;display&lt;/code&gt; property to &lt;code class=&quot;highlighter-rouge&quot;&gt;flex&lt;/code&gt; - there are five lines for this as there are browsers which need a vendor prefix, and also some browsers who still need the older flexbox syntax. &lt;a href=&quot;http://css-tricks.com/snippets/css/a-guide-to-flexbox/&quot;&gt;See here&lt;/a&gt; for an overview of where flexbox is at right now.&lt;/p&gt;
+
+&lt;p&gt;The next declaration on &lt;code class=&quot;highlighter-rouge&quot;&gt;.products&lt;/code&gt; is &lt;code class=&quot;highlighter-rouge&quot;&gt;flex-flow: row wrap;&lt;/code&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;flex-flow&lt;/code&gt; is a shorthand property used to define both &lt;code class=&quot;highlighter-rouge&quot;&gt;flex-direction&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;flex-wrap&lt;/code&gt; at the same time. So in this declaration we are telling the flex-items to display from left to right, and to wrap onto a new line when they run out of room.&lt;/p&gt;
+
+&lt;h2 id=&quot;wrapping-in-firefox-and-safari&quot;&gt;Wrapping in Firefox and Safari&lt;/h2&gt;
+
+&lt;p&gt;The first problem I came across is that Firefox and Safari currently don’t recognise or support the &lt;code class=&quot;highlighter-rouge&quot;&gt;flex-wrap&lt;/code&gt; property, meaning that the items will just continue to flow outside of the parent container. You’d need to write a fallback for these browsers that don’t support wrapping.&lt;/p&gt;
+
+&lt;p&gt;View this post in Firefox to see what this looks like.&lt;/p&gt;
+
+&lt;h2 id=&quot;alignment-issues&quot;&gt;Alignment issues&lt;/h2&gt;
+
+&lt;p&gt;The other problem is a bit of a tricky one. If you’re listing products in a grid, it’s highly likely that you’re pulling that data from a database of items. It’s therefore highly likely that you’ll quite often have a list of items that doesn’t give you enough items to fill up each row.&lt;/p&gt;
+
+&lt;p&gt;I want my items to have space between them, and for the last one in each row to butt up to the right hand edge of the parent container. This is possible by applying the property &lt;code class=&quot;highlighter-rouge&quot;&gt;justify-content&lt;/code&gt; with a value of &lt;code class=&quot;highlighter-rouge&quot;&gt;space-between&lt;/code&gt; to the container. This will line up the first item in a row with the left edge of the container, and the last item in the row to the right edge of the container, with the remaining space distributed evenly between all the items in the row.&lt;/p&gt;
+
+&lt;iframe id=&quot;cp_embed_mexFs&quot; src=&quot;//codepen.io/ashrobbins/embed/mexFs?height=444&amp;amp;theme-id=344&amp;amp;slug-hash=mexFs&amp;amp;user=ashrobbins&amp;amp;default-tab=result&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; height=&quot;444&quot; allowtransparency=&quot;true&quot; class=&quot;cp_embed_iframe&quot; style=&quot;width: 100%; overflow: hidden;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;As you can see, the top row looks great, but the second row looks a bit pants. It is possible to make the products align in the way I want, by changing the &lt;code class=&quot;highlighter-rouge&quot;&gt;justify-content&lt;/code&gt; value to &lt;code class=&quot;highlighter-rouge&quot;&gt;flex-start&lt;/code&gt;. However this doesn’t then distribute remaining space on a row between the product items. In theory I could make each item 25% wide, and then add an inner wrapper to each one so I can apply padding and create the effect of space between the items, but it just feels like there should be a built in solution via CSS.&lt;/p&gt;
+
+&lt;iframe id=&quot;cp_embed_ofJqg&quot; src=&quot;//codepen.io/ashrobbins/embed/ofJqg?height=467&amp;amp;theme-id=344&amp;amp;slug-hash=ofJqg&amp;amp;user=ashrobbins&amp;amp;default-tab=result&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; height=&quot;467&quot; allowtransparency=&quot;true&quot; class=&quot;cp_embed_iframe&quot; style=&quot;width: 100%; overflow: hidden;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;I’m probably being too picky here. This solution is perfectly fine and works in Chrome. Obviously it isn’t ready to be used in a production environment yet because of the lack of browser support. But I’d love to know if there is a way to align the items distributing the available space evenly, but also aligning items in a row to the left.&lt;/p&gt;</content><author><name></name></author><summary type="html">Let me preface this post by saying that Flexbox is completely ace, and there are so many awesome use-cases for it. The particular one I’m going to talk about here is a grid layout for a product listing. Four columns, two rows, and just a simple image and price for each item. The site I’m working on is WIP but as an example let’s say it could be the grid of products in the pen below. (Will only work in Chrome and latest Opera).</summary></entry><entry><title type="html">Responsive breakpoints</title><link href="http://localhost:4000/css/responsive/2013/07/19/responsive-breakpoints.html" rel="alternate" type="text/html" title="Responsive breakpoints" /><published>2013-07-19T16:35:36+01:00</published><updated>2013-07-19T16:35:36+01:00</updated><id>http://localhost:4000/css/responsive/2013/07/19/responsive-breakpoints</id><content type="html" xml:base="http://localhost:4000/css/responsive/2013/07/19/responsive-breakpoints.html">&lt;p&gt;I just read this quote in .Net magazine:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…rather than [device-specific] breakpoints, I’d decrease browser width until things looked broken or cramped, add a breakpoint and repeat…&lt;/p&gt;
+
+  &lt;p&gt;Dan Tello&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is what I’ve always done and is exactly the way we should approach making sure responsive layouts behave properly.&lt;/p&gt;
+
+&lt;p&gt;I never thought the idea of having pre-defined breakpoints for iPhone, iPad and desktop etc was particularly useful, and in fact it seems much more aligned with an adaptive layout. Even when responsive design was just a baby there were already hundreds of devices with different widths so setting a few different breakpoints has never made sense.&lt;/p&gt;
+
+&lt;p&gt;At the end of the day it’s in the name: breakpoint. Find out where your design breaks, then fix it.&lt;/p&gt;</content><author><name></name></author><summary type="html">I just read this quote in .Net magazine:</summary></entry><entry><title type="html">Quickie on CSS weight</title><link href="http://localhost:4000/css/2013/01/11/quickie-on-css-weight.html" rel="alternate" type="text/html" title="Quickie on CSS weight" /><published>2013-01-11T15:35:36+00:00</published><updated>2013-01-11T15:35:36+00:00</updated><id>http://localhost:4000/css/2013/01/11/quickie-on-css-weight</id><content type="html" xml:base="http://localhost:4000/css/2013/01/11/quickie-on-css-weight.html">&lt;p&gt;In this completely made up and unrealistic example, which version is heavier? This…&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.main-nav li,
+.main-nav a {
+    padding: 0.5em 1em;
+}
+.main-nav a {
+    text-align: center;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;or…&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.main-nav li {
+    padding: 0.5em 1em;
+}
+.main-nav a {
+    padding: 0.5em 1em;
+    text-align: center;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I’m pretty certain that version one is better because there are only two actual declarations as opposed to three in version two. Just confused me momentarily because they are technically both seven lines of CSS, and only 10 characters different in length.&lt;/p&gt;
+
+&lt;h3 id=&quot;update&quot;&gt;Update&lt;/h3&gt;
+
+&lt;p&gt;I had a reply to this question from Harry Roberts, A.K.A. &lt;a href=&quot;&amp;quot;http://www.twitter.com/csswizardry&amp;quot;&quot;&gt;@csswizardry&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Here, it’s not about the weight of the CSS that matters, it’s the sensibility of its architecture. The simplest test is just looking out for repetition.&lt;/p&gt;
+
+  &lt;p&gt;Repetition should be avoided, not necessarily from a weight point of view (repetition actually compresses (e.g. gzip) better than non-repeated strings) but from a maintainability point of view. The problem with repetition in CSS is the maintenance overhead.&lt;/p&gt;
+
+  &lt;p&gt;In the second example you are repeating &lt;code class=&quot;highlighter-rouge&quot;&gt;padding:0.5em 1em&lt;/code&gt; twice, this means that should you need to change it to &lt;code class=&quot;highlighter-rouge&quot;&gt;padding:1em 2em&lt;/code&gt; you would have to make that change twice.&lt;/p&gt;
+
+  &lt;p&gt;Your declarations are more likely to change than your selectors; your selectors are likely to remain fairly constant (you’re more likely to change the &lt;code class=&quot;highlighter-rouge&quot;&gt;padding&lt;/code&gt; values than you are to change &lt;code class=&quot;highlighter-rouge&quot;&gt;.main-nav a{}&lt;/code&gt;) so author your CSS to make these changes as easy as possible to implement.&lt;/p&gt;
+
+  &lt;p&gt;Hope that helps, H&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">In this completely made up and unrealistic example, which version is heavier? This…</summary></entry><entry><title type="html">A bit LESS SASSy</title><link href="http://localhost:4000/css/scss/2011/11/09/a-bit-less-sassy.html" rel="alternate" type="text/html" title="A bit LESS SASSy" /><published>2011-11-09T15:35:36+00:00</published><updated>2011-11-09T15:35:36+00:00</updated><id>http://localhost:4000/css/scss/2011/11/09/a-bit-less-sassy</id><content type="html" xml:base="http://localhost:4000/css/scss/2011/11/09/a-bit-less-sassy.html">&lt;p&gt;For quite some time now people have been raving about LESS and SASS and the benefits they have over writing single scoop vanilla CSS. Allow me, if I may, to wade in and add a few of my thoughts on why, instead of choosing one or the other, neither of them are necessary to me at all.&lt;/p&gt;
+
+&lt;p&gt;First off its important to realise that CSS is not a programming language, it is a presentation language and when written properly it’s elegant, flexible and - perhaps most importantly - simple. Therefore it shouldn’t be made more complex than it needs to be with functions and variables as these are features of a programming language. I’d suggest that you’d be better off making your markup more sensible so that you don’t have to repeat yourself so much in your style sheet. That way your need for variables is irrelevant and you should only need to declare things like colours once or twice.&lt;/p&gt;
+
+&lt;p&gt;In fact instead of functions or variables, why not just have a ‘Shared’ section (&lt;a href=&quot;http://coding.smashingmagazine.com/2011/08/26/writing-css-for-others/&quot;&gt;credit Harry Roberts&lt;/a&gt;) near the top of the sheet? Any properties that need to be applied to several different elements on the page (border-radii, colours, etc.) can just be declared that one time in the shared section, and even better, if that value needs to be changed it only needs to be changed that one time. Effectively achieving the same outcome as a variable.&lt;/p&gt;
+
+&lt;p&gt;One of the things that strikes me most is that while it’s true that using LESS or SASS can dramatically reduce the size of your style sheets initially, when they get compiled for a release to production the CSS is expanded and output in the same way as if you’d written it long handed anyway. So you’d have to take great care not to get too involved in things like nesting rules, because it’s all gonna get expanded anyway.&lt;/p&gt;
+
+&lt;p&gt;LESS and SASS are almost languages all of their own, and it seems silly to me to learn how to code in a new language for the benefit of a language you already know and can probably write perfectly well. CSS will probably adopt a lot of the tools that LESS and SASS offer in the coming years, by which time they’ll become redundant. If we’re talking about them being time savers, why not spend the time setting up your own boilerplate and then start every project from there? It will probably take the same amount of time as setting up and figuring out LESS or SASS, and you’ll have your very own personalised toolkit for all your new projects.&lt;/p&gt;
+
+&lt;p&gt;It might just be that I’m not working on big enough builds at the moment, but I just don’t see the point.&lt;/p&gt;</content><author><name></name></author><summary type="html">For quite some time now people have been raving about LESS and SASS and the benefits they have over writing single scoop vanilla CSS. Allow me, if I may, to wade in and add a few of my thoughts on why, instead of choosing one or the other, neither of them are necessary to me at all.</summary></entry><entry><title type="html">Have A Little Patience</title><link href="http://localhost:4000/general/2011/10/25/have-a-little-patience.html" rel="alternate" type="text/html" title="Have A Little Patience" /><published>2011-10-25T16:35:36+01:00</published><updated>2011-10-25T16:35:36+01:00</updated><id>http://localhost:4000/general/2011/10/25/have-a-little-patience</id><content type="html" xml:base="http://localhost:4000/general/2011/10/25/have-a-little-patience.html">&lt;p&gt;We’ve all been there. The phone rings or an email arrives from a client asking the most basic of questions, that you know you’ve already answered for them a thousand times before. The gut reaction is to swear and shout at your screen in frustration at the sheer dip-shittedness of the people you’re supporting.&lt;/p&gt;
+
+&lt;p&gt;I had one today in fact. I’ve been working on a new site template for a client over the past few months, and they’ve seen it several times before. But they choose today, when we’re nearing the end of the process, to ask whether their two columned design can take banners in a third, currently non-existent, column. Obviously my reaction to reading this was ‘What the hell? No of course it can’t take banners there! Why didn’t you tell me you wanted three columns in the first place?! Jason Christ!’. But now I’ve simmered down, my stance has changed a bit, hence the reason for writing this post.&lt;/p&gt;
+
+&lt;p&gt;The fact is, our clients don’t actually know very much about the way the web works. At all. It’s not unlikely for a network support guy to get asked if he can fix a website that’s gone down, even if it’s completely unrelated to the company he works for. A friend of mine works in the IT team at a school and recently the internet was down in their area due to a cock-up by the council. But all the teachers thought that the IT team should be able to fix the internet. If it can be seen on their computer screen then the assumption is that anyone who has a slightly IT related job can fix it.&lt;/p&gt;
+
+&lt;p&gt;And it’s understandable that people have these assumptions, and also that they just don’t understand every single thing about the web, or computers in general. A lot of the words and terms we use in our day to day working lives would make the average Joe run a mile â€“ not necessarily because they aren’t smart people either. Computing/Web/Whatever you want to call it, is so diverse and no one person can be an expert in everything. I think I have a pretty good grip on HTML and CSS, but that’s my job, and I wouldn’t have the first idea where to start if you asked me to code you up a program in ASP. Both are development languages, but they are poles apart in terms of what they do. So for us to expect our clients to understand, who generally have little to no knowledge of computers past Microsoft Word, well it’s a bit unfair when you think about it.&lt;/p&gt;
+
+&lt;p&gt;I’m going to try and be a bit more patient from now on. I’m not saying it’ll be easy because I know it won’t be. The same frustrations will come back and I’ll no doubt swear at an email tomorrow. But at the end of the day it’s only fair to give people a bit of lee-way, after all I couldn’t run a council or a trade association or any other kind of business that we produce solutions for. Have a little patience.&lt;/p&gt;</content><author><name></name></author><summary type="html">We’ve all been there. The phone rings or an email arrives from a client asking the most basic of questions, that you know you’ve already answered for them a thousand times before. The gut reaction is to swear and shout at your screen in frustration at the sheer dip-shittedness of the people you’re supporting.</summary></entry><entry><title type="html">Making it look nicer</title><link href="http://localhost:4000/css/2011/09/09/making-it-look-nicer.html" rel="alternate" type="text/html" title="Making it look nicer" /><published>2011-09-09T16:35:36+01:00</published><updated>2011-09-09T16:35:36+01:00</updated><id>http://localhost:4000/css/2011/09/09/making-it-look-nicer</id><content type="html" xml:base="http://localhost:4000/css/2011/09/09/making-it-look-nicer.html">&lt;p&gt;Just thought I’d share a couple of cool things I’ve been using more and more in projects recently: &lt;code class=&quot;highlighter-rouge&quot;&gt;hyphens&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;::selection&lt;/code&gt;. Both features are only available in newer versions of browsers, but the key with both of them is that anyone who can’t support them won’t know any different. It’s progressive enhancement in action.&lt;/p&gt;
+
+&lt;h2 id=&quot;hyphens&quot;&gt;hyphens&lt;/h2&gt;
+&lt;p&gt;You know how if you’re reading a book or a newspaper, and you get to the end of a line and the next word is too long to fit in, and the printers plonk a hyphen in the middle of the word and just carry it on on the next line? Us web folk have never had that ability. If we left justify a block of text we end up with a raggedy right hand edge where words of different lengths finish off the lines, and if we use &lt;code class=&quot;highlighter-rouge&quot;&gt;text-align:justify;&lt;/code&gt; then we often end up with huge rivers of white running through our text. Ugly.&lt;/p&gt;
+
+&lt;p&gt;This is where &lt;code class=&quot;highlighter-rouge&quot;&gt;hyphens&lt;/code&gt; come in.&lt;/p&gt;
+
+&lt;p&gt;All we need to do to hyphenate our paragraphs is add the following properties to our CSS.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;hyphens: auto;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;A quick word on support…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Currently hyphens is supported in Safari 5.1 and Firefox 6. For Firefox 6 the lang-attribute must be set as mentioned above. &lt;a href=&quot;https://developer.mozilla.org/en/CSS/hyphens#AutoCompatibilityTable&quot;&gt;Also it only supports english&lt;/a&gt;. It is not working in Chrome 15.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://drublic.de/blog/css3-auto-hyphenation-for-text-elements&quot;&gt;http://drublic.de/blog/css3-auto-hyphenation-for-text-elements&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So even though not everybody will see the hyphens, it will be a nice enhancement for everyone who does have a browser that supports them. Also it’ll mean your CSS is future-proof and ready for the day when hyphens are more widely supported. View this site in the latest Firefox to see hyphens in action.&lt;/p&gt;
+
+&lt;h2 id=&quot;selection&quot;&gt;::selection&lt;/h2&gt;
+
+&lt;p&gt;We can use &lt;code class=&quot;highlighter-rouge&quot;&gt;::selection&lt;/code&gt; in its simplest form to change the &lt;code class=&quot;highlighter-rouge&quot;&gt;color&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;background&lt;/code&gt; values of highlighted text on a page from the standard white on blue, to any colours you like.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;::selection {                                                 background: #5BC961;
+    color: #ffffff;
+}
+::-moz-selection {
+    background: #5BC961;
+    color: #ffffff;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Again, you won’t be able to see this effect unless you’re using a newer browser, but Firefox (4+), Chrome, Safari and even IE9 are all supporting this feature, and again it’s a nice piece of progressive enhancement for those who are able to see it.&lt;/p&gt;</content><author><name></name></author><summary type="html">Just thought I’d share a couple of cool things I’ve been using more and more in projects recently: hyphens and ::selection. Both features are only available in newer versions of browsers, but the key with both of them is that anyone who can’t support them won’t know any different. It’s progressive enhancement in action.</summary></entry></feed>
