@@ -24,9 +24,9 @@ h1, h2, h3, h4, h5, h6,
     border-top: 5px solid $white;
 }
 .c-heading--page {
-    font-size: rem-calc(30);
-    color: $primary-colour;
-    margin-bottom: rem-calc(30);
+    font-size: rem-calc(50);
+    font-size: 6vmin;
+    margin-bottom: rem-calc(50);
 }
 .c-heading--section {
     font-size: rem-calc(24);

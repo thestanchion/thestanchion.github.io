@@ -23,7 +23,7 @@ As soon as someone decides to embark on a career in the web industry, they also 
 
 >"Have you tried these new beans from the arse-end of Ecuador? They are so aromatic and offer a much fuller flavour. I'm off to grind some beans right now actually. Don't be silly, of course I will measure them out first! I could never go back to instant, oh god no."
 >
->*Random hipster*
+>_Random hipster_
 
 Piss off and fetch me a brew. And no I don\'t care what tea bags you use.
 

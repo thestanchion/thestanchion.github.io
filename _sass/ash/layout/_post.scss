@@ -3,8 +3,7 @@ POST
 ******************************************/
 .c-post__date {
     display: block;
-    color: $grey;
-    font-size: rem-calc(14);
+    font-size: rem-calc(16);
 }
 .c-post__category {
     display: inline-block;
@@ -15,13 +14,56 @@ POST
     content: ",";
     margin-right: rem-calc(4);
 }
-.c-post__content h2,
-.c-post__content .h2 {
-    font-size: rem-calc(20);
-}
-@media only screen and (max-width: 500px) {
-    .c-post__content h2,
-    .c-post__content .h2 {
+.c-post {
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-top: rem-calc(30);
+    }
+    h2 {
+        font-size: rem-calc(34);
+    }
+    h3 {
+        font-size: rem-calc(30);
+    }
+    h4 {
+        font-size: rem-calc(26);
+    }
+    h5 {
+        font-size: rem-calc(22);
+    }
+    h6 {
         font-size: rem-calc(18);
+    }
+    pre,
+    code {
+        background-color: $light-grey;
+        border: 0;
+        border-radius: 0;
+    }
+    pre {
+        padding: rem-calc(16 20);
+
+        code {
+            color: $body-text;
+        }
+    }
+    code {
+        padding: rem-calc(3 6);
+        color: $primary-colour;
+        font-size: rem-calc(16);
+    }
+    blockquote {
+        margin: rem-calc(30 0);
+        padding: rem-calc(20 0 20 30);
+        border-left: 10px solid $primary-colour;
+        font-family: $serif-font;
+        color: $body-text;
+
+        p {
+            font-size: rem-calc(18);
+        }
     }
 }

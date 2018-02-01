@@ -13,9 +13,9 @@ This is where `hyphens` come in.
 
 All we need to do to hyphenate our paragraphs is add the following properties to our CSS.
 
-```
+{% highlight ruby %}
 hyphens: auto;
-```
+{% endhighlight %}
 
 A quick word on support...
 
@@ -29,14 +29,15 @@ So even though not everybody will see the hyphens, it will be a nice enhancement
 
 We can use `::selection` in its simplest form to change the `color` and `background` values of highlighted text on a page from the standard white on blue, to any colours you like.
 
-```
-::selection {                                                 background: #5BC961;
+{% highlight scss %}
+::selection {
+    background: #5BC961;
     color: #ffffff;
 }
 ::-moz-selection {
     background: #5BC961;
     color: #ffffff;
 }
-```
+{% endhighlight %}
 
 Again, you won't be able to see this effect unless you're using a newer browser, but Firefox (4+), Chrome, Safari and even IE9 are all supporting this feature, and again it's a nice piece of progressive enhancement for those who are able to see it.

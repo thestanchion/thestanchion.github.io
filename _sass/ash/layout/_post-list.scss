@@ -1,20 +1,38 @@
 /******************************************
 POST LIST
 ******************************************/
-.c-post-list {
-    .c-post + .c-post {
-        margin-top: rem-calc(40);
-        padding-top: rem-calc(40);
-        border-top: 1px solid $divider-color;
-    }
-    .heading__post {
-        margin-bottom: rem-calc(10);
+.c-post-list .c-post + .c-post {
+    margin-top: rem-calc(40);
+    padding-top: rem-calc(40);
+    border-top: 1px solid $divider-color;
+}
+.c-post-list__link {
+    position: relative;
+    color: $black;
 
-        a {
-            color: $black;
-        }
-        a:hover {
-            color: $primary-colour;
+    &:visited {
+        color: $black;
+    }
+    &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        right: rem-calc(1);
+        bottom: rem-calc(-3);
+        left: rem-calc(1);
+        height: rem-calc(3);
+        background-color: $primary-colour;
+        transform: scaleX(0);
+        transform-origin: 100% 50%;
+        transition: transform .4s cubic-bezier(.23,1,.32,1);
+    }
+    &:hover {
+        color: $primary-colour;
+
+        &:before {
+            transform: scaleX(1);
+            transform-origin: 0 50%;
+            transition: transform 0 .4s cubic-bezier(.23,1,.32,1);
         }
     }
 }

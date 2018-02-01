@@ -29,6 +29,7 @@ NAV
     path {
         opacity: 1;
         transition: all linear .2s;
+        fill: $white;
     }
     &.active {
         path:nth-child(1) {
@@ -83,6 +84,9 @@ NAV
     font-size: rem-calc(50);
     text-transform: uppercase;
 
+    &:visited {
+        color: $white;
+    }
     &:hover,
     &.router-link-active {
         color: $black;

@@ -6,23 +6,27 @@ categories: css
 ---
 In this completely made up and unrealistic example, which version is heavier? This...
 
-    .main-nav li,
-    .main-nav a {
-        padding: 0.5em 1em;
-    }
-    .main-nav a {
-        text-align: center;
-    }
+{% highlight scss %}
+.main-nav li,
+.main-nav a {
+    padding: 0.5em 1em;
+}
+.main-nav a {
+    text-align: center;
+}
+{% endhighlight %}
 
 or...
 
-    .main-nav li {
-        padding: 0.5em 1em;
-    }
-    .main-nav a {
-        padding: 0.5em 1em;
-        text-align: center;
-    }
+{% highlight scss %}
+.main-nav li {
+    padding: 0.5em 1em;
+}
+.main-nav a {
+    padding: 0.5em 1em;
+    text-align: center;
+}
+{% endhighlight %}
 
 I'm pretty certain that version one is better because there are only two actual declarations as opposed to three in version two. Just confused me momentarily because they are technically both seven lines of CSS, and only 10 characters different in length.
 

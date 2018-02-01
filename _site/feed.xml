@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-01T09:28:33+00:00</updated><id>http://localhost:4000/</id><title type="html">Ash Robbins</title><subtitle>Front End Developer</subtitle><entry><title type="html">Angular scope in your console</title><link href="http://localhost:4000/angular/2015/07/21/angular-scope-in-your-console.html" rel="alternate" type="text/html" title="Angular scope in your console" /><published>2015-07-21T16:35:36+01:00</published><updated>2015-07-21T16:35:36+01:00</updated><id>http://localhost:4000/angular/2015/07/21/angular-scope-in-your-console</id><content type="html" xml:base="http://localhost:4000/angular/2015/07/21/angular-scope-in-your-console.html">&lt;p&gt;Sometimes it can be really useful to inspect the data you’re working with on an Angular build. There are some plugins and extensions to help with this, like the Batarang extension for Chrome.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-01T12:42:04+00:00</updated><id>http://localhost:4000/</id><title type="html">Ash Robbins</title><subtitle>Front End Developer</subtitle><entry><title type="html">Angular scope in your console</title><link href="http://localhost:4000/angular/2015/07/21/angular-scope-in-your-console.html" rel="alternate" type="text/html" title="Angular scope in your console" /><published>2015-07-21T16:35:36+01:00</published><updated>2015-07-21T16:35:36+01:00</updated><id>http://localhost:4000/angular/2015/07/21/angular-scope-in-your-console</id><content type="html" xml:base="http://localhost:4000/angular/2015/07/21/angular-scope-in-your-console.html">&lt;p&gt;Sometimes it can be really useful to inspect the data you’re working with on an Angular build. There are some plugins and extensions to help with this, like the Batarang extension for Chrome.&lt;/p&gt;
 
 &lt;p&gt;I prefer to have my scope in my dev tools console while I’m looking at a page. That way I can see how the data changes as I interact with the page, or view the data returned from an API. There’s a simple command which lets you do that.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;angular.element($0).scope();
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nx&quot;&gt;angular&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scope&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Select an element in Chrome’s dev tools, paste that into the dev tools console and hit return. You’ll get an interactive model of the scope for the selected element.&lt;/p&gt;</content><author><name></name></author><summary type="html">Sometimes it can be really useful to inspect the data you’re working with on an Angular build. There are some plugins and extensions to help with this, like the Batarang extension for Chrome.</summary></entry><entry><title type="html">Things that piss me off about the internet vol.1</title><link href="http://localhost:4000/rant/2015/04/01/things-that-piss-me-off-v1.html" rel="alternate" type="text/html" title="Things that piss me off about the internet vol.1" /><published>2015-04-01T16:35:36+01:00</published><updated>2015-04-01T16:35:36+01:00</updated><id>http://localhost:4000/rant/2015/04/01/things-that-piss-me-off-v1</id><content type="html" xml:base="http://localhost:4000/rant/2015/04/01/things-that-piss-me-off-v1.html">&lt;p&gt;There are a lot of things that piss me off about the web industry and the internet in general, so I thought I’d start a series of posts where I can rant about them.&lt;/p&gt;
 
@@ -36,30 +35,29 @@ As soon as someone decides to embark on a career in the web industry, they also 
 
 &lt;p&gt;Hiding and showing elements based on whether a scope object is &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; is one of the most common things we do with Angular, so at work we built a custom directive which will work across all browsers.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;angular.module('ar.directives', [])
-.directive('arHide', function () {
-    return {
-        scope: {
-            arHide: &quot;=&quot;
-        },
-        link: function (scope, element) {
-            scope.$watch(&quot;arHide&quot;, function () {
-                if (scope.arHide) {
-                    element.addClass(&quot;ng-hide&quot;);
-                } else {
-                    element.removeClass(&quot;ng-hide&quot;);
-                }
-            });
-        }
-    };
-});
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nx&quot;&gt;angular&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'ar.directives'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[])&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;directive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'arHide'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;scope&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;na&quot;&gt;arHide&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;=&quot;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scope&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;scope&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$watch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;arHide&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scope&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;arHide&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+                    &lt;span class=&quot;nx&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ng-hide&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+                &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+                    &lt;span class=&quot;nx&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;removeClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ng-hide&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+                &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;I’ve created a new module called &lt;code class=&quot;highlighter-rouge&quot;&gt;ar.directives&lt;/code&gt;, and a new directive called &lt;code class=&quot;highlighter-rouge&quot;&gt;arHide&lt;/code&gt;. You can call these what you want, &lt;em&gt;ar&lt;/em&gt; is just my initials.&lt;/p&gt;
+&lt;p&gt;I’ve created a new module called &lt;code class=&quot;highlighter-rouge&quot;&gt;ar.directives&lt;/code&gt;, and a new directive called &lt;code class=&quot;highlighter-rouge&quot;&gt;arHide&lt;/code&gt;. You can call these what you want, &lt;strong&gt;ar&lt;/strong&gt; is just my initials.&lt;/p&gt;
 
 &lt;h3 id=&quot;isolated-scope&quot;&gt;Isolated scope&lt;/h3&gt;
 
-&lt;p&gt;I’ve then got an &lt;em&gt;isolated scope&lt;/em&gt; on the directive, and I’ve created a property within it called &lt;em&gt;arHide&lt;/em&gt;. The name of this property will correspond to the way I use the directive in my markup (&lt;code class=&quot;highlighter-rouge&quot;&gt;ar-hide&lt;/code&gt;), therefore I can use the shorthand &lt;code class=&quot;highlighter-rouge&quot;&gt;arHide: &quot;=&quot;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;I’ve then got an &lt;strong&gt;isolated scope&lt;/strong&gt; on the directive, and I’ve created a property within it called &lt;strong&gt;arHide&lt;/strong&gt;. The name of this property will correspond to the way I use the directive in my markup (&lt;code class=&quot;highlighter-rouge&quot;&gt;ar-hide&lt;/code&gt;), therefore I can use the shorthand &lt;code class=&quot;highlighter-rouge&quot;&gt;arHide: &quot;=&quot;&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Our isolated scope property will always take the value of the &lt;code class=&quot;highlighter-rouge&quot;&gt;ar-hide&lt;/code&gt; attribute whenever we use it in our app, and it’s clever enough to recognise the camel-case and look for its equivalent hyphenated attribute.&lt;/p&gt;
 
@@ -83,16 +81,14 @@ As soon as someone decides to embark on a career in the web industry, they also 
 
 &lt;p&gt;Using the new directive is really simple.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//The element will be hidden if 'valueToTest' is true
-&amp;lt;p ar-hide=&quot;valueToTest&quot;&amp;gt;Hide me if true&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Yeah I know I know, old IEs are dumb and should be run over by a bus or thrown off a bridge and blah blah blah. But sometimes 20% of your client’s users are using IE7, and another 20% on top of that use IE8, so you’ve got to deal with it.</summary></entry><entry><title type="html">Simple check for old IE</title><link href="http://localhost:4000/js/browsers/2014/08/22/simple-check-for-old-ie.html" rel="alternate" type="text/html" title="Simple check for old IE" /><published>2014-08-22T16:35:36+01:00</published><updated>2014-08-22T16:35:36+01:00</updated><id>http://localhost:4000/js/browsers/2014/08/22/simple-check-for-old-ie</id><content type="html" xml:base="http://localhost:4000/js/browsers/2014/08/22/simple-check-for-old-ie.html">&lt;p&gt;On a recent project I needed to be able to detect if a user was browsing using IE8 or 7, and serve different functionality to them if that was true.&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;//The element will be hidden if 'valueToTest' is true
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ar-hide=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;valueToTest&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Hide me if true&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">Yeah I know I know, old IEs are dumb and should be run over by a bus or thrown off a bridge and blah blah blah. But sometimes 20% of your client’s users are using IE7, and another 20% on top of that use IE8, so you’ve got to deal with it.</summary></entry><entry><title type="html">Simple check for old IE</title><link href="http://localhost:4000/js/browsers/2014/08/22/simple-check-for-old-ie.html" rel="alternate" type="text/html" title="Simple check for old IE" /><published>2014-08-22T16:35:36+01:00</published><updated>2014-08-22T16:35:36+01:00</updated><id>http://localhost:4000/js/browsers/2014/08/22/simple-check-for-old-ie</id><content type="html" xml:base="http://localhost:4000/js/browsers/2014/08/22/simple-check-for-old-ie.html">&lt;p&gt;On a recent project I needed to be able to detect if a user was browsing using IE8 or 7, and serve different functionality to them if that was true.&lt;/p&gt;
 
 &lt;p&gt;After looking around a really easy way to do this is to simply check whether the browsers supports the &lt;code class=&quot;highlighter-rouge&quot;&gt;leadingWhiteSpace&lt;/code&gt; feature, using jQuery’s &lt;code class=&quot;highlighter-rouge&quot;&gt;$.supports&lt;/code&gt; method.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;if ($.support.leadingWhitespace == false) {
-    var oldIE = true;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;support&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;leadingWhitespace&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;oldIE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Old versions of Internet Explorer don’t support this feature, and therefore &lt;code class=&quot;highlighter-rouge&quot;&gt;oldIE&lt;/code&gt; will be false on these browsers. You could then apply a conditional class to your &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; tag to style something differently, or write a quick &lt;code class=&quot;highlighter-rouge&quot;&gt;if&lt;/code&gt; statement to check the value of &lt;code class=&quot;highlighter-rouge&quot;&gt;oldIE&lt;/code&gt; before executing some script for example.&lt;/p&gt;</content><author><name></name></author><summary type="html">On a recent project I needed to be able to detect if a user was browsing using IE8 or 7, and serve different functionality to them if that was true.</summary></entry><entry><title type="html">A couple of problems I’ve found using Flexbox</title><link href="http://localhost:4000/css/flexbox/2013/08/02/a-couple-of-flexbox-problems.html" rel="alternate" type="text/html" title="A couple of problems I've found using Flexbox" /><published>2013-08-02T16:35:36+01:00</published><updated>2013-08-02T16:35:36+01:00</updated><id>http://localhost:4000/css/flexbox/2013/08/02/a-couple-of-flexbox-problems</id><content type="html" xml:base="http://localhost:4000/css/flexbox/2013/08/02/a-couple-of-flexbox-problems.html">&lt;p&gt;Let me preface this post by saying that Flexbox is completely ace, and there are so many awesome use-cases for it. The particular one I’m going to talk about here is a grid layout for a product listing. Four columns, two rows, and just a simple image and price for each item. The site I’m working on is WIP but as an example let’s say it could be the grid of products in the pen below. (Will only work in Chrome and latest Opera).&lt;/p&gt;
 
@@ -138,25 +134,23 @@ As soon as someone decides to embark on a career in the web industry, they also 
 
 &lt;p&gt;At the end of the day it’s in the name: breakpoint. Find out where your design breaks, then fix it.&lt;/p&gt;</content><author><name></name></author><summary type="html">I just read this quote in .Net magazine:</summary></entry><entry><title type="html">Quickie on CSS weight</title><link href="http://localhost:4000/css/2013/01/11/quickie-on-css-weight.html" rel="alternate" type="text/html" title="Quickie on CSS weight" /><published>2013-01-11T15:35:36+00:00</published><updated>2013-01-11T15:35:36+00:00</updated><id>http://localhost:4000/css/2013/01/11/quickie-on-css-weight</id><content type="html" xml:base="http://localhost:4000/css/2013/01/11/quickie-on-css-weight.html">&lt;p&gt;In this completely made up and unrealistic example, which version is heavier? This…&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.main-nav li,
-.main-nav a {
-    padding: 0.5em 1em;
-}
-.main-nav a {
-    text-align: center;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.main-nav&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;li&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.main-nav&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;.5em&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.main-nav&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;text-align&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;or…&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.main-nav li {
-    padding: 0.5em 1em;
-}
-.main-nav a {
-    padding: 0.5em 1em;
-    text-align: center;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.main-nav&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;li&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;.5em&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.main-nav&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;.5em&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;text-align&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;I’m pretty certain that version one is better because there are only two actual declarations as opposed to three in version two. Just confused me momentarily because they are technically both seven lines of CSS, and only 10 characters different in length.&lt;/p&gt;
 
@@ -201,8 +195,7 @@ As soon as someone decides to embark on a career in the web industry, they also 
 
 &lt;p&gt;All we need to do to hyphenate our paragraphs is add the following properties to our CSS.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;hyphens: auto;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;hyphens: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;A quick word on support…&lt;/p&gt;
 
@@ -218,13 +211,13 @@ As soon as someone decides to embark on a career in the web industry, they also 
 
 &lt;p&gt;We can use &lt;code class=&quot;highlighter-rouge&quot;&gt;::selection&lt;/code&gt; in its simplest form to change the &lt;code class=&quot;highlighter-rouge&quot;&gt;color&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;background&lt;/code&gt; values of highlighted text on a page from the standard white on blue, to any colours you like.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;::selection {                                                 background: #5BC961;
-    color: #ffffff;
-}
-::-moz-selection {
-    background: #5BC961;
-    color: #ffffff;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;nd&quot;&gt;::selection&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;#5BC961&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;#ffffff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;::-moz-selection&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;#5BC961&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;#ffffff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Again, you won’t be able to see this effect unless you’re using a newer browser, but Firefox (4+), Chrome, Safari and even IE9 are all supporting this feature, and again it’s a nice piece of progressive enhancement for those who are able to see it.&lt;/p&gt;</content><author><name></name></author><summary type="html">Just thought I’d share a couple of cool things I’ve been using more and more in projects recently: hyphens and ::selection. Both features are only available in newer versions of browsers, but the key with both of them is that anyone who can’t support them won’t know any different. It’s progressive enhancement in action.</summary></entry></feed>

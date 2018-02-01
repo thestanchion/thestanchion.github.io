@@ -19,9 +19,7 @@ section {
 }
 
 html {
-    font: 62.5%/1.2 $body-font;
-    color: $body-text;
-    word-wrap: break-word;
+    font-size: 62.5%;
     overflow-x: hidden;
 }
 
@@ -31,6 +29,9 @@ body {
 }
 
 body {
+    font: 62.5%/1.2 $body-font;
+    color: $body-text;
+    word-wrap: break-word;
     font-size: rem-calc(18);
     line-height: 1.4;
     background-color: $white;
@@ -41,18 +42,15 @@ body {
         [class^="c-heading--"] {
             color: $white;
         }
-        .c-nav-trigger path {
-            fill: $white;
-        }
     }
 }
 #app {
     margin-bottom: rem-calc(60);
 }
 .c-wrapper {
-    width: 92%;
-    max-width: rem-calc(640);
-    margin: 0 auto;
+    width: 80vw;
+    max-width: rem-calc(760);
+    margin: 10vmin auto;
 }
 .c-wrapper--home,
 .c-nav__wrapper {
@@ -111,7 +109,8 @@ li {
     margin-bottom: rem-calc(8);
 }
 
-a {
+a,
+a:visited {
     color: $primary-colour;
     text-decoration: none;
     transition: color linear .1s;
@@ -170,47 +169,6 @@ button {
     line-height: 1.2;
     background-color: transparent;
     appearance: none;
-}
-
-pre,
-code {
-    margin: rem-calc(0 0 12);
-    padding: rem-calc(2 4);
-    font-size: rem-calc(14);
-    line-height: 1.2;
-    color: #333;
-    word-break: break-all;
-    word-wrap: break-word;
-    white-space: pre-wrap;
-    white-space: -moz-pre-wrap;
-    white-space: -pre-wrap;
-    white-space: -o-pre-wrap;
-    background-color: #f5f5f5;
-    border: 1px solid #ccc;
-    border-radius: $global-radius;
-    background-color: $tertiary-colour;
-    border: 0;
-    color: darken($tertiary-colour, 40%);
-    font-size: rem-calc(16);
-    font-weight: normal;
-}
-pre {
-    margin-bottom: rem-calc(30);
-    padding: rem-calc(30 0 0);
-
-    code {
-        margin-bottom: 0;
-    }
-}
-p code {
-    white-space: nowrap;
-}
-blockquote {
-    margin-bottom: rem-calc(30);
-    padding-top: rem-calc(30);
-    background-color: $primary-colour;
-    font-family: $serif-font;
-    color: $white;
 }
 
 hr {
@@ -330,6 +288,10 @@ blockquote {
     a {
         color: $black;
     }
+}
+em {
+    font-style: italic;
+    font-weight: normal;
 }
 
 // --------------- // Forms  // --------------- //

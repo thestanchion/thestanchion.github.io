@@ -3,13 +3,13 @@
 
     {% include head.html %}
 
-    <body class="home">
+    <body>
         {% include nav.html %}
         {% include nav-trigger.html %}
 
-        <main class="c-wrapper--home" aria-label="Content">
-            <h1 class="c-heading--site">{{ site.title }}</h1>
-            <h2 class="c-heading--tagline">{{ page.tagline }}</h2>
+        <main class="c-wrapper" aria-label="Content">
+            <h1 class="c-heading--page">{{ page.title | escape }}</h1>
+            {{ content }}
         </main>
 
         {% include scripts.html %}

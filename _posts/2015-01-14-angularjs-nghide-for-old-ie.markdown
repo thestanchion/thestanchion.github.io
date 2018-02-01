@@ -10,29 +10,31 @@ The trouble is, to support these browsers you need to include a legacy version o
 
 Hiding and showing elements based on whether a scope object is `true` or `false` is one of the most common things we do with Angular, so at work we built a custom directive which will work across all browsers.
 
-    angular.module('ar.directives', [])
-    .directive('arHide', function () {
-        return {
-            scope: {
-                arHide: "="
-            },
-            link: function (scope, element) {
-                scope.$watch("arHide", function () {
-                    if (scope.arHide) {
-                        element.addClass("ng-hide");
-                    } else {
-                        element.removeClass("ng-hide");
-                    }
-                });
-            }
-        };
-    });
+{% highlight js %}
+angular.module('ar.directives', [])
+.directive('arHide', function () {
+    return {
+        scope: {
+            arHide: "="
+        },
+        link: function (scope, element) {
+            scope.$watch("arHide", function () {
+                if (scope.arHide) {
+                    element.addClass("ng-hide");
+                } else {
+                    element.removeClass("ng-hide");
+                }
+            });
+        }
+    };
+});
+{% endhighlight %}
 
-I've created a new module called `ar.directives`, and a new directive called `arHide`. You can call these what you want, *ar* is just my initials.
+I've created a new module called `ar.directives`, and a new directive called `arHide`. You can call these what you want, __ar__ is just my initials.
 
 ### Isolated scope
 
-I've then got an *isolated scope* on the directive, and I've created a property within it called *arHide*. The name of this property will correspond to the way I use the directive in my markup (`ar-hide`), therefore I can use the shorthand `arHide: "="`.
+I've then got an __isolated scope__ on the directive, and I've created a property within it called __arHide__. The name of this property will correspond to the way I use the directive in my markup (`ar-hide`), therefore I can use the shorthand `arHide: "="`.
 
 Our isolated scope property will always take the value of the `ar-hide` attribute whenever we use it in our app, and it's clever enough to recognise the camel-case and look for its equivalent hyphenated attribute.
 
@@ -54,5 +56,7 @@ I use `$.watch` to keep a constant eye on the argument provided in `arHide`, whi
 
 Using the new directive is really simple.
 
-    //The element will be hidden if 'valueToTest' is true
-    <p ar-hide="valueToTest">Hide me if true</p>
+{% highlight html %}
+//The element will be hidden if 'valueToTest' is true
+<p ar-hide="valueToTest">Hide me if true</p>
+{% endhighlight %}
