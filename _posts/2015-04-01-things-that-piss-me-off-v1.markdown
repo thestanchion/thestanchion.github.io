@@ -18,7 +18,7 @@ Don't get me wrong I think cats are ace, I've got a couple of my own. But who de
 
 Have a bit of imagination, there's bloody cats everywhere!
 
-##Coffee
+## Coffee
 As soon as someone decides to embark on a career in the web industry, they also feel they need to become a bloody coffee connoisseur. Ordering in weird and random kinds of coffee from all over the world. It all stinks as much as each other so it makes no difference.
 
 >"Have you tried these new beans from the arse-end of Ecuador? They are so aromatic and offer a much fuller flavour. I'm off to grind some beans right now actually. Don't be silly, of course I will measure them out first! I could never go back to instant, oh god no."
@@ -27,4 +27,4 @@ As soon as someone decides to embark on a career in the web industry, they also 
 
 Piss off and fetch me a brew. And no I don\'t care what tea bags you use.
 
-##### (I've realised I'm a very easily annoyed person.)
+###### (I've realised I'm a very easily annoyed person.)

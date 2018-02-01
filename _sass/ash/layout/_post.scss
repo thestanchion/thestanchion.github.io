@@ -4,6 +4,12 @@ POST
 .c-post__date {
     display: block;
     font-size: rem-calc(16);
+
+    time {
+        padding: rem-calc(5 0);
+        border-top: 2px solid #4a4a4a;
+        border-bottom: 2px solid #4a4a4a;
+    }
 }
 .c-post__category {
     display: inline-block;
@@ -37,6 +43,28 @@ POST
     h6 {
         font-size: rem-calc(18);
     }
+    a {
+        position: relative;
+
+        &:before {
+            content: "";
+            display: block;
+            position: absolute;
+            right: rem-calc(1);
+            bottom: rem-calc(-3);
+            left: rem-calc(1);
+            height: rem-calc(2);
+            background-color: $black;
+            transform: scaleX(0);
+            transform-origin: 100% 50%;
+            transition: transform .4s cubic-bezier(.23,1,.32,1);
+        }
+        &:hover:before {
+            transform: scaleX(1);
+            transform-origin: 0 50%;
+            transition: transform 0 .4s cubic-bezier(.23,1,.32,1);
+        }
+    }
     pre,
     code {
         background-color: $light-grey;
@@ -64,6 +92,33 @@ POST
 
         p {
             font-size: rem-calc(18);
+        }
+    }
+}
+
+@include bp_max(500) {
+    .c-post {
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin-top: rem-calc(20);
+        }
+        h2 {
+            font-size: rem-calc(22);
+        }
+        h3 {
+            font-size: rem-calc(20);
+        }
+        h4 {
+            font-size: rem-calc(18);
+        }
+        h5 {
+            font-size: rem-calc(16);
+        }
+        h6 {
+            font-size: rem-calc(14);
         }
     }
 }

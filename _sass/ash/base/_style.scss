@@ -33,7 +33,7 @@ body {
     color: $body-text;
     word-wrap: break-word;
     font-size: rem-calc(18);
-    line-height: 1.4;
+    line-height: 1.8;
     background-color: $white;
 
     &.home {
@@ -55,6 +55,12 @@ body {
 .c-wrapper--home,
 .c-nav__wrapper {
     margin: 30vmin 0 0 10vmin;
+}
+
+@include bp_max(600) {
+    .c-wrapper--home {
+        margin-top: 50vmin;
+    }
 }
 
 h1,
