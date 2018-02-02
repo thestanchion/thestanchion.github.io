@@ -1324,13 +1324,15 @@ NAV
     width: 4rem;
     height: 4rem;
     padding: 0 0.5rem; }
-  .c-nav-trigger:hover {
-    width: 20rem;
-    height: 20rem; }
   .c-nav-trigger path {
     opacity: 1;
     transition: all linear .2s;
     fill: #fefefe; }
+  .c-nav-trigger:hover {
+    width: 20rem;
+    height: 20rem; }
+    .c-nav-trigger:hover path {
+      fill: #2a2a2a; }
   .c-nav-trigger.active path:nth-child(1) {
     transform: rotate(45deg);
     transform-origin: 0 0; }

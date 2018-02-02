@@ -22,14 +22,18 @@ NAV
         height: rem-calc(40);
         padding: rem-calc(0 5);
     }
-    &:hover {
-        width: rem-calc(200);
-        height: rem-calc(200);
-    }
     path {
         opacity: 1;
         transition: all linear .2s;
         fill: $white;
+    }
+    &:hover {
+        width: rem-calc(200);
+        height: rem-calc(200);
+
+        path {
+            fill: $black;
+        }
     }
     &.active {
         path:nth-child(1) {
