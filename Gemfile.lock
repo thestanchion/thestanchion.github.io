@@ -44,7 +44,7 @@ GEM
     mercenary (0.3.6)
     minima (2.2.1)
       jekyll (~> 3.5)
-      jekyll-seo-tag (~> 2.1)
+      jekyll-seo-tag (~> 2.4.0)
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.1)
