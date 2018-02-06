@@ -128,8 +128,15 @@ NAV
         height: rem-calc(120);
 
         &:hover {
-            width: rem-calc(130);
-            height: rem-calc(130);
+            width: rem-calc(120);
+            height: rem-calc(120);
+        }
+        &:hover path {
+            fill: $white;
+        }
+        &.open:hover {
+            width: 200%;
+            height: 200%;
         }
     }
     .c-nav-trigger svg {

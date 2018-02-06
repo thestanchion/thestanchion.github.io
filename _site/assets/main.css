@@ -1410,8 +1410,15 @@ NAV
     height: 12rem; }
     .c-nav:hover,
     .c-nav-trigger:hover {
-      width: 13rem;
-      height: 13rem; }
+      width: 12rem;
+      height: 12rem; }
+    .c-nav:hover path,
+    .c-nav-trigger:hover path {
+      fill: #fefefe; }
+    .c-nav.open:hover,
+    .c-nav-trigger.open:hover {
+      width: 200%;
+      height: 200%; }
 
   .c-nav-trigger svg {
     top: 1.6vh;
