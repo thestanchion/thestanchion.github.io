@@ -995,13 +995,21 @@ body {
 .c-single-post .c-post__content blockquote > * {
   width: 80vw;
   max-width: 76rem;
-  margin: 5vh auto 30vh; }
+  margin: 5vh auto 10vh; }
 
 .c-wrapper--home,
 .c-nav__wrapper {
   margin: 30vmin 0 0 10vmin; }
 
 @media all and (max-width: 37.5em) {
+  body {
+    font-size: 1.3rem; }
+
+  .c-wrapper, .c-single-post .c-post__content pre code,
+  .c-single-post .c-post__content blockquote > * {
+    width: 86vw;
+    margin-top: 4vh; }
+
   .c-wrapper--home {
     margin-top: 50vmin; } }
 h1,
@@ -1221,9 +1229,6 @@ select {
     border: 8px solid transparent;
     border-top-color: #4a4a4a; }
 
-@media only screen and (max-width: 500px) {
-  body {
-    font-size: 1.6rem; } }
 /******************************************
 STYLE OVERRIDES
 ******************************************/
@@ -1269,12 +1274,13 @@ h1, h2, h3, h4, h5, h6,
   color: #2a2a2a;
   margin-bottom: 3rem; }
 
-@media all and (max-width: 40.625em) {
+@media all and (max-width: 37.5em) {
   .c-heading--page {
-    margin-right: 7rem; } }
+    margin-right: 7rem;
+    margin-bottom: 3rem; } }
 @media only screen and (max-width: 500px) {
   .c-heading--page {
-    font-size: 2.4rem; }
+    font-size: 2.6rem; }
 
   .c-heading--post {
     font-size: 1.8rem; } }
@@ -1316,6 +1322,11 @@ LOGO
   color: #2a2a2a;
   border-bottom: 5px solid #2a2a2a; }
 
+@media all and (max-width: 37.5em) {
+  .c-logo {
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    border-bottom-width: 0.3rem; } }
 /******************************************
 NAV
 ******************************************/
@@ -1518,6 +1529,11 @@ POST
   .c-post blockquote p {
     font-size: 1.8rem; }
 
+@media all and (max-width: 37.5em) {
+  .c-post__date {
+    font-size: 1.3rem; }
+    .c-post__date time {
+      padding: 0.3rem 0; } }
 @media all and (max-width: 31.25em) {
   .c-post h2,
   .c-post h3,

@@ -12,3 +12,11 @@ LOGO
     color: $black;
     border-bottom: 5px solid $black;
 }
+
+@include bp_max(600) {
+    .c-logo {
+        margin-bottom: rem-calc(30);
+        font-size: rem-calc(30);
+        border-bottom-width: rem-calc(3);
+    }
+}

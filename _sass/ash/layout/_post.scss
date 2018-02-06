@@ -96,6 +96,16 @@ POST
     }
 }
 
+@include bp_max(600) {
+    .c-post__date {
+        font-size: rem-calc(13);
+
+        time {
+            padding: rem-calc(3 0);
+        }
+    }
+}
+
 @include bp_max(500) {
     .c-post {
         h2,
