@@ -1,0 +1,14 @@
+/******************************************
+LOGO
+******************************************/
+.c-logo,
+.c-logo:visited {
+    display: inline-block;
+    margin-bottom: rem-calc(50);
+    padding-bottom: rem-calc(5);
+    font-family: $title-font;
+    font-size: rem-calc(40);
+    line-height: 1;
+    color: $black;
+    border-bottom: 5px solid $black;
+}

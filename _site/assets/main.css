@@ -995,7 +995,7 @@ body {
 .c-single-post .c-post__content blockquote > * {
   width: 80vw;
   max-width: 76rem;
-  margin: 10vmin auto; }
+  margin: 5vh auto 30vh; }
 
 .c-wrapper--home,
 .c-nav__wrapper {
@@ -1301,6 +1301,20 @@ HEADER
 
 .c-header__tagline {
   color: #888; }
+
+/******************************************
+LOGO
+******************************************/
+.c-logo,
+.c-logo:visited {
+  display: inline-block;
+  margin-bottom: 5rem;
+  padding-bottom: 0.5rem;
+  font-family: "Oswald", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 4rem;
+  line-height: 1;
+  color: #2a2a2a;
+  border-bottom: 5px solid #2a2a2a; }
 
 /******************************************
 NAV
