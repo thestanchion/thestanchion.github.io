@@ -1515,6 +1515,7 @@ POST
 .c-post pre {
   padding: 1.6rem 2rem; }
   .c-post pre code {
+    padding: 0;
     color: #4a4a4a; }
 .c-post code {
   padding: 0.3rem 0.6rem;

@@ -75,6 +75,7 @@ POST
         padding: rem-calc(16 20);
 
         code {
+            padding: 0;
             color: $body-text;
         }
     }

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>String interpolation with template literals | Ash Robbins</title>
+<meta name="generator" content="Jekyll v3.7.2" />
+<meta property="og:title" content="String interpolation with template literals" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="One useful feature in ES6 that I came across recently is template literals. Template literals can be used to store a sequence of characters in much the same way as string literals, but they come with some added bonuses." />
+<meta property="og:description" content="One useful feature in ES6 that I came across recently is template literals. Template literals can be used to store a sequence of characters in much the same way as string literals, but they come with some added bonuses." />
+<link rel="canonical" href="http://localhost:4000/js/2018/02/09/string-interpolation-with-template-literals.html" />
+<meta property="og:url" content="http://localhost:4000/js/2018/02/09/string-interpolation-with-template-literals.html" />
+<meta property="og:site_name" content="Ash Robbins" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-02-09T10:00:36+00:00" />
+<script type="application/ld+json">
+{"description":"One useful feature in ES6 that I came across recently is template literals. Template literals can be used to store a sequence of characters in much the same way as string literals, but they come with some added bonuses.","@type":"BlogPosting","url":"http://localhost:4000/js/2018/02/09/string-interpolation-with-template-literals.html","headline":"String interpolation with template literals","dateModified":"2018-02-09T10:00:36+00:00","datePublished":"2018-02-09T10:00:36+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/js/2018/02/09/string-interpolation-with-template-literals.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Ash Robbins" />
+  
+
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700|Open+Sans:400,400i,700,700i" rel="stylesheet">
+</head>
+
+
+    <body>
+        <nav class="c-nav" role="navigation">
+    <div class="c-nav__wrapper">
+        
+        
+        
+            <ol class="c-nav__list u-no-list">
+                <li class="c-nav__item">
+                    <a class="c-nav__link" href="/">Home</a>
+                </li>
+
+                
+
+                    
+                    
+
+                
+
+                    
+                    
+                        
+                            <li class="c-nav__item">
+                                <a class="c-nav__link" href="/blog/">Blog</a>
+                            </li>
+                        
+                    
+
+                
+
+                    
+                    
+                        
+                    
+
+                
+
+                    
+                    
+
+                
+
+                    
+                    
+
+                
+            </ol>
+          
+          <ol class="c-nav__social u-no-list">
+              <li class="c-nav__item">
+                  <a href="mailto:ashleyrobbins3@gmail.com" target="_blank" class="c-nav__link">
+                      <i class="fas fa-at"></i>
+                  </a>
+              </li>
+              <li class="c-nav__item">
+                  <a href="http://www.twitter.com/ash_robbins" target="_blank" class="c-nav__link">
+                      <i class="fab fa-twitter"></i>
+                  </a>
+              </li>
+              <li class="c-nav__item">
+                  <a href="http://www.github.com/ashrobbins" target="_blank" class="c-nav__link">
+                      <i class="fab fa-github"></i>
+                  </a>
+              </li>
+              <li class="c-nav__item">
+                  <a href="http://www.codepen.com/ashrobbins" target="_blank" class="c-nav__link">
+                      <i class="fab fa-codepen"></i>
+                  </a>
+              </li>
+          </ol>
+      </div>
+</nav>
+
+        <button class="c-nav-trigger">
+    <svg viewBox="0 0 18 15" width="18px" height="15px">
+        <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+        <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+        <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+    </svg>
+</button>
+
+
+        <main class="c-wrapper" aria-label="Content">
+            <a href="/" title="" class="c-logo">A</a>
+
+            
+            <h1 class="c-heading--page">String interpolation with template literals</h1>
+            <article class="c-post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="c-post__header">
+    <p class="c-post__date">
+      <time class="dt-published" datetime="2018-02-09T10:00:36+00:00" itemprop="datePublished">
+        
+        Feb 9, 2018
+      </time>
+      
+    </p>
+  </header>
+
+  <div class="c-post__content" itemprop="articleBody">
+    <p>One useful feature in ES6 that I came across recently is template literals. Template literals can be used to store a sequence of characters in much the same way as string literals, but they come with some added bonuses.</p>
+
+<h2 id="expression-interpolation">Expression interpolation</h2>
+
+<p>To create a template literal we use back-ticks (` `) as opposed to double or single quotes used for string literals. A basic example would be:</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="kd">const</span> <span class="nx">first_name</span> <span class="o">=</span>  <span class="s2">"Ash"</span><span class="p">;</span>
+<span class="kd">const</span> <span class="nx">last_name</span> <span class="o">=</span> <span class="s2">`Robbins`</span><span class="p">;</span></code></pre></figure>
+
+<p>Both of these variables would evaluate to a string if they were logged out in console. The benefits of template literals become apparent when we take things to the next level and try to include variables within a string. Traditionally if we had a variable we could insert it into a string like this:</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="s2">"Hi, "</span> <span class="o">+</span> <span class="nx">first_name</span> <span class="o">+</span> <span class="s2">", how's it hanging?"</span></code></pre></figure>
+
+<p>That is a very basic example but the closing of quotes and the inclusion of <code class="highlighter-rouge">+</code> can become clumsy and unreadable when you’re dealing with large templates and multiple variables.</p>
+
+<p>Template literals allow us to simply type the name of the variable into the middle of the string using the <code class="highlighter-rouge">${NAME}</code> syntax.</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="s2">"Hi, ${first_name}, how's it hanging?"</span></code></pre></figure>
+
+<p>We don’t need to worry about closing and re-opening quotes and there are no concatenation operators to worry about. Template literals give us a much cleaner method of interpolating variables into a string.</p>
+
+<h2 id="multi-line-strings">Multi-line strings</h2>
+
+<p>Another nice way we can make use of template literals is when we need to build multi-line strings in our JavaScript. For example if we need to output a block of HTML for a card template, we might normally write something like:</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="kd">const</span> <span class="nx">card</span> <span class="o">=</span> <span class="s2">"&lt;div class='c-card'&gt;"</span> <span class="o">+</span>
+                <span class="s2">"&lt;h3 class='c-card__name'&gt;"</span> <span class="o">+</span> <span class="nx">first_name</span> <span class="o">+</span> <span class="s2">" "</span> <span class="o">+</span> <span class="nx">last_name</span> <span class="o">+</span> <span class="s2">"&lt;/h3&gt;"</span> <span class="o">+</span>
+                <span class="s2">"&lt;span&gt;"</span> <span class="o">+</span> <span class="nx">jobTitle</span> <span class="o">+</span> <span class="s2">"&lt;/span&gt;"</span> <span class="o">+</span>
+            <span class="s2">"&lt;/div&gt;"</span><span class="p">;</span></code></pre></figure>
+
+<p>It’s easy to see how this could quickly get quite messy and it isn’t the nicest thing in the world to read. Template literals would let us write that code like this:</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="kd">const</span> <span class="nx">card</span> <span class="o">=</span> <span class="s2">`&lt;div class="c-card"&gt;
+                &lt;h3 class="c-card__name"&gt;</span><span class="p">${</span><span class="nx">first_name</span><span class="p">}</span><span class="s2"> </span><span class="p">${</span><span class="nx">last_name</span><span class="p">}</span><span class="s2">&lt;/h3&gt;
+                &lt;span&gt;</span><span class="p">${</span><span class="nx">jobTitle</span><span class="p">}</span><span class="s2">&lt;/span&gt;
+            &lt;/div&gt;`</span><span class="p">;</span></code></pre></figure>
+
+<p>Much neater and much closer to natural HTML. We can get rid of the need to close and re-open quotes, we don’t need a <code class="highlighter-rouge">+</code> at the end of each line and we have even used the expression interpolation syntax from before to include our variables.</p>
+
+<p>Template literals give us a much cleaner method of interpolating variables into a string and make handling multi-line strings so much simpler.</p>
+
+  </div>
+
+  
+
+  <a class="u-url" href="/js/2018/02/09/string-interpolation-with-template-literals.html" hidden></a>
+</article>
+
+        </main>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="/assets/js/nav.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+    </body>
+
+</html>
