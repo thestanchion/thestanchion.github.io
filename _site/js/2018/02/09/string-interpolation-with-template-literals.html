@@ -141,11 +141,11 @@
 
 <figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="s2">"Hi, "</span> <span class="o">+</span> <span class="nx">first_name</span> <span class="o">+</span> <span class="s2">", how's it hanging?"</span></code></pre></figure>
 
-<p>That is a very basic example but the closing of quotes and the inclusion of <code class="highlighter-rouge">+</code> can become clumsy and unreadable when you’re dealing with large templates and multiple variables.</p>
+<p>That is a very basic example but the closing of quotes and the inclusion of multiple <code class="highlighter-rouge">+</code> operators can become clumsy and unreadable when you’re dealing with large templates and multiple variables.</p>
 
 <p>Template literals allow us to simply type the name of the variable into the middle of the string using the <code class="highlighter-rouge">${NAME}</code> syntax.</p>
 
-<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="s2">"Hi, ${first_name}, how's it hanging?"</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="s2">`Hi, </span><span class="p">${</span><span class="nx">first_name</span><span class="p">}</span><span class="s2">, how's it hanging?`</span></code></pre></figure>
 
 <p>We don’t need to worry about closing and re-opening quotes and there are no concatenation operators to worry about. Template literals give us a much cleaner method of interpolating variables into a string.</p>
 
@@ -155,19 +155,19 @@
 
 <figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="kd">const</span> <span class="nx">card</span> <span class="o">=</span> <span class="s2">"&lt;div class='c-card'&gt;"</span> <span class="o">+</span>
                 <span class="s2">"&lt;h3 class='c-card__name'&gt;"</span> <span class="o">+</span> <span class="nx">first_name</span> <span class="o">+</span> <span class="s2">" "</span> <span class="o">+</span> <span class="nx">last_name</span> <span class="o">+</span> <span class="s2">"&lt;/h3&gt;"</span> <span class="o">+</span>
-                <span class="s2">"&lt;span&gt;"</span> <span class="o">+</span> <span class="nx">jobTitle</span> <span class="o">+</span> <span class="s2">"&lt;/span&gt;"</span> <span class="o">+</span>
+                <span class="s2">"&lt;span&gt;"</span> <span class="o">+</span> <span class="nx">job_title</span> <span class="o">+</span> <span class="s2">"&lt;/span&gt;"</span> <span class="o">+</span>
             <span class="s2">"&lt;/div&gt;"</span><span class="p">;</span></code></pre></figure>
 
 <p>It’s easy to see how this could quickly get quite messy and it isn’t the nicest thing in the world to read. Template literals would let us write that code like this:</p>
 
 <figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="kd">const</span> <span class="nx">card</span> <span class="o">=</span> <span class="s2">`&lt;div class="c-card"&gt;
                 &lt;h3 class="c-card__name"&gt;</span><span class="p">${</span><span class="nx">first_name</span><span class="p">}</span><span class="s2"> </span><span class="p">${</span><span class="nx">last_name</span><span class="p">}</span><span class="s2">&lt;/h3&gt;
-                &lt;span&gt;</span><span class="p">${</span><span class="nx">jobTitle</span><span class="p">}</span><span class="s2">&lt;/span&gt;
+                &lt;span&gt;</span><span class="p">${</span><span class="nx">job_title</span><span class="p">}</span><span class="s2">&lt;/span&gt;
             &lt;/div&gt;`</span><span class="p">;</span></code></pre></figure>
 
-<p>Much neater and much closer to natural HTML. We can get rid of the need to close and re-open quotes, we don’t need a <code class="highlighter-rouge">+</code> at the end of each line and we have even used the expression interpolation syntax from before to include our variables.</p>
+<p>Much neater and much closer to natural HTML. We can get rid of the need to close and re-open quotes, we don’t need the <code class="highlighter-rouge">+</code> at the end of each line and we have even used the expression interpolation syntax from before to include our variables.</p>
 
-<p>Template literals give us a much cleaner method of interpolating variables into a string and make handling multi-line strings so much simpler.</p>
+<p>Template literals give us a much cleaner method of interpolating variables into a string and make handling multi-line strings much simpler.</p>
 
   </div>
 

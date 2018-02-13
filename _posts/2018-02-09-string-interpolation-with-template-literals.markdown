@@ -21,12 +21,12 @@ Both of these variables would evaluate to a string if they were logged out in co
 "Hi, " + first_name + ", how's it hanging?"
 {% endhighlight %}
 
-That is a very basic example but the closing of quotes and the inclusion of `+` can become clumsy and unreadable when you're dealing with large templates and multiple variables.
+That is a very basic example but the closing of quotes and the inclusion of multiple `+` operators can become clumsy and unreadable when you're dealing with large templates and multiple variables.
 
 Template literals allow us to simply type the name of the variable into the middle of the string using the `${NAME}` syntax.
 
 {% highlight js %}
-"Hi, ${first_name}, how's it hanging?"
+`Hi, ${first_name}, how's it hanging?`
 {% endhighlight %}
 
 We don't need to worry about closing and re-opening quotes and there are no concatenation operators to worry about. Template literals give us a much cleaner method of interpolating variables into a string.
@@ -38,7 +38,7 @@ Another nice way we can make use of template literals is when we need to build m
 {% highlight js %}
 const card = "<div class='c-card'>" +
                 "<h3 class='c-card__name'>" + first_name + " " + last_name + "</h3>" +
-                "<span>" + jobTitle + "</span>" +
+                "<span>" + job_title + "</span>" +
             "</div>";
 {% endhighlight %}
 
@@ -47,10 +47,10 @@ It's easy to see how this could quickly get quite messy and it isn't the nicest 
 {% highlight js %}
 const card = `<div class="c-card">
                 <h3 class="c-card__name">${first_name} ${last_name}</h3>
-                <span>${jobTitle}</span>
+                <span>${job_title}</span>
             </div>`;
 {% endhighlight %}
 
-Much neater and much closer to natural HTML. We can get rid of the need to close and re-open quotes, we don't need a `+` at the end of each line and we have even used the expression interpolation syntax from before to include our variables.
+Much neater and much closer to natural HTML. We can get rid of the need to close and re-open quotes, we don't need the `+` at the end of each line and we have even used the expression interpolation syntax from before to include our variables.
 
-Template literals give us a much cleaner method of interpolating variables into a string and make handling multi-line strings so much simpler.
+Template literals give us a much cleaner method of interpolating variables into a string and make handling multi-line strings much simpler.
