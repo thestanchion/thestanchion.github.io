@@ -8,10 +8,10 @@ One useful feature in ES6 that I came across recently is template literals. Temp
 
 ## Expression interpolation
 
-To create a template literal we use back-ticks (\` \`) as opposed to double or single quotes used for string literals. A basic example would be:
+To create a template literal we use back-ticks (\` \`) as opposed to the double or single quotes used for string literals. A basic example would be:
 
 {% highlight js %}
-const first_name =  "Ash";
+const first_name = "Ash";
 const last_name = `Robbins`;
 {% endhighlight %}
 
