@@ -8,7 +8,7 @@ HEADINGS
  */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: $title-font;
+    @include Antonio;
     font-size: 1.25rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6,
     font-size: rem-calc(50);
     font-size: 6vmin;
     margin-bottom: rem-calc(50);
+    color: #fff;
 }
 .c-heading--section {
     font-size: rem-calc(24);

@@ -962,6 +962,15 @@ HELPER CLASSES
 /******************************************
 FONTS
 ******************************************/
+@font-face {
+  font-family: "Antonio";
+  src: url("/assets/fonts/antonio-bold-webfont.woff2") format("woff2"), url("/assets/fonts/antonio-bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Antonio";
+    src: url("/assets/fonts/antonio-bold-webfont.svg#Antonio") format("svg"); } }
 *,
 *:after,
 *:before {
@@ -1256,7 +1265,9 @@ HEADINGS
  */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Oswald", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Antonio', arial, serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 1.25rem;
   font-weight: 700;
   text-transform: uppercase; }
@@ -1273,7 +1284,8 @@ h1, h2, h3, h4, h5, h6,
 .c-heading--page {
   font-size: 5rem;
   font-size: 6vmin;
-  margin-bottom: 5rem; }
+  margin-bottom: 5rem;
+  color: #fff; }
 
 .c-heading--section {
   font-size: 2.4rem;
@@ -1467,6 +1479,14 @@ NAV
 /******************************************
 POST
 ******************************************/
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-color: #df2f66;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover; }
+
 .c-post__date {
   display: block;
   font-size: 1.6rem; }

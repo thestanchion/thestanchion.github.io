@@ -7,12 +7,7 @@
         {% include nav.html %}
         {% include nav-trigger.html %}
 
-        <main class="c-wrapper" aria-label="Content">
-            {% include logo.html %}
-            
-            <h1 class="c-heading--page">{{ page.title | escape }}</h1>
-            {{ content }}
-        </main>
+        {{ content }}
 
         {% include scripts.html %}
     </body>
