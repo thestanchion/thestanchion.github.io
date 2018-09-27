@@ -3,7 +3,7 @@ layout: post
 title:  "We need second yellow appeals"
 date:   2011-01-20 10:00:36 +0000
 categories: discipline
-hero: eng-2010.jpg
+hero: rafa-red.jpg
 ---
 
 That's what I reckon anyway. Clearly it would be foolish to allow the appeal of each and every yellow card that anybody ever gets, but in cases like Rafael's, where one of the yellow cards is so obviously given wrongly, you should be able to appeal either the first or second yellow card.
