@@ -5,8 +5,6 @@ date:   2014-10-14 10:00:36 +0000
 categories: premier-league
 hero: plough-lane.jpg
 ---
-![Plough Lans](/assets/img/plough-lane.jpg)
-
 Let’s get this straight right from the start: The idea of playing a Premier League game in a foreign country is stupid, unrealistic, probably unfair and just unnecessary. It’s just the latest idea that the money hungry suits who run the league have cooked up in order to further line their already bulging pockets.
 
 At the risk of sounding like a little Englander, this is our league. It is the English Premier League. It should remain in England. If this is allowed to happen, how long will it be before we have 2, 3 or 4 games per season played abroad?

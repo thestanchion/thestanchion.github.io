@@ -3,8 +3,8 @@ layout: post
 title:  "Wazza's got a point"
 date:   2010-10-21 10:00:36 +0000
 categories: man-utd
+hero: rooney.jpg
 ---
-![Wayne Rooney](/assets/img/rooney.jpg)
  
 As a Man United fan the events of the past week have been a bit worrying to say the least. The knowledge that your best player, and the finest English player of his generation, wants to leave the club is massive news. It’s gutting, and at first I couldn’t understand it, but the more you think about it the more you realise he does have a point.
 

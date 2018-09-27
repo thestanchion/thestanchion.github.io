@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: "Ash Robbins"
-tagline: "Front End Developer at Redweb"
+title: "The Stanchion"
+tagline: ""
 exclude: true
 ---

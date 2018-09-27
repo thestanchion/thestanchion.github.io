@@ -3,8 +3,8 @@ layout: post
 title:  "Massey error by Keys and Gray"
 date:   2011-01-24 10:00:36 +0000
 categories: officials
+hero: massey.jpg
 ---
-![Sian Massey](/assets/img/massey.jpg)
 
 Richard Keys and Andy Gray have found themselves in hot water over what they thought were off air comments about a female lino’s ability to officiate.
 

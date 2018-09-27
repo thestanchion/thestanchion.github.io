@@ -3,8 +3,8 @@ layout: post
 title:  "New year's reservations"
 date:   2014-01-23 10:00:36 +0000
 categories: man-united
+hero: pat.jpg
 ---
-![Patrice Evra](/assets/img/pat.jpg)
 
 This post is a bit ranty, so apologies in advance. I’ve had a lot of these thoughts brewing for a while and thought I may as well vent it all in an attempt to come to terms with our current troubling form.
 

@@ -3,8 +3,8 @@ layout: post
 title:  "Popping their cherries"
 date:   2012-04-18 10:00:36 +0000
 categories: premier-league
+hero: bmouth.jpg
 ---
-![Bournemouth](/assets/img/bmouth.jpg)
 
 On the last day of the 2008-09 season, having been handed a 17 point deduction for going into administration, Steve Fletcher’s late goal against Grimsby kept AFC Bournemouth in League 2, and put in motion an incredible rise through the English football league that has now seen the club arrive at the top table after just 6 years. A year earlier they almost went extinct. Had it not been for a late financial intervention from Chariman Jeff Mostyn, another team would be celebrating promotion to the Premier League right now.
 

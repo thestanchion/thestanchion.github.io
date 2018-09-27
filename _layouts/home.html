@@ -7,10 +7,30 @@
         {% include nav.html %}
         {% include nav-trigger.html %}
 
-        <main class="c-wrapper--home" aria-label="Content">
-            <h1 class="c-heading--site">{{ site.title }}</h1>
-            <h2 class="c-heading--tagline">{{ page.tagline }}</h2>
-        </main>
+        <div class="hero hero--home" style="background-image: url(/assets/img/plough-lane.jpg);">
+            <h1 class="c-heading--page">{{ site.title }}</h1>
+        </div>
+
+        {% if site.posts.size > 0 %}
+            <div class="c-post-list">
+                <ul class="u-no-list">
+                    {% for post in site.posts %}
+                        <li class="c-post" style="background-image: url(/assets/img/{{ post.hero }});">
+                            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                            <h3 class="c-heading--post">
+                                <a class="c-post-list__link" href="{{ post.url | relative_url }}">
+                                    {{ post.title | escape }}
+                                </a>
+                            </h3>
+                            <span class="c-post__date">{{ post.date | date: date_format }}</span>
+                            {% if site.show_excerpts %}
+                                {{ post.excerpt }}
+                            {% endif %}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
 
         {% include scripts.html %}
     </body>

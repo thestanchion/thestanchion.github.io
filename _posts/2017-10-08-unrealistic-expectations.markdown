@@ -3,8 +3,8 @@ layout: post
 title:  "Unrealistic expectations"
 date:   2017-10-08 10:00:36 +0000
 categories: england
+hero: lithuania-vs-england.jpg
 ---
-![England New Kit](/assets/img/lithuania-vs-england.jpg)
  
 *Let’s get this straight right from the off: England are an average international team, and as soon as the public gets that into their collective head we can start to actually enjoy watching them again.*
 

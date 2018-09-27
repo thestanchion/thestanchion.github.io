@@ -3,8 +3,8 @@ layout: post
 title:  "Send for reinforcements"
 date:   2014-08-28 10:00:36 +0000
 categories: man-united
+hero: united-swansea.jpg
 ---
-![United Swansea](/assets/img/united-swansea.jpg)
 
 The season is barely a week old and it’s already glaringly obvious that United need to spend money, or face up to another season of mediocrity.
 

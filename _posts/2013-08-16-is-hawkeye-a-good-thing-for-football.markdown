@@ -3,8 +3,8 @@ layout: post
 title:  "Is Hawkeye a good thing for football?"
 date:   2013-08-16 10:00:36 +0000
 categories: technology
+hero: lampard.jpg
 ---
-![Lampard ghost goal](/assets/img/lampard.jpg)
 
 Goal-line technology (GLT) has inevitably made its way into the game, and from this weekend will be available to Premier League referees. It was always going to happen, but is it a good thing?
 

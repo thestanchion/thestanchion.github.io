@@ -3,8 +3,8 @@ layout: post
 title:  "Free Agents FC"
 date:   2017-02-02 10:00:36 +0000
 categories: transfers
+hero: bargains.jpg
 ---
-![Bargains](/assets/img/bargains.jpg)
 
 The transfer window has been shut for a week now, but clubs can still sign players who don’t currently have a club.
 

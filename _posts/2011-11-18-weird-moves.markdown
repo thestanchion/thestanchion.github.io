@@ -3,8 +3,8 @@ layout: post
 title:  "Weird moves"
 date:   2011-11-18 10:00:36 +0000
 categories: transfers
+hero: bent.jpg
 ---
-![Darren Bent](/assets/img/bent.jpg)
  
 The next couple of days look like they’ll see the completion of a couple of strange looking transfer deals.
 

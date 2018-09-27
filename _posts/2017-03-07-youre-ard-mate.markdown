@@ -3,8 +3,8 @@ layout: post
 title:  "You're 'ard mate"
 date:   2017-03-07 10:00:36 +0000
 categories: discipline
+hero: zlatan-mings.jpg
 ---
-![Zlatan Mings](/assets/img/zlatan-mings.jpg)
 
 What a difference a week makes eh?
 

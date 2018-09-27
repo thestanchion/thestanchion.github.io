@@ -8,7 +8,7 @@ HEADINGS
  */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    @include Antonio;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.25rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6,
 }
 .c-heading--page {
     font-size: rem-calc(50);
-    font-size: 6vmin;
+    font-size: 9rem;
     margin-bottom: rem-calc(50);
     color: #fff;
 }
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6,
 .c-heading--post {
     font-size: rem-calc(26);
     color: $black;
-    margin-bottom: rem-calc(30);
+    margin: 0 0 1rem;
 }
 
 @include bp_max(600) {

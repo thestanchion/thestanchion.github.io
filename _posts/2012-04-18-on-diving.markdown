@@ -3,8 +3,8 @@ layout: post
 title:  "On diving"
 date:   2012-04-18 10:00:36 +0000
 categories: discipline
+hero: young-dive.jpg
 ---
-![Ashley Young dive](/assets/img/young-dive.jpg)
 
 I’m a United fan, but I have no problem admitting that Ashley Young dived (dove?) on Sunday to win a penalty and set us on the way to a crucial win against Villa. I also have no problem admitting that I have no problem with diving.
 

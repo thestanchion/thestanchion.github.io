@@ -3,8 +3,8 @@ layout: post
 title:  "Not as easy as you thought?"
 date:   2017-01-16 10:00:36 +0000
 categories: man-city
+hero: lukaku.jpg
 ---
-![Romelu Lukaku](/assets/img/lukaku.jpg)
 
 About four years ago I wrote a post questioning Pep Guardiola's status as one of the world's best managers. You can read that [here](http://www.thestanchion.co.uk/destination-england), but in the interests of time a couple of the main points were...
 
@@ -20,7 +20,7 @@ City made a very good start to life under Guardiola. They won their first 10 gam
 
 In all honesty, anybody can lose at Everton. This season they're a very solid proposition and have had several good results against teams towards the top of the league, including a 2-1 comeback win over Arsenal. But it's the scoreline and the manner of the defeat that was so surprising. Everton were stronger all over the pitch and completely dominated, fully deserving the win and making City look more like a team fighting relegation than one hunting for top honours. There are a few things that are contributing to City's patchy form and that Pep seems reluctant to change, despite the fact that they seem obvious to the casual observer.
 
-##Brav-oh no
+## Brav-oh no
 Claudio Bravo was one of the first names through the door at the Etihad once Guardiola took the reigns, and Joe Hart was quickly ushered through that same door in the opposite direction. This is looking more and more like an almighty clanger and conveniently, [stats published by the BBC today](http://www.bbc.co.uk/sport/football/38684434) back up that statement.
 
 Bravo has performed in the bottom five of the 23 Premier League keepers to have faced more than 100 shots this season. In the last 8 games he's conceded 14 goals, and according to the science bods at Opta, that is 7 more than the number he would be "expected" to save, based on factors such as quality of chance, distance from goal, angle, etc.
@@ -31,7 +31,7 @@ Joe Hart, for all his arrogance and dandruff, is a fine goalkeeper. Claudio Brav
 
 In Spain, the energy levels and pressing game are not as intense as they are here. When he was playing for Barcelona, Bravo could get away with an errant touch here and there and more often than not it wouldn't lead to anything. Now, the merest loose touch can be capitalised on and whilst it won't necessarily lead to a goal, it can give a lot of belief to opposition players and supporters. The atmosphere of a game can completely change with that sort of thing. Footballing skill in a goalkeeper should be a nice-to-have attribute. Not a pre-requisite.
 
-##John Stones doesn't look quite ready yet
+## John Stones doesn't look quite ready yet
 John Stones was another big money signing at the beginning of Pep's time in Manchester, but again it hasn't quite worked out for him as well as he probably hoped.
 
 Stones is a good player, no doubt (although he isn't worth anywhere near £50 million). But last season with Everton and this season so far have shown that he isn't quite ready to be considered in the top bracket of centre backs, even those available to England.
@@ -40,7 +40,7 @@ Similar to Bravo, Stones' first instinct is to try and play football, passing or
 
 Stones has been a fairly constant selection for City this season. I expect if Vincent Kompany had been fit for longer that this may not have been the case.
 
-##Barca style of play
+## Barca style of play
 Guardiola's philosophy of tiki-taka football, which worked so well in Barcelona and Munich, is struggling to be adopted by his new side, but he perseveres with it despite this. It's easy with several world class players, playing in one or two team leagues to achieve success playing like that.
 
 But that style isn't suited to his current squad, and arguably isn't suited to the Premier League, so it will be interesting to see if he changes tack to try and get the best out of the players he does have, or continues doing what he's doing. I get the feeling that he's very steadfast in his footballing beliefs, or to put it another way, stubborn.

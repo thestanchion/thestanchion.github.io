@@ -3,21 +3,19 @@ NAV
 ******************************************/
 .c-nav-trigger {
     position: fixed;
-    top: 0;
+    bottom: 0;
     right: 0;
     z-index: 2;
-    width: rem-calc(180);
-    height: rem-calc(180);
+    width: rem-calc(70);
+    height: rem-calc(70);
     padding: 0;
-    background: $primary-colour;
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+    background: $black;
     transition: all .2s ease;
 
     svg {
-        position: fixed;
-        top: 3vh;
-        right: 3vh;
+        position: absolute;
+        top: 1.4rem;
+        right: 1.4rem;
         width: rem-calc(40);
         height: rem-calc(40);
         padding: rem-calc(0 5);
@@ -28,12 +26,13 @@ NAV
         fill: $white;
     }
     &:hover {
-        width: rem-calc(200);
-        height: rem-calc(200);
 
         path {
-            fill: $black;
+            fill: $primary-colour;
         }
+    }
+    &:focus {
+        outline: none;
     }
     &.active {
         path:nth-child(1) {
@@ -51,41 +50,29 @@ NAV
 }
 .c-nav {
     position: fixed;
-    top: 0;
-    right: 0;
+    bottom: 0;
+    right: -30rem;
     z-index: 1;
-    width: rem-calc(180);
-    height: rem-calc(180);
-    padding: 0;
-    background: $primary-colour;
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
-    transition: all 1s ease;
+    width: 30rem;
+    height: 100vh;
+    padding: 3rem;
+    background: $black;
+    transition: all .2s ease;
 
     &.open {
-        width: 200%;
-        height: 200%;
-        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
-        clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+        right: 0;
     }
-}
-.c-nav__wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-.c-nav__list {
 }
 .c-nav__item {
     display: block;
-    margin: rem-calc(0 0 30 0);
+    margin: 0;
 }
 .c-nav__link {
     display: inline-block;
     position: relative;
     color: $white;
     font-family: $title-font;
-    font-size: rem-calc(50);
+    font-size: 2.6rem;
     text-transform: uppercase;
 
     &:visited {
@@ -93,7 +80,7 @@ NAV
     }
     &:hover,
     &.router-link-active {
-        color: $black;
+        color: $white;
     }
     &:before {
         content: "";
@@ -102,8 +89,8 @@ NAV
         right: rem-calc(1);
         bottom: rem-calc(-3);
         left: rem-calc(1);
-        height: rem-calc(8);
-        background-color: $black;
+        height: rem-calc(4);
+        background-color: $white;
         transform: scaleX(0);
         transform-origin: 100% 50%;
         transition: transform .4s cubic-bezier(.23,1,.32,1);
@@ -115,10 +102,10 @@ NAV
     }
 }
 .c-nav__social .c-nav__item {
-    display: inline-block;
+    display: block;
 }
-.c-nav__social .c-nav__item + .c-nav__item {
-    margin-left:rem-calc(50);
+.c-nav__social .c-nav__link {
+    font-size: 1.6rem;
 }
 
 @include bp_max(700) {

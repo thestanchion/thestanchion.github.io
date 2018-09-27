@@ -3,8 +3,8 @@ layout: post
 title:  "Why I quite like Luis Suarez"
 date:   2013-01-29 10:00:36 +0000
 categories: premier-league
+hero: suarez-2.jpg
 ---
-![Luis Suarez](/assets/img/suarez-2.jpg)
 
 If you know that I’m a Man United fan this might come as a surprise, but I’m actually in the minority who actually doesn’t have a problem with Luis Suarez, as a player. In fact, I actually quite like most of the things he does on the pitch.
 

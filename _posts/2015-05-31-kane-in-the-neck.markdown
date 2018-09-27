@@ -3,9 +3,8 @@ layout: post
 title:  "Kane in the neck"
 date:   2015-05-31 10:00:36 +0000
 categories: tottenham
+hero: harry-kane.jpg
 ---
-![Harry Kane](/assets/img/harry-kane.jpg)
-
 There are a lot of things wrong with the English sporting media, but one thing in particular has wound me up this week and its something that happens every time there’s a young English player in a rich vein of form.
 
 The current hot topic is of course Harry Kane. He’s having a stellar season so far – 29 goals in all competitions for Spurs, and a goal within 80 seconds of his England debut – and this is in no way aimed at him. My issue is that because he’s having a brilliant season, if you listen to the media you’d think he’s Spurs and England’s only player. It’s a culture and way of thinking in England that I believe holds us back and blinds us as to what our true level is.

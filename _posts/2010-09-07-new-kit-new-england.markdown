@@ -3,8 +3,8 @@ layout: post
 title:  "New Kit New England?"
 date:   2010-09-07 10:00:36 +0000
 categories: england
+hero: eng-2010.jpg
 ---
-![England New Kit](/assets/img/eng-2010.jpg)
 
 OK maybe it isn’t quite as simple as that, but we can hope can’t we?
 

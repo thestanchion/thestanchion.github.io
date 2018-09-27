@@ -3,8 +3,8 @@ layout: post
 title:  "Ballon S'nore"
 date:   2013-01-10 10:00:36 +0000
 categories: awards
+hero: messi.jpg
 ---
-![Messi Ballon D'Or](/assets/img/messi.jpg)
 
 Surprise surprise, Leo Messi has won the Ballon D’Or, crowning him the world’s best player, for the fourth year in a row.Messi is probably going to end up going down in history as the greatest player ever to kick a ball, but this year I don’t think he is as deserving of the award as maybe some others are.
 CR7
