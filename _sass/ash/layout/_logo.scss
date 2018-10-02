@@ -6,7 +6,7 @@ LOGO
     display: inline-block;
     margin-bottom: rem-calc(50);
     padding-bottom: rem-calc(5);
-    font-family: $title-font;
+    @include title-font-black;
     font-size: rem-calc(40);
     line-height: 1;
     color: $black;

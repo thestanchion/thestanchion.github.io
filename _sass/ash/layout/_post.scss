@@ -17,12 +17,14 @@ POST
     text-align: center;
 
     &--home {
-        height:14rem;
-        margin-bottom: 2rem;
+        height:8rem;
+        margin-bottom: 0;
+        background: none;
 
         .c-heading--page {
             margin: 0;
             font-size: 2.4rem;
+            color: $primary-colour;
         }
     }
 }

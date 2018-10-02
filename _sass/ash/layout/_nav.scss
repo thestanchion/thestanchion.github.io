@@ -3,27 +3,27 @@ NAV
 ******************************************/
 .c-nav-trigger {
     position: fixed;
-    bottom: 0;
+    top: 0;
     right: 0;
     z-index: 2;
     width: rem-calc(70);
     height: rem-calc(70);
     padding: 0;
-    background: $black;
+    background: $white;
     transition: all .2s ease;
 
     svg {
         position: absolute;
-        top: 1.4rem;
-        right: 1.4rem;
-        width: rem-calc(40);
-        height: rem-calc(40);
+        top: 2rem;
+        right: 2rem;
+        width: rem-calc(30);
+        height: rem-calc(30);
         padding: rem-calc(0 5);
     }
     path {
         opacity: 1;
         transition: all linear .2s;
-        fill: $white;
+        fill: $black;
     }
     &:hover {
 
@@ -71,8 +71,8 @@ NAV
     display: inline-block;
     position: relative;
     color: $white;
-    font-family: $title-font;
-    font-size: 2.6rem;
+    @include title-font-heavy;
+    font-size: 2rem;
     text-transform: uppercase;
 
     &:visited {
@@ -89,7 +89,7 @@ NAV
         right: rem-calc(1);
         bottom: rem-calc(-3);
         left: rem-calc(1);
-        height: rem-calc(4);
+        height: rem-calc(3);
         background-color: $white;
         transform: scaleX(0);
         transform-origin: 100% 50%;
@@ -106,33 +106,8 @@ NAV
 }
 .c-nav__social .c-nav__link {
     font-size: 1.6rem;
-}
 
-@include bp_max(700) {
-    .c-nav,
-    .c-nav-trigger {
-        width: rem-calc(120);
-        height: rem-calc(120);
-
-        &:hover {
-            width: rem-calc(120);
-            height: rem-calc(120);
-        }
-        &:hover path {
-            fill: $white;
-        }
-        &.open:hover {
-            width: 200%;
-            height: 200%;
-        }
-    }
-    .c-nav-trigger svg {
-        top: 1.6vh;
-        right: 1.6vh;
-        width: rem-calc(30);
-        height: rem-calc(30);
-    }
-    .c-nav__link {
-        font-size: rem-calc(30);
+    &:before {
+        height: rem-calc(2);
     }
 }

@@ -7,6 +7,8 @@ POST LIST
     ul {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: 30rem;
+        grid-auto-rows: 30rem;
         grid-gap: 2rem;
     }
 
@@ -14,7 +16,6 @@ POST LIST
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        height: 30rem;
         margin: 0;
         padding: 0;
         background-color: transparent;

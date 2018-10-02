@@ -20,7 +20,14 @@ $divider-color: #e4e4e4;
 $body-text: #676767;
 
 // Variables for site fonts
-$title-font: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+@mixin title-font-black {
+    font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 900;
+}
+@mixin title-font-heavy {
+    font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 700;
+}
 $body-font: "Open Sans", Arial, 'Helvetica Neue', Helvetica, sans-serif;
 $serif-font: "Open Sans", serif;
 
