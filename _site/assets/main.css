@@ -1451,8 +1451,10 @@ POST
   background-size: cover;
   text-align: center; }
   .hero--home {
+    align-items: flex-start;
     height: 8rem;
     margin-bottom: 0;
+    padding: 0 2rem;
     background: none; }
     .hero--home .c-heading--page {
       margin: 0;

@@ -17,8 +17,10 @@ POST
     text-align: center;
 
     &--home {
-        height:8rem;
+        align-items: flex-start;
+        height: 8rem;
         margin-bottom: 0;
+        padding: 0 2rem;
         background: none;
 
         .c-heading--page {
