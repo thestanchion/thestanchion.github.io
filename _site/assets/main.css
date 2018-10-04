@@ -1578,9 +1578,10 @@ POST LIST
       color: #fefefe;
       margin: 0;
       line-height: 1.2; }
-    .c-post-list__link__date {
+    .c-post-list__link .c-post__date {
       padding: .5rem 0 0;
-      font-size: 1.4rem; }
+      font-size: 1.4rem;
+      text-align: left; }
 
 /******************************************
 POST

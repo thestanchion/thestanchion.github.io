@@ -48,9 +48,10 @@ POST LIST
             line-height: 1.2;
         }
 
-        &__date {
+        .c-post__date {
             padding: .5rem 0 0;
             font-size: 1.4rem;
+            text-align: left;
         }
     }
 }
