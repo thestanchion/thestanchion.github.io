@@ -28,6 +28,15 @@ $body-text: #676767;
     font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 700;
 }
+@mixin body-font-regular {
+    font-family: "Source Serif Pro", Georgia, serif;
+    font-weight: 400;
+}
+@mixin body-font-bold {
+    font-family: "Source Serif Pro", Georgia, serif;
+    font-weight: 700;
+}
+
 $body-font: "Open Sans", Arial, 'Helvetica Neue', Helvetica, sans-serif;
 $serif-font: "Open Sans", serif;
 

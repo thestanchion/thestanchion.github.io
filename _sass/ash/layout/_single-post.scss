@@ -10,6 +10,7 @@ POST
 }
 .c-post__date {
     margin-bottom: rem-calc(10);
+    @include title-font-heavy;
 }
 .c-post__categories {
     margin-bottom: rem-calc(30);
@@ -23,6 +24,12 @@ POST
 .c-post__content {
     p {
         clear: none;
+        @include body-font-regular;
+
+        b,
+        strong {
+            @include body-font-bold;
+        }
 
         a:hover {
             padding: rem-calc(2 5);

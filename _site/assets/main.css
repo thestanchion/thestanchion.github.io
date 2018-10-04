@@ -1580,6 +1580,8 @@ POST LIST
       line-height: 1.2; }
     .c-post-list__link .c-post__date {
       padding: .5rem 0 0;
+      font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+      font-weight: 700;
       font-size: 1.4rem;
       text-align: left; }
 
@@ -1594,7 +1596,9 @@ POST
   text-align: center; }
 
 .c-post__date {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 700; }
 
 .c-post__categories {
   margin-bottom: 3rem; }
@@ -1605,7 +1609,13 @@ POST
   margin-bottom: 3rem; }
 
 .c-post__content p {
-  clear: none; }
+  clear: none;
+  font-family: "Source Serif Pro", Georgia, serif;
+  font-weight: 400; }
+  .c-post__content p b,
+  .c-post__content p strong {
+    font-family: "Source Serif Pro", Georgia, serif;
+    font-weight: 700; }
   .c-post__content p a:hover {
     padding: 0.2rem 0.5rem;
     background-color: #2a2a2a;
