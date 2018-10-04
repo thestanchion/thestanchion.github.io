@@ -1405,7 +1405,7 @@ NAV
   font-size: 2rem;
   text-transform: uppercase; }
   .c-nav__link:visited {
-    color: #d90815; }
+    color: #2a2a2a; }
   .c-nav__link:hover, .c-nav__link.router-link-active {
     color: #d90815; }
   .c-nav__link:before {
