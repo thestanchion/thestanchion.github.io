@@ -4,33 +4,53 @@ POST
 .heading__page--single {
     color: $black;
 }
-.c-single-post {
-    margin-bottom: rem-calc(60);
+.c-post__date,
+.c-post__categories {
+    text-align: center;
+}
+.c-post__date {
+    margin-bottom: rem-calc(10);
+}
+.c-post__categories {
+    margin-bottom: rem-calc(30);
+}
+.c-post__content pre code,
+.c-post__content blockquote > * {
+    @extend .c-wrapper;
+    display: block;
+    margin-bottom: rem-calc(30);
+}
+.c-post__content {
+    p {
+        clear: none;
 
-    .c-post__date,
-    .c-post__categories {
-        text-align: center;
-    }
-    .c-post__date {
-        margin-bottom: rem-calc(10);
-    }
-    .c-post__categories {
-        margin-bottom: rem-calc(30);
-    }
-    .c-post__content pre code,
-    .c-post__content blockquote > * {
-        @extend .c-wrapper;
-        display: block;
-        margin-bottom: rem-calc(30);
-    }
-    .c-post__content {
-        p a:hover {
+        a:hover {
             padding: rem-calc(2 5);
             background-color: $black;
             color: $white;
         }
-        h3 {
-            font-size: rem-calc(20);
+    }
+    h3 {
+        font-size: rem-calc(20);
+    }
+
+    .left-image,
+    .right-image {
+        width: 50%;
+
+        img {
+            width: 100%;
+            height: auto;
         }
+    }
+
+    .left-image {
+        float: left;
+        margin: 0 3rem 2rem -3rem;
+    }
+
+    .right-image {
+        float: right;
+        margin: 0 -3rem 2rem 3rem;
     }
 }
