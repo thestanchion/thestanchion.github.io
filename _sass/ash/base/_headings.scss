@@ -23,10 +23,18 @@ h1, h2, h3, h4, h5, h6,
     border-top: 5px solid $white;
 }
 .c-heading--page {
-    font-size: rem-calc(50);
     font-size: 9rem;
     margin-bottom: rem-calc(50);
     color: #fff;
+
+    @media (max-width: 1000px) {
+        font-size: 5rem;
+    }
+
+    @media (max-width: 500px) {
+        margin-bottom: 2rem;
+        font-size: 3rem;
+    }
 }
 .c-heading--section {
     font-size: rem-calc(24);
@@ -37,20 +45,4 @@ h1, h2, h3, h4, h5, h6,
     font-size: rem-calc(26);
     color: $black;
     margin: 0 0 1rem;
-}
-
-@include bp_max(600) {
-    .c-heading--page {
-        margin-right: rem-calc(70);
-        margin-bottom: rem-calc(30);
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .c-heading--page {
-        font-size: rem-calc(26);
-    }
-    .c-heading--post {
-        font-size: rem-calc(18);
-    }
 }
