@@ -31,10 +31,30 @@ POST
             @include body-font-bold;
         }
 
+        a {
+            position: relative;
+            color: $black;
+            border-bottom: .2rem solid $primary-colour;
+
+            &:before {
+                content: '';
+                position: absolute;
+                z-index: -1;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 0;
+                background-color: $primary-colour;
+                transition: all .1s ease;
+            }
+        }
+
         a:hover {
-            padding: rem-calc(2 5);
-            background-color: $black;
             color: $white;
+
+            &:before {
+                height: 100%;
+            }
         }
     }
     h3 {

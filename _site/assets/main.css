@@ -1623,10 +1623,24 @@ POST
   .c-post__content p strong {
     font-family: "Source Serif Pro", Georgia, serif;
     font-weight: 700; }
+  .c-post__content p a {
+    position: relative;
+    color: #2a2a2a;
+    border-bottom: 0.2rem solid #d90815; }
+    .c-post__content p a:before {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 0;
+      background-color: #d90815;
+      transition: all .1s ease; }
   .c-post__content p a:hover {
-    padding: 0.2rem 0.5rem;
-    background-color: #2a2a2a;
     color: #fefefe; }
+    .c-post__content p a:hover:before {
+      height: 100%; }
 .c-post__content h3 {
   font-size: 2rem; }
 .c-post__content .left-image,
