@@ -5,14 +5,22 @@ fields:
 - type: text
   name: title
   label: Title
+  config:
+    required: true
 - type: datetime
   name: date
   label: Date
+  config:
+    required: true
+    date_format: DD/MM/YYYY
+  default: now
 - type: text
   name: categories
   label: Categories
+  config:
+    required: true
 - type: file
   name: hero
   label: Hero
 pages:
-- _posts/braindump-off-to-a-bad-start.md
+- _posts/2019-09-04-braindump-off-to-a-bad-start.md
