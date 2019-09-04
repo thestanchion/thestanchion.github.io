@@ -8,7 +8,9 @@
         {% include nav-trigger.html %}
 
         <div class="hero hero--home">
-            <h1 class="c-heading--page">{{ site.title }}</h1>
+            <h1 class="c-heading--page">
+                <a href="/" alt="{{ site.title }} - {{ site.description }}">{{ site.title }}</a>
+            </h1>
         </div>
 
         {% if site.posts.size > 0 %}
