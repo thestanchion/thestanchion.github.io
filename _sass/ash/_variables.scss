@@ -29,16 +29,16 @@ $body-text: #676767;
     font-weight: 700;
 }
 @mixin body-font-regular {
-    font-family: "Source Serif Pro", Georgia, serif;
-    font-weight: 400;
+    font-family: "Montserrat", Georgia, serif;
+    font-weight: 300;
 }
 @mixin body-font-bold {
-    font-family: "Source Serif Pro", Georgia, serif;
+    font-family: "Montserrat", Georgia, serif;
     font-weight: 700;
 }
 
-$body-font: "Open Sans", Arial, 'Helvetica Neue', Helvetica, sans-serif;
-$serif-font: "Open Sans", serif;
+$body-font: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+$serif-font: "Montserrat", serif;
 
 // Grid system
 $maxColCount: 12;
