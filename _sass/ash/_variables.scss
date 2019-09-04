@@ -23,10 +23,12 @@ $body-text: #676767;
 @mixin title-font-black {
     font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 900;
+    font-style: italic;
 }
 @mixin title-font-heavy {
     font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 700;
+    font-style: italic;
 }
 @mixin body-font-regular {
     font-family: "Montserrat", Georgia, serif;
