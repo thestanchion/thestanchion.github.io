@@ -1,7 +1,7 @@
 ---
 title: 'Braindump: Off to a bad start'
 date: 2019-09-03T23:00:00.000+00:00
-categories: ''
+categories: man-united
 hero: "/uploads/fc73ec98f2635d39db560943cc927602.jpeg"
 
 ---
