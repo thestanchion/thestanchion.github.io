@@ -1,18 +1,19 @@
 ---
 layout: post
-title:  "Switching allegiances"
-date:   2017-11-13 10:00:36 +0000
+title: Switching allegiances
+date: 2017-11-13T10:00:36.000+00:00
 categories: england
 hero: england-u17.jpg
+subtitle: I don’t understand how it is that footballers can play an international
+  friendly for one country, but would still be eligible to play for another in competitive
+  matches.
+
 ---
-
-I don’t understand how it is that footballers can play an international friendly for one country, but would still be eligible to play for another in competitive matches. 
-
 Firstly, I don’t like that fact that players can qualify for multiple countries in the first place. You’re from where you’re from. The way we define that nowadays is much more flexible than it used to be, with multicultural and multi-national families meaning that a player can be born in one country, brought up in another country, have parents and grandparents of separate origins and as a result be eligible for 6 or more national football teams. I find that idea ludicrous.
 
 Even more ludicrous is how someone can have such little affection for a country that they are willing to play for any nation that they may have a tenuous link to, just so they have the opportunity to play international football. The whole thing is a joke. You just have to look at the Welsh team to see that the majority of them were not born in Wales, have never lived in Wales, and only go to Wales to play international football.
 
-I can *just about* abide that. Although I do have to admit it feels really insincere, especially when you see videos of the Welsh team celebrating like mad when they watched England getting knocked out of Euro 2016.
+I can _just about_ abide that. Although I do have to admit it feels really insincere, especially when you see videos of the Welsh team celebrating like mad when they watched England getting knocked out of Euro 2016.
 
 What I can’t abide is the nation-jumping mentality. Actually, even the fact that it is possible to do that is really irritating to me. Once you have decided who you want to represent you shouldn’t be allowed to change your mind. I think players should be made to make that decision as soon as they sign their first professional contracts.
 
