@@ -3,18 +3,22 @@ layout: page
 title: About
 permalink: "/about/"
 categories: general
-date: 2019-09-19T11:27:35Z
-subtitle: Bitching and moaning about the beautiful game
+date: 2019-09-19T11:27:35.000+00:00
+subtitle: I dunno about you, but I love football.
 
 ---
-Itaque earum rerum hic tenetur a sapiente delectus. Duis aute irure dolor in reprehenderit in voluptate velit. Excepteur sint occaecat cupidatat non proident, sunt in culpa. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+There's nothing else on earth that can bring people together, evoke deep-rooted tribal hatred, make someone laugh, someone cry and amaze you all within one match in the same way that football can.
 
-Facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+Sometimes you'll see something so ridiculously incredible that you have no choice but to stop in complete awe of the sheer audacity of the player to even attempt it. Ronaldo from 40 yards against Porto. Andros Townsend's volley against City. Ronaldinho controlling a cross field pass on his back.
 
-* Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-* Itaque earum rerum hic tenetur a sapiente delectus.
-* Non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+And sometimes your team makes you so angry you want to stick the nearest chair through a window. Sometimes a player can't walk one second, and is sprinting after a through-ball the next.
 
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Totam rem aperiam. Fugiat quo voluptas nulla pariatur? Eaque ipsa quae ab illo inventore veritatis et quasi.
+Football makes me so happy and so angry that every now and then I need to just share my thoughts with the world, or more often, have a massive rant.
 
-Et harum quidem rerum facilis est et expedita distinctio. Inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Animi, id est laborum et dolorum fuga. Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+And that's what The Stanchion is: A place for ranting and raving about football, in whatever form that may be. I don't expect anybody to read anything I write here, but it's here if you fancy it.
+
+### What you sayin?
+
+The Stanchion is open to contributions from any football fan, on any topic, for any reason. Longform pieces, top fives, match analysis, reasons why you love the game, your favourite kit - if you want to write about it, [get in touch](https://www.twitter.com/the_stanchion "The Stanchion on Twitter") on Twitter.
+
+#### Cheers.
