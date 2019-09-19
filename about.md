@@ -17,8 +17,6 @@ Football makes me so happy and so angry that every now and then I need to just s
 
 And that's what The Stanchion is: A place for ranting and raving about football, in whatever form that may be. I don't expect anybody to read anything I write here, but it's there if you fancy it. I'll keep adding stuff every now and then.
 
-## What you sayin?
+### What you sayin?
 
-The Stanchion is open to contributions from any football fan, on any topic, for any reason. Longform pieces, top 5s, match analysis, reasons why you love the game, your favourite kit - if you want to write about it, get in touch.
-
-[@the_stanchion](https://www.twitter.com/the_stanchion "@the_stanchion on Twitter")
+The Stanchion is open to contributions from any football fan, on any topic, for any reason. Longform pieces, top 5s, match analysis, reasons why you love the game, your favourite kit - if you want to write about it, [get in touch](https://www.twitter.com/the_stanchion "The Stanchion on Twitter") on Twitter.
