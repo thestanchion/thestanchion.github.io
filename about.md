@@ -9,7 +9,7 @@ subtitle: I dunno about you, but I love football.
 ---
 There's nothing else on earth that can bring people together, evoke deep-rooted tribal hatred, make someone laugh, someone cry and amaze you all within one match in the same way that football can.
 
-Sometimes you'll see something so ridiculously incredible that you have no choice but to stop in complete awe of the sheer audacity of the player to even attempt it. Ronaldo from 40 yards against Porto. Andros Townsend's volley against City. Ronaldinho controlling a 40 yard cross field pass on his back.
+Sometimes you'll see something so ridiculously incredible that you have no choice but to stop in complete awe of the sheer audacity of the player to even attempt it. Ronaldo from 40 yards against Porto. Andros Townsend's volley against City. Ronaldinho controlling a cross field pass on his back.
 
 And sometimes your team makes you so angry you want to stick the nearest chair through a window. Sometimes a player can't walk one second, and is sprinting after a through-ball the next.
 
