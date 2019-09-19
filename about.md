@@ -15,7 +15,7 @@ And sometimes your team makes you so angry you want to stick the nearest chair t
 
 Football makes me so happy and so angry that every now and then I need to just share my thoughts with the world, or more often, have a massive rant.
 
-And that's what The Stanchion is: A place for ranting and raving about football, in whatever form that may be. I don't expect anybody to read anything I write here, but it's here if you fancy it. I'll keep adding stuff every now and then.
+And that's what The Stanchion is: A place for ranting and raving about football, in whatever form that may be. I don't expect anybody to read anything I write here, but it's here if you fancy it.
 
 ### What you sayin?
 
