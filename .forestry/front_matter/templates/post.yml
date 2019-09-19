@@ -8,9 +8,13 @@ fields:
   config:
     required: true
 - name: subtitle
-  type: text
+  type: textarea
+  default: ''
   config:
     required: false
+    wysiwyg: false
+    schema:
+      format: markdown
   label: Subtitle
 - type: datetime
   name: date
