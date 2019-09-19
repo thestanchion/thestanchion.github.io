@@ -7,6 +7,11 @@ fields:
   label: Title
   config:
     required: true
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
 - type: datetime
   name: date
   label: Date
@@ -23,5 +28,5 @@ fields:
   name: hero
   label: Hero
 pages:
+- _posts/2019-09-04-heading-in-the-right-direction.md
 - _posts/another-test.md
-- _posts/2019-09-04-braindump-off-to-a-bad-start.md
