@@ -2,7 +2,9 @@
 layout: default
 ---
 <div class="hero hero--home">
-    <h2 class="c-heading--page">{{ site.title }}</h2>
+    <h2 class="c-heading--page">
+        <a href="/" alt="{{ site.title }} - {{ site.description }}">{{ site.title }}</a>{{ site.title }}
+      </h2>
 </div>
 
 <article class="c-post h-entry c-wrapper" itemscope itemtype="http://schema.org/BlogPosting">
@@ -10,7 +12,11 @@ layout: default
   <h1 class="c-heading--title">{{ page.title | escape }}</h1>
 
   <div class="c-post__content" itemprop="articleBody">
-    {{ content }}
+      {% if page.subtitle %}
+        <h2 class="c-heading--subtitle">{{ page.subtitle | escape }}</h2>
+      {% endif %}
+
+      {{ content }}
   </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>

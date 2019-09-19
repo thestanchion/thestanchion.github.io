@@ -16,12 +16,14 @@ h1, h2, h3, h4, h5, h6,
 .c-heading--site {
     font-size: 14vmin;
 }
+
 .c-heading--tagline {
     display: inline;
     padding-top: rem-calc(10);
     font-size: 4vmin;
     border-top: 5px solid $white;
 }
+
 .c-heading--page {
     font-size: 9rem;
     margin-bottom: rem-calc(50);
@@ -36,11 +38,13 @@ h1, h2, h3, h4, h5, h6,
         font-size: 3rem;
     }
 }
+
 .c-heading--section {
     font-size: rem-calc(24);
     color: $secondary-colour;
     margin-bottom: rem-calc(30);
 }
+
 .c-heading--post {
     font-size: rem-calc(26);
     color: $black;
@@ -49,4 +53,12 @@ h1, h2, h3, h4, h5, h6,
 
 .c-heading--title {
     font-size: rem-calc(26);
+}
+
+.c-heading--subtitle {
+    font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: rem-calc(18);
+    font-style: italic;
+    font-weight: 700;
+    color: black;
 }

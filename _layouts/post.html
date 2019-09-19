@@ -15,7 +15,11 @@ layout: default
 </div>
 <article class="c-post h-entry c-wrapper" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="c-post__content" itemprop="articleBody">
-    {{ content }}
+      {% if page.subtitle %}
+        <h2 class="c-heading--subtitle">{{ page.subtitle | escape }}</h2>
+      {% endif %}
+
+      {{ content }}
   </div>
 
   {% if site.disqus.shortname %}

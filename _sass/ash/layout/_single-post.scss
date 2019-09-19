@@ -56,13 +56,6 @@ POST
                 height: 100%;
             }
         }
-
-        &:first-child {
-            font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
-            font-weight: 700;
-            font-style: italic;
-            color: black;
-        }
     }
     h3 {
         font-size: rem-calc(20);
