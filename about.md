@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the Stanchion
+title: About
 permalink: "/about/"
 categories: general
 date: 2019-09-19T11:27:35Z
