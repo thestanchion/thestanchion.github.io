@@ -4,6 +4,7 @@ title: About
 permalink: "/about/"
 categories: general
 date: 2019-09-19T11:27:35Z
+subtitle: Bitching and moaning about the beautiful game
 
 ---
 Itaque earum rerum hic tenetur a sapiente delectus. Duis aute irure dolor in reprehenderit in voluptate velit. Excepteur sint occaecat cupidatat non proident, sunt in culpa. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
