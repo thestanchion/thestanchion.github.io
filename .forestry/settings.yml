@@ -5,10 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: _pages
+  path: ''
   label: Pages
   create: all
-  match: "**/*"
+  match: "**/*..md"
   templates:
   - post
 - type: directory
