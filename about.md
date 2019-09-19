@@ -19,4 +19,4 @@ And that's what The Stanchion is: A place for ranting and raving about football,
 
 ### What you sayin?
 
-The Stanchion is open to contributions from any football fan, on any topic, for any reason. Longform pieces, top 5s, match analysis, reasons why you love the game, your favourite kit - if you want to write about it, [get in touch](https://www.twitter.com/the_stanchion "The Stanchion on Twitter") on Twitter.
+The Stanchion is open to contributions from any football fan, on any topic, for any reason. Longform pieces, top fives, match analysis, reasons why you love the game, your favourite kit - if you want to write about it, [get in touch](https://www.twitter.com/the_stanchion "The Stanchion on Twitter") on Twitter.
