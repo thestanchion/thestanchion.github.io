@@ -56,6 +56,24 @@ POST LIST
                 grid-column-end: auto;
             }
         }
+
+        &:nth-child( 2 ) {
+            grid-column-start: 3;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+
+            @media (max-width: 1300px) {
+                grid-row-end: 2;
+            }
+
+            @media (max-width: 1000px) {
+                grid-column-start: auto;
+                grid-column-end: auto;
+                grid-row-start: auto;
+                grid-row-end: auto;
+            }
+        }
     }
 
     &__link {
@@ -67,7 +85,7 @@ POST LIST
         height: 100%;
         padding: 2rem;
         color: $white;
-    
+
         &:visited {
             color: $white;
         }
