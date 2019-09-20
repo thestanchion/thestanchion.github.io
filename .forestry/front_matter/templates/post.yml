@@ -8,9 +8,13 @@ fields:
   config:
     required: true
 - name: subtitle
-  type: text
+  type: textarea
+  default: ''
   config:
     required: false
+    wysiwyg: false
+    schema:
+      format: markdown
   label: Subtitle
 - type: datetime
   name: date
@@ -29,4 +33,5 @@ fields:
   label: Hero
 pages:
 - _posts/2019-09-04-heading-in-the-right-direction.md
+- _posts/2017-11-13-switching-allegiances.markdown
 - _posts/another-test.md
