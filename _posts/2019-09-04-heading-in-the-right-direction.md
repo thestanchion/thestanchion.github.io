@@ -3,7 +3,8 @@ title: Heading in the right direction
 date: 2019-09-18T23:00:00.000+00:00
 categories: man-united
 hero: "/2019-09-19-Capture-67.jpg"
-subtitle: ''
+subtitle: United haven't ripped up any trees in the first month of the season, but
+  that's ok. They all seem to be pulling in the same direction now.
 
 ---
 realistic results so far
