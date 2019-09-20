@@ -41,14 +41,6 @@ POST
                 color: $primary-colour;
             }
         }
-
-        a:hover {
-            color: $white;
-
-            &:before {
-                height: 100%;
-            }
-        }
     }
     h3 {
         font-size: rem-calc(20);
