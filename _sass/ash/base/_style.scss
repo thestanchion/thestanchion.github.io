@@ -46,11 +46,12 @@ body {
 .c-wrapper {
     width: 80vw;
     max-width: rem-calc(760);
-    margin: 5vh auto 10vh;
+    margin: 2rem auto 10rem;
 
     @media (max-width: 800px) {
         width: 100%;
         max-width: none;
+        margin-top: 0;
         padding: 0 2rem;
     }
 }

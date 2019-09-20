@@ -25,6 +25,7 @@ POST
     p {
         clear: none;
         @include body-font-regular;
+        font-weight: 400;
 
         b,
         strong {
