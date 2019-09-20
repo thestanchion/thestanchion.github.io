@@ -86,4 +86,9 @@ h6 {
     font-weight: 700;
     color: black;
     text-transform: none;
+
+    @media (max-width: 800px) {
+        font-size: 1.8rem;
+        line-height: 1.4;
+    }
 }
