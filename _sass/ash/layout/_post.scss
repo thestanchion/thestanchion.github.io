@@ -28,6 +28,11 @@ POST
             font-size: 2.4rem;
             color: $primary-colour;
         }
+
+        @media (max-width: 800px) {
+
+            height: 6rem;
+        }
     }
 }
 .c-post__date {
