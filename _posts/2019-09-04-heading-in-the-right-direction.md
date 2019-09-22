@@ -1,5 +1,5 @@
 ---
-title: Don't panic.... yet
+title: Don't panic... yet
 date: 2019-09-18T23:00:00.000+00:00
 categories: man-united
 hero: "/2019-09-19-Capture-67.jpg"
