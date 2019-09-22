@@ -1,10 +1,9 @@
 ---
-title: Heading in the right direction
+title: Don't panic.... yet
 date: 2019-09-18T23:00:00.000+00:00
 categories: man-united
 hero: "/2019-09-19-Capture-67.jpg"
-subtitle: United haven't ripped up any trees in the first month of the season, but
-  that's ok. They all seem to be pulling in the same direction now.
+subtitle: Where do we go from here?
 
 ---
 As far as starts to a season go, this has been pretty shocking from Man United. It doesn't take a genius to work that out. However it might take a genius to work out how they begin to get back to anything like then lub they used to be.
