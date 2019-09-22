@@ -7,7 +7,17 @@ subtitle: United haven't ripped up any trees in the first month of the season, b
   that's ok. They all seem to be pulling in the same direction now.
 
 ---
-realistic results so far
+As far as starts to a season go, this has been pretty shocking from Man United. It doesn't take a genius to work that out. However it might take a genius to work out how they begin to get back to anything like then lub they used to be.
+
+The core fabric of everything that was United is either dying or dead. Today for the first West Ham goal I saw Nemanja Matic watch Mark Noble dribble slowly on the edge of the United box for a good 10 seconds without even the slightest hint of closing down. Noble had all the time in the world to pick a pass, which them led to the opening goal for West Ham.
+
+We're talking about Mark Noble. We're not talking about Messi or DeBruyne or Bernardo Silva - players who would genuinely strike fear into defenders and cause them to back off. We're talking about Mark Noble.
+
+As much as it saddens me to say it, I was half expecting the result today. United haven't always travelled very well to West Ham, who seem to be super pumped every time we play them, especially at the old Boleyn ground. 
+
+ealistic
+
+ results so far
 
 better style of play
 
