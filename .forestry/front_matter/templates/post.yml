@@ -45,6 +45,12 @@ fields:
 - type: file
   name: hero
   label: Hero
+- name: hero_source
+  type: text
+  config:
+    required: true
+  label: Hero source
+  description: Where did you find that image?
 pages:
 - _posts/2019-09-04-dont-panic-yet.md
 - _drafts/reasons-why-2.md
