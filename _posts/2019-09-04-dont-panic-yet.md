@@ -2,7 +2,7 @@
 title: Don't panic... yet
 date: 2019-09-18T23:00:00.000+00:00
 categories: man-united
-hero: "/2019-09-19-Capture-67.jpg"
+hero: "/2019-09-23-manchester-united-2019-20_173zrittq5n7i1acfjb9ymisyx.jpg"
 subtitle: '2 wins, 2 draws and 2 defeats from the first 6 games for what is now a
   bang average Premier League team. But if there''s any point in what seems to be
   a new transfer policy and direction, we need to stick with Ole now. '
