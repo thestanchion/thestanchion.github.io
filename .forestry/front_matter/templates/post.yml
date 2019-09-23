@@ -32,8 +32,8 @@ fields:
   name: hero
   label: Hero
 pages:
+- _posts/2019-09-04-dont-panic-yet.md
 - _drafts/reasons-why-2.md
 - _drafts/reasons-why-1.md
-- _posts/2019-09-04-heading-in-the-right-direction.md
 - _posts/2017-11-13-switching-allegiances.markdown
 - _posts/another-test.md
