@@ -33,10 +33,11 @@ fields:
   label: Hero
 - name: author
   type: select
-  default: ''
+  default: Ash
   config:
     required: true
-    options: []
+    options:
+    - Ash
     source:
       type: simple
       section: 
