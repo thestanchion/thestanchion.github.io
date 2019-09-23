@@ -7,15 +7,6 @@ fields:
   label: Title
   config:
     required: true
-- name: subtitle
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Subtitle
 - type: datetime
   name: date
   label: Date
@@ -23,14 +14,6 @@ fields:
     required: true
     date_format: DD/MM/YYYY
   default: now
-- type: text
-  name: categories
-  label: Categories
-  config:
-    required: true
-- type: file
-  name: hero
-  label: Hero
 - name: author
   type: select
   default: Ash
@@ -45,6 +28,23 @@ fields:
       path: 
   label: Author
   description: Who wrote this?
+- type: text
+  name: categories
+  label: Categories
+  config:
+    required: true
+- name: subtitle
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Subtitle
+- type: file
+  name: hero
+  label: Hero
 pages:
 - _posts/2019-09-04-dont-panic-yet.md
 - _drafts/reasons-why-2.md
