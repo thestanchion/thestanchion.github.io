@@ -31,6 +31,19 @@ fields:
 - type: file
   name: hero
   label: Hero
+- name: author
+  type: select
+  default: ''
+  config:
+    required: true
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Author
+  description: Who wrote this?
 pages:
 - _posts/2019-09-04-dont-panic-yet.md
 - _drafts/reasons-why-2.md
