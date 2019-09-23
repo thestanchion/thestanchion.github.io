@@ -16,7 +16,15 @@ The core fabric of everything that was United is either dying or dead. Today for
 
 We're talking about Mark Noble. We're not talking about Messi or DeBruyne or Bernardo Silva - players who would genuinely strike fear into defenders and cause them to back off. We're talking about Mark Noble.
 
-As much as it saddens me to say it, I was half expecting the result today. United haven't always travelled very well to West Ham, who seem to be super pumped every time we play them, especially at the old Boleyn ground.
+As much as it saddens me to say it, I was half expecting the result today. United haven't always travelled very well to West Ham, who seem to be super pumped every time we play them, especially at the old Boleyn ground. When you look at our team on paper we are at about the same level as West Ham, Leicester and Everton.
+
+After just two wins out of six to kick off the season, and only 5 wins in something like the last 19 league games it would be easy for the fans to start getting restless, so that's exactly what they've done. #oleout was trending after the final whistle and I've seen video of YouTube "fan" channels asking for post match action from the board.
+
+But that is the complete opposite of what we should be looking to do right now. I appreciate that it has now been six and is guaranteed to be seven years since we won the title. We've only finished second once since Fergie left. That's not good enough and I get it. But for the last six years the club have been trying to throw money at the problem, with the mindset that past-it marquee signings in combination with a managerial change every couple of years is a good way to run a successful club.
+
+It felt like this summer heralded a new approach in the transfer market which in turn means we as fans need to have a new approach in how we define our expectations for the season.
+
+look at Klopp and how long it took
 
 ealistic
 
