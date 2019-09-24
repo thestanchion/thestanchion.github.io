@@ -17,7 +17,7 @@ $light-grey: #eee;
 $divider-color: #e4e4e4;
 
 // Font colours
-$body-text: #676767;
+$body-text: #393434;
 
 // Variables for site fonts
 @mixin title-font-black {
@@ -31,15 +31,15 @@ $body-text: #676767;
     font-style: italic;
 }
 @mixin body-font-regular {
-    font-family: "Montserrat", Georgia, serif;
-    font-weight: 300;
+    font-family: "Source Serif Pro", Georgia, serif;
+    font-weight: 400;
 }
 @mixin body-font-bold {
-    font-family: "Montserrat", Georgia, serif;
+    font-family: "Source Serif Pro", Georgia, serif;
     font-weight: 700;
 }
 
-$body-font: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+$body-font: "Source Serif Pro", Georgia, serif;
 $serif-font: "Montserrat", serif;
 
 // Grid system
