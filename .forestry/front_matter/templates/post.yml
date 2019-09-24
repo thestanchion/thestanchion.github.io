@@ -27,7 +27,6 @@ fields:
       file: 
       path: 
   label: Author
-  description: Who wrote this?
 - type: text
   name: categories
   label: Categories
