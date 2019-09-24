@@ -18,7 +18,7 @@ email: ashleyrobbins3@gmail.com
 description: Bitching and moaning about the beautiful game
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: the_stanchion
+twitter_username: stanchionfc
 
 # Build settings
 markdown: kramdown
