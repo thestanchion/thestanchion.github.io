@@ -1,13 +1,11 @@
 ---
 layout: post
-title:  "Why I quite like Luis Suarez"
-date:   2013-01-29 10:00:36 +0000
+title: Why I quite like Luis Suarez
+date: 2013-01-29T10:00:36.000+00:00
 categories: premier-league
 hero: suarez-2.jpg
+
 ---
-
-If you know that I’m a Man United fan this might come as a surprise, but I’m actually in the minority who actually doesn’t have a problem with Luis Suarez, as a player. In fact, I actually quite like most of the things he does on the pitch.
-
 Sure, he’s so horse-faced that he’d be a decent each-way shout in the National, and he has a bit of the racist about him, but you can’t argue with his footballing ability. I’d have him in my side any day of the week.
 
 He has this attitude where he thinks he’s never beaten until the very last whistle, and until that point he gives all he’s got for his side because he hates losing. Obviously nobody likes to lose, but some people are driven by a fear of failure so huge that they’ll do anything and go to the greatest lengths to try and win. And I think this is the part of Suarez that gets people riled.
