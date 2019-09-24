@@ -108,8 +108,7 @@ li {
     margin-bottom: rem-calc(8);
 }
 
-a,
-a:visited {
+a {
     color: $primary-colour;
     text-decoration: none;
     transition: color linear .1s;
