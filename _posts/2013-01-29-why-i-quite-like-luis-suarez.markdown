@@ -4,6 +4,11 @@ title: Why I quite like Luis Suarez
 date: 2013-01-29T10:00:36.000+00:00
 categories: premier-league
 hero: suarez-2.jpg
+author: Ash
+subtitle: If you know that I’m a Man United fan this might come as a surprise, but
+  I’m actually in the minority who actually doesn’t have a problem with Luis Suarez,
+  as a player. In fact, I actually quite like most of the things he does on the pitch.
+hero_source: huffingtonpost.co.uk
 
 ---
 Sure, he’s so horse-faced that he’d be a decent each-way shout in the National, and he has a bit of the racist about him, but you can’t argue with his footballing ability. I’d have him in my side any day of the week.
@@ -25,5 +30,3 @@ I can sort of understand why people want to stamp it out, but there’s no way y
 I think people get the hump with diving until it benefits them directly. Ask yourself this: If (and it’s a BIG if) Wayne Rooney won a penalty in a World Cup final which presented England with the winning goal, would you fold your arms and say “nope, I’m not having that, give the trophy back”? Not a chance (unless you aren’t English). People only get so aggy about diving and so called “cheating” until it suits them.
 
 I dislike Suarez as a man, and because he plays for Liverpool, but to go back to my earlier comment I’d have him in my side any day. The reasons why a lot of people hate him as a player are the reasons why I quite like him as a player. He has a burning desire to be the best, to win, and he’ll do what he needs to do to achieve that. Plus, he scored what is one of my favourite goals of recent seasons when [he equalised against Newcastle](http://youtu.be/cje6WSqPVAI) in November last year.
-
-_Photo – huffingtonpost.co.uk_
