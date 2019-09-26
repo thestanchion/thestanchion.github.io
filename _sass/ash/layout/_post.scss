@@ -28,6 +28,10 @@ POST
             font-size: 2.4rem;
             color: $primary-colour;
 
+            a:visited {
+                color: $primary-colour;
+            }
+
             a:hover {
                 color: $black;
             }
