@@ -1,12 +1,17 @@
 ---
 layout: post
-title:  "Kane in the neck"
-date:   2015-05-31 10:00:36 +0000
+title: Kane in the neck
+date: 2015-05-31T10:00:36.000+00:00
 categories: tottenham
 hero: harry-kane.jpg
----
-There are a lot of things wrong with the English sporting media, but one thing in particular has wound me up this week and its something that happens every time there’s a young English player in a rich vein of form.
+author: Ash
+published: true
+subtitle: There are a lot of things wrong with the English sporting media, but one
+  thing in particular has wound me up this week and it's something that happens every
+  time there’s a young English player in a rich vein of form.
+hero_source: ''
 
+---
 The current hot topic is of course Harry Kane. He’s having a stellar season so far – 29 goals in all competitions for Spurs, and a goal within 80 seconds of his England debut – and this is in no way aimed at him. My issue is that because he’s having a brilliant season, if you listen to the media you’d think he’s Spurs and England’s only player. It’s a culture and way of thinking in England that I believe holds us back and blinds us as to what our true level is.
 
 In the build up to Tottenham’s recent game against Man United all the talk referring to Spurs was about whether Kane could get his first goal versus United. Not about Spurs recent run of good form, how they might approach the game, or any other key battles between players across the pitch. Similarly last week the only talk was about why Kane should start, why he shouldn’t start, whether he’s ready, whether he’s not. It was as if, before he’s even had as much as one international minute, all England needed to do was put Kane in the team and the result would take care of itself.
