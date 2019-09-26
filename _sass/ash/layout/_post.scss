@@ -27,6 +27,10 @@ POST
             margin: 0;
             font-size: 2.4rem;
             color: $primary-colour;
+
+            a:hover {
+                color: $black;
+            }
         }
 
         @media (max-width: 800px) {
