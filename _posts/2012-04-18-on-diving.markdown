@@ -1,13 +1,17 @@
 ---
 layout: post
-title:  "On diving"
-date:   2012-04-18 10:00:36 +0000
+title: On diving
+date: 2012-04-18T10:00:36.000+00:00
 categories: discipline
 hero: young-dive.jpg
+author: Ash
+published: true
+subtitle: I’m a United fan, but I have no problem admitting that Ashley Young dived
+  (dove?) on Sunday to win a penalty and set us on the way to a crucial win against
+  Villa. I also have no problem admitting that I have no problem with diving.
+hero_source: ''
+
 ---
-
-I’m a United fan, but I have no problem admitting that Ashley Young dived (dove?) on Sunday to win a penalty and set us on the way to a crucial win against Villa. I also have no problem admitting that I have no problem with diving.
-
 That probably sounds like a United fan trying to justify diving by a player who plays for the team he supports, but let me continue.
 
 All he’s done is try to gain an advantage for his team. There are so many little incidents that happen on a pitch whereby a player uses his brain to try and gain an advantage for his side and this is simply one of them.
