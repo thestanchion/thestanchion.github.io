@@ -11,7 +11,7 @@ subtitle: The transfer window has been shut for a week now, but clubs can still 
   have heard of) and see if they’d actually be any good. These players were available
   as of 07/02/2017 according to Transfermarkt.
 hero_source: elephantjournal.com
-published: false
+published: true
 
 ---
 I’ve gone for a trendy 4-2-3-1 formation.
