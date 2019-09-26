@@ -25,3 +25,5 @@ Ok rant over, and on to what this post started off talking about. England have j
 I’m really happy that Fabio has stuck to his word and introduced some new faces to compliment the more talented members of the failed World Cup squad. The midfield has needed a shake up for a long time and I do think Milner and Adam Johnson are here to stay. Don’t get me wrong, I’m not saying we’re suddenly going to turn into world beaters overnight, cos we aren’t, but we’re taking baby steps in the right direction.
 
 Oh, and the kit’s pretty nice too.
+
+<div style="margin-top: 2em; padding: 20px 40px;background: #f7f7f7;"> <h2>Join us every Friday :date:</h2> <p><a href="/categories/frontend-friday/">Frontend Friday</a> is a weekly series where we write in-depth posts about modern web development.</p> <p><strong>Next week:</strong>sfsd </p> <p><strong>Last week:</strong> ssdfsadf_</p>_ </div>
