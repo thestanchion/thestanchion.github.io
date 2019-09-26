@@ -1,12 +1,18 @@
 ---
 layout: post
-title:  "Home and Away"
-date:   2014-10-14 10:00:36 +0000
+title: Home and Away
+date: 2014-10-14T10:00:36.000+00:00
 categories: premier-league
 hero: plough-lane.jpg
----
-Let’s get this straight right from the start: The idea of playing a Premier League game in a foreign country is stupid, unrealistic, probably unfair and just unnecessary. It’s just the latest idea that the money hungry suits who run the league have cooked up in order to further line their already bulging pockets.
+author: Ash
+published: true
+hero_source: doingthe116.wordpress.com
+subtitle: 'Let’s get this straight right from the start: The idea of playing a Premier
+  League game in a foreign country is stupid, unrealistic, probably unfair and just
+  unnecessary. It’s just the latest idea that the money hungry suits who run the league
+  have cooked up in order to further line their already bulging pockets.'
 
+---
 At the risk of sounding like a little Englander, this is our league. It is the English Premier League. It should remain in England. If this is allowed to happen, how long will it be before we have 2, 3 or 4 games per season played abroad?
 
 The arguments in favour seem to point to the success the NFL have had for a few years now, taking one game to Wembley every season. The stadium sells out and the game gets a huge amount of t.v. coverage. However you never hear about what the American fans think about it over here. The NFL season is much shorter than our football season – around 16 games – so you’d have to imagine that they are pretty pissed. To only have 8 games at home per season in the first place, and then to have one of those games taken away from you for the sake of some billionaire owners’ bank account? If I was a season ticket holder I’d go mad.
@@ -28,5 +34,3 @@ Ticket prices are already way too high and prohibitive to a lot of families bein
 Maybe at most you could play one of the existing glorified friendlies abroad, the community shield would be a perfect example. This has been done with some success in other countries already.
 
 But going back to the original point. This is the English Premier League. It has to stay in England.
-
-_Photo: doingthe116.wordpress.com_

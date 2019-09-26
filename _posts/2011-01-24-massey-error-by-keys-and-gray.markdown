@@ -1,13 +1,16 @@
 ---
 layout: post
-title:  "Massey error by Keys and Gray"
-date:   2011-01-24 10:00:36 +0000
+title: Massey error by Keys and Gray
+date: 2011-01-24T10:00:36.000+00:00
 categories: officials
 hero: massey.jpg
+author: Ash
+published: true
+subtitle: Richard Keys and Andy Gray have found themselves in hot water over what
+  they thought were off air comments about a female lino’s ability to officiate.
+hero_source: ''
+
 ---
-
-Richard Keys and Andy Gray have found themselves in hot water over what they thought were off air comments about a female lino’s ability to officiate.
-
 They thought that their mics were off, and proceeded to tear into Sian Massey with Keys saying “somebody better get down there and explain offside to her”, before Gray replied with “women don’t know the offside rule”. Turns out, Massey knows the offside rule to the letter, as she got a crucial borderline call spot on in the build up to Liverpool’s opening goal against Wolves. It’s good to see that Sky have come down with a punishment on their presenting duo, and maybe they’ll think before they speak next time.
 
 Robbie Savage has today said on twitter that “Sian Massey has been a Lino in some of my derby games , she was exceptionally good”, and “You have to judge the person on ability and decision making” which is exactly right.

@@ -1,12 +1,17 @@
 ---
 layout: post
-title:  "Destination: England?"
-date:   2013-01-15 10:00:36 +0000
+title: 'Destination: England?'
+date: 2013-01-15T10:00:36.000+00:00
 categories: premier-league
 hero: mourinho.jpg
----
+author: Ash
+subtitle: If you believe what you read in the papers, both Jose Mourinho and Pep Guardiola
+  could soon find themselves in Premier League dugouts.
+hero_source: footplus.tn
+published: false
 
-If you believe what you read in the papers, both Jose Mourinho and Pep Guardiola could soon find themselves in Premier League dugouts. Sunday’s papers stated that a deal to take Guardiola to Man City in the summer was 100% done, while Jose Mourinho has never hidden the fact that he would love to return to the England one day. With Chelsea in need of a new permanent manager and Mourinho’s Real stuttering this season, he may well find himself back at his former club some time soon.
+---
+Sunday’s papers stated that a deal to take Guardiola to Man City in the summer was 100% done, while Jose Mourinho has never hidden the fact that he would love to return to the England one day. With Chelsea in need of a new permanent manager and Mourinho’s Real stuttering this season, he may well find himself back at his former club some time soon.
 
 It’s pretty exciting to think that two of best managers in world football could soon both be a weekly fixture here in the English game, but I don’t know if City and Chelsea the best places they could go.
 
@@ -31,5 +36,3 @@ Personally I would prefer to see Mourinho in the hot seat at United. I just thin
 At the end of the day though I don’t see either of these men as the kind of people who would be looking for a long term project. Guardiola was at Barca for just four seasons before needing a sabatical, and Mourinho’s longest position so far has been three and a half seasons at Chelsea. Maybe it’s a job for David Moyes. He isn’t as glamorous, but I think it’s time he gets his chance at a bigger club.
 
 **Edit: Unfortunately for me, this article was written the day before Pep announced he was joining Bayern Munich this summer. Felt like a good topic to write about at the time, now I look like a berk.**
-
-_img: footplus.tn_

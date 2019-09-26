@@ -7,6 +7,9 @@ hero: england-u17.jpg
 subtitle: I don’t understand how it is that footballers can play an international
   friendly for one country, but would still be eligible to play for another in competitive
   matches.
+author: Ash
+published: true
+hero_source: Evening Standard
 
 ---
 Firstly, I don’t like that fact that players can qualify for multiple countries in the first place. You’re from where you’re from. The way we define that nowadays is much more flexible than it used to be, with multicultural and multi-national families meaning that a player can be born in one country, brought up in another country, have parents and grandparents of separate origins and as a result be eligible for 6 or more national football teams. I find that idea ludicrous.
@@ -28,5 +31,3 @@ Every single one of them has turned their shirt around to tell the world what th
 It’s really disappointing and takes a little of the shine off of the trophy they worked so hard and played so brilliantly to win.
 
 Who knows whether these kids will go on to play for the senior team, or even if they will represent England at all. But the fact that they can win a trophy wearing England’s colours, but still be eligible to play in the senior World Cup for other nations leaves a really unpleasant taste in the mouth.
-
-_Photo: Evening Standard_

@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "New Kit New England?"
-date:   2010-09-07 10:00:36 +0000
+title: New Kit New England?
+date: 2010-09-07T10:00:36.000+00:00
 categories: england
 hero: eng-2010.jpg
+author: Ash
+published: true
+hero_source: whoateallthepies.tv
+subtitle: OK maybe it isn’t quite as simple as that, but we can hope can’t we?
+
 ---
-
-OK maybe it isn’t quite as simple as that, but we can hope can’t we?
-
 First of all, I want to say that I didn’t think England underperformed in the summer, where our dismal displays saw us ranked as the 13th best team out of 32, the nation’s worst ever result at the tournament. But the reason I don’t see that as underperforming is because I don’t actually think we were ever as good as everybody made us out to be in the first place. That doesn’t mean I wasn’t gutted when we lost to Germany though. I was, I nearly cried.
 
 ## Weight of expectation
@@ -23,5 +25,3 @@ Ok rant over, and on to what this post started off talking about. England have j
 I’m really happy that Fabio has stuck to his word and introduced some new faces to compliment the more talented members of the failed World Cup squad. The midfield has needed a shake up for a long time and I do think Milner and Adam Johnson are here to stay. Don’t get me wrong, I’m not saying we’re suddenly going to turn into world beaters overnight, cos we aren’t, but we’re taking baby steps in the right direction.
 
 Oh, and the kit’s pretty nice too.
-
-_img: whoateallthepies.tv_

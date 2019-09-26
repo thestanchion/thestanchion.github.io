@@ -1,12 +1,18 @@
 ---
 layout: post
-title:  "How do you solve a problem like Mourinho?"
-date:   2018-10-03 07:00:36 +0000
+title: How do you solve a problem like Mourinho?
+date: 2018-10-03T07:00:36.000+00:00
 categories: man-united
 hero: mourinho-valencia.jpg
----
+author: Ash
+published: true
+subtitle: Normally I'm the sort of fan who values results over performance. No matter
+  how you get those results, that is what's most important and a good performance
+  comes secondary as an added bonus.
+hero_source: Sky Sports
 
-Normally I'm the sort of fan who values results over performance. No matter how you get those results, that is what's most important and a good performance comes secondary as an added bonus. I've never understood when fans call into radio phone-ins or bitch and moan on social media about boring football, especially when their team's doing relatively well because being entertained comes after the whole point of playing the game in the first place.
+---
+I've never understood when fans call into radio phone-ins or bitch and moan on social media about boring football, especially when their team's doing relatively well because being entertained comes after the whole point of playing the game in the first place.
 
 The aim of football is to win. At any cost. No matter how you do it, winning is the most important thing. But when you're _not_ winning, and the football is as drab and dreary as United's has been recently, I can start to see where those fans are coming from.
 
@@ -49,5 +55,3 @@ Mourinho always digs out the players in the press and then when he's questioned 
 So unfortunately I've come round to the fact that it might be time for Jose to go. We need a manager who is going to come in and attack teams, bring some flair back, let the shackles off, let the players go and express themselves without the fear of repercussions or a public battering.
 
 This is meant to be Manchester United. Right now it doesn't feel like it.
-
-_Photo: Sky Sports_

@@ -1,13 +1,16 @@
 ---
 layout: post
-title:  "Send for reinforcements"
-date:   2014-08-28 10:00:36 +0000
+title: Send for reinforcements
+date: 2014-08-28T10:00:36.000+00:00
 categories: man-united
 hero: united-swansea.jpg
+author: Ash
+published: true
+subtitle: The season is barely a week old and it’s already glaringly obvious that
+  United need to spend money, or face up to another season of mediocrity.
+hero_source: mirror.co.uk
+
 ---
-
-The season is barely a week old and it’s already glaringly obvious that United need to spend money, or face up to another season of mediocrity.
-
 For the second summer running, Ed Woodward flew home early from the pre-season tour to conduct transfer business. Yet all we’ve heard since then is that there have been no official bids for any players. How can that be? If last season wasn’t enough of a wake up call, this summer further reinforces the need for help, especially in defence.
 
 Losing Rio, Vida, Pat and Giggsy from the playing squad all in one summer is a phenomenal blow both in terms of quality but also sheer experience. All of these players are European and multiple Premier League champions. You can’t replace that overnight but you can certainly attempt to plug gaps in what is an obviously fragile spine in need of urgent attention.
@@ -29,5 +32,3 @@ The second area is no surprise, defensive midfield. Michael Carrick’s absence 
 Marcos Rojo is a decent addition but in the wrong position. We just spent £30 million on Luke Shaw, so I don’t see the sense in buying another left sided defender.
 
 Pull your finger out Ed, while you still have the chance.
-
-_Photo – mirror.co.uk_

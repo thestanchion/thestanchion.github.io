@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "You're 'ard mate"
-date:   2017-03-07 10:00:36 +0000
+title: You're 'ard mate
+date: 2017-03-07T10:00:36.000+00:00
 categories: discipline
 hero: zlatan-mings.jpg
+author: Ash
+published: true
+subtitle: What a difference a week makes eh?
+hero_source: ''
+
 ---
-
-What a difference a week makes eh?
-
 This time last week, Zlatan Ibrahimovic was the toast of the town, the serial winner who almost single-handedly turned a bang average United performance into a cup-winning one. Fast forward 7 days and he's looking at a ban of at least 3 games for chucking an elbow into Tyrone Mings' temple.
 
 The incident shouldn't come as a surprise of course. Zlatan has had [many previous instances of being a hard nut](http://www.teamtalk.com/news/watch-punching-fighting-slapping-zlatans-unsavoury-past). And it also shouldn't be a surprise given that barely a minute earlier he had had his head trodden on by Tyrone Mings. However it _is_ symptomatic of footballers in general to try and prove they're a hard man, and you see it at every level of the game.

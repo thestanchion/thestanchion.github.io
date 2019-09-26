@@ -1,13 +1,19 @@
 ---
 layout: post
-title:  "Ballon S'nore"
-date:   2013-01-10 10:00:36 +0000
+title: Ballon S'nore
+date: 2013-01-10T10:00:36.000+00:00
 categories: awards
 hero: messi.jpg
----
+author: Ash
+published: true
+subtitle: Surprise surprise, Leo Messi has won the Ballon D’Or, crowning him the world’s
+  best player, for the fourth year in a row.Messi is probably going to end up going
+  down in history as the greatest player ever to kick a ball, but this year I don’t
+  think he is as deserving of the award as maybe some others are.
+hero_source: ''
 
-Surprise surprise, Leo Messi has won the Ballon D’Or, crowning him the world’s best player, for the fourth year in a row.Messi is probably going to end up going down in history as the greatest player ever to kick a ball, but this year I don’t think he is as deserving of the award as maybe some others are.
-CR7
+---
+## CR7
 
 I make no effort to hide the fact that I’m a massive fan of Cristiano Ronaldo, and I think he would have been the more deserving winner this year, especially if you look at FIFA’s history of giving the award to the player that has won major honours in a given year.
 

@@ -1,11 +1,15 @@
 ---
 layout: post
-title:  "Popping their cherries"
-date:   2012-04-18 10:00:36 +0000
+title: Popping their cherries
+date: 2012-04-18T10:00:36.000+00:00
 categories: premier-league
 hero: bmouth.jpg
----
+author: Ash
+published: true
+hero_source: eurosport.com
+subtitle: ''
 
+---
 On the last day of the 2008-09 season, having been handed a 17 point deduction for going into administration, Steve Fletcher’s late goal against Grimsby kept AFC Bournemouth in League 2, and put in motion an incredible rise through the English football league that has now seen the club arrive at the top table after just 6 years. A year earlier they almost went extinct. Had it not been for a late financial intervention from Chariman Jeff Mostyn, another team would be celebrating promotion to the Premier League right now.
 
 It’s going to be brilliant for the town, for the players and for the fans, which seem to have multiplied like rabbits in the last 6 months. And this is something that’s really winding me up lately.
@@ -35,5 +39,3 @@ Football should be fair and open for all, and if your team has the quality to wi
 I personally think it would be foolish of them to increase the capacity of the ground too much until they know whether they will be able to establish themselves at Premier League or Championship level. Of course they will need more seats but if they can’t get bums on those seats then it’s a waste of money. Sustained success over a length of time will mean that the stadium takes care of itself.
 
 Besides, tv audiences love watching the david vs goliath encounters. There’s always a sense of romance stirred up when the Premier League giants are drawn against lower league minnows, and with the greatest respect Bournemouth’s inclusion should mean that this is something that’s felt more often next season.
-
-_img: eurosport.com_

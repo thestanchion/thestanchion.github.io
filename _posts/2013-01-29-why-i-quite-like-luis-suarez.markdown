@@ -9,6 +9,7 @@ subtitle: If you know that I’m a Man United fan this might come as a surprise,
   I’m actually in the minority who actually doesn’t have a problem with Luis Suarez,
   as a player. In fact, I actually quite like most of the things he does on the pitch.
 hero_source: huffingtonpost.co.uk
+published: true
 
 ---
 Sure, he’s so horse-faced that he’d be a decent each-way shout in the National, and he has a bit of the racist about him, but you can’t argue with his footballing ability. I’d have him in my side any day of the week.

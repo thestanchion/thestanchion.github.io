@@ -1,13 +1,17 @@
 ---
 layout: post
-title:  "Is Hawkeye a good thing for football?"
-date:   2013-08-16 10:00:36 +0000
+title: Is Hawkeye a good thing for football?
+date: 2013-08-16T10:00:36.000+00:00
 categories: technology
 hero: lampard.jpg
+author: Ash
+published: true
+subtitle: Goal-line technology (GLT) has inevitably made its way into the game, and
+  from this weekend will be available to Premier League referees. It was always going
+  to happen, but is it a good thing?
+hero_source: ''
+
 ---
-
-Goal-line technology (GLT) has inevitably made its way into the game, and from this weekend will be available to Premier League referees. It was always going to happen, but is it a good thing?
-
 Many within the game have been crying out for it for years now, and ever since Sepp Blatter changed his mind about the idea after England got away with one in Euro 2012 it’s seemed like just a matter of time until it was introduced. Referees are delighted about it, as it means that one less responsibility rests on their shoulders, and the general consensus is that GLT is a good thing. Refs will be alerted to whether a ball has definitively crossed the line or not within a second of it happening. They won’t have to rely on the lino’s eyesight any more, something which has helped and hindered several teams through the history of the game.
 
 The Premier League will be using the Hawk-Eye system that tennis fans will be familiar with, and in truth it’s been really successful for them. But for me this is because of the regularity of dodgy line calls in tennis. There are borderline calls made in pretty much every other service game and bad calls happening as regularly as that can have a massive impact on a players’ match, or even their whole tournament.
