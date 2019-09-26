@@ -50,7 +50,7 @@ fields:
 - name: hero_source
   type: text
   config:
-    required: true
+    required: false
   label: Hero source
   description: Where did you find that image?
 pages:
