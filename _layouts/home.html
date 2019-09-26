@@ -17,18 +17,20 @@
             <div class="c-post-list">
                 <ul class="u-no-list">
                     {% for post in site.posts %}
-                        <li class="c-post" style="background-image: url(/assets/img/{{ post.hero }});">
-                            <a class="c-post-list__link" href="{{ post.url | relative_url }}">
-                                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-                                <h3 class="c-heading--post">
-                                    {{ post.title | escape }}
-                                </h3>
-                                <span class="c-post__date">{{ post.date | date: date_format }}</span>
-                                {% if site.show_excerpts %}
-                                    {{ post.excerpt }}
-                                {% endif %}
-                            </a>
-                        </li>
+                        {% if post.published %}
+                            <li class="c-post" style="background-image: url(/assets/img/{{ post.hero }});">
+                                <a class="c-post-list__link" href="{{ post.url | relative_url }}">
+                                    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                                    <h3 class="c-heading--post">
+                                        {{ post.title | escape }}
+                                    </h3>
+                                    <span class="c-post__date">{{ post.date | date: date_format }}</span>
+                                    {% if site.show_excerpts %}
+                                        {{ post.excerpt }}
+                                    {% endif %}
+                                </a>
+                            </li>
+                        {% endif %}
                     {% endfor %}
                 </ul>
             </div>
