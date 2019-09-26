@@ -1,11 +1,15 @@
 ---
 layout: post
-title:  "Not as easy as you thought?"
-date:   2017-01-16 10:00:36 +0000
+title: Not as easy as you thought?
+date: 2017-01-16T10:00:36.000+00:00
 categories: man-city
 hero: lukaku.jpg
----
+author: Ash
+published: true
+subtitle: ''
+hero_source: ''
 
+---
 About four years ago I wrote a post questioning Pep Guardiola's status as one of the world's best managers. You can read that [here](http://www.thestanchion.co.uk/destination-england), but in the interests of time a couple of the main points were...
 
 > It remains to be seen whether or not he could take a team and make them play in a style that suits the players at his disposal.
