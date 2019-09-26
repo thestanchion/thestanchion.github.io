@@ -54,6 +54,7 @@ fields:
   label: Hero source
   description: Where did you find that image?
 pages:
+- _posts/2017-11-13-switching-allegiances.markdown
 - _posts/2011-01-24-massey-error-by-keys-and-gray.markdown
 - _posts/2013-01-10-ballon-snore.markdown
 - _posts/2017-03-07-youre-ard-mate.markdown
@@ -78,4 +79,3 @@ pages:
 - _posts/2013-01-29-why-i-quite-like-luis-suarez.markdown
 - _posts/2019-09-04-dont-panic-yet.md
 - _drafts/reasons-why-2.md
-- _posts/2017-11-13-switching-allegiances.markdown
