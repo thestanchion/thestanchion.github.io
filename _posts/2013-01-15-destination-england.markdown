@@ -8,7 +8,7 @@ author: Ash
 subtitle: If you believe what you read in the papers, both Jose Mourinho and Pep Guardiola
   could soon find themselves in Premier League dugouts.
 hero_source: footplus.tn
-published: false
+published: true
 
 ---
 Sunday’s papers stated that a deal to take Guardiola to Man City in the summer was 100% done, while Jose Mourinho has never hidden the fact that he would love to return to the England one day. With Chelsea in need of a new permanent manager and Mourinho’s Real stuttering this season, he may well find himself back at his former club some time soon.
