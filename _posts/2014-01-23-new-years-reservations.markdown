@@ -1,13 +1,17 @@
 ---
 layout: post
-title:  "New year's reservations"
-date:   2014-01-23 10:00:36 +0000
+title: New year's reservations
+date: 2014-01-23T10:00:36.000+00:00
 categories: man-united
 hero: pat.jpg
+author: Ash
+published: true
+subtitle: This post is a bit ranty, so apologies in advance. I’ve had a lot of these
+  thoughts brewing for a while and thought I may as well vent it all in an attempt
+  to come to terms with our current troubling form.
+hero_source: ''
+
 ---
-
-This post is a bit ranty, so apologies in advance. I’ve had a lot of these thoughts brewing for a while and thought I may as well vent it all in an attempt to come to terms with our current troubling form.
-
 ## For the defence
 
 I’ll include David De Gea here as he is technically part of the defence. In short I think he’s ace. The improvement seen in him since he first arrived in 2011 is enormous and he was rightly included in the team of the season for 2012/13. He made a massive clanger against Sunderland which effectively led to us going out of the cup, and it was an unforgivable error for a keeper of his calibre, but you could argue we shouldn’t have been in that position in the first place. De Gea has been one of the only positive and consistent things in the season so far, and I dare say we’d be a few points further off the pace without him.
