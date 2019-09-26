@@ -54,6 +54,7 @@ fields:
   label: Hero source
   description: Where did you find that image?
 pages:
+- _posts/2014-08-28-send-for-reinforcements.markdown
 - _posts/2017-02-02-free-agents-fc.markdown
 - _posts/2010-09-07-new-kit-new-england.markdown
 - _posts/2015-05-31-kane-in-the-neck.markdown
