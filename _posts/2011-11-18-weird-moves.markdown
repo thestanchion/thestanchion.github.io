@@ -1,13 +1,16 @@
 ---
 layout: post
-title:  "Weird moves"
-date:   2011-11-18 10:00:36 +0000
+title: Weird moves
+date: 2011-11-18T10:00:36.000+00:00
 categories: transfers
 hero: bent.jpg
----
- 
-The next couple of days look like they’ll see the completion of a couple of strange looking transfer deals.
+author: Ash
+published: true
+subtitle: The next couple of days look like they’ll see the completion of a couple
+  of strange looking transfer deals.
+hero_source: worldsoccertalk.com
 
+---
 First up is the Darren Bent move from Sunderland to Aston Villa. In any other season you wouldn’t see any reason why Bent wouldn’t want to move to Villa, as in recent years they have been a much better side than the Black Cats. But right now if the deal was done Bent would be signing for a club 11 places below his present team, as Villa currently sit a lowly 17th in the Premiership.
 
 The deal makes perfect sense for both of the teams involved however. Sunderland would be stupid to turn down the reported £20 million fee they’re being offered and, despite Bent being far and away their leading scorer over the past few seasons, they would be able to use the money to find a capable replacement.
@@ -21,5 +24,3 @@ For me the potential transfer of Steven Pienaar to Spurs from Everton is even st
 The fee that’s being talked about is just £3 million and I find it incredible that Everton are willing to part with the player for so little. Who can they buy with the same level of talent as Pienaar for that sum of money? It isn’t even like there are a load of players available at the moment.
 
 It’s difficult to class either of these potential transfers as panic buys. Spurs don’t need the player, although he would provide very good cover, and Villa would be investing in a proven talent if they land Bent, as they look set to do. Still, both a bit strange for me.
-
-_img: worldsoccertalk.com/_
