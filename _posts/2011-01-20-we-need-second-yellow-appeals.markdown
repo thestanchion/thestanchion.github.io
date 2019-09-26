@@ -1,11 +1,15 @@
 ---
 layout: post
-title:  "We need second yellow appeals"
-date:   2011-01-20 10:00:36 +0000
+title: We need second yellow appeals
+date: 2011-01-20T10:00:36.000+00:00
 categories: discipline
 hero: rafa-red.jpg
----
+author: Ash
+published: false
+subtitle: ''
+hero_source: ''
 
+---
 That's what I reckon anyway. Clearly it would be foolish to allow the appeal of each and every yellow card that anybody ever gets, but in cases like Rafael's, where one of the yellow cards is so obviously given wrongly, you should be able to appeal either the first or second yellow card.
 
 Quite often you see cases where a player gets booked for something as small as jumping for a header, and accidentally catching his marker in the head. That isn't a yellow. Refs need to show some common sense. How are you supposed to jump for a ball without your arms? Kicking the ball away, taking your shirt off to celebrate, accidental handballs, I know that by the letter of the law they are yellow card offences, but it's a soft contribution to an early shower.
