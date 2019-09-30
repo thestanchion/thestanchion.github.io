@@ -10,4 +10,6 @@ hero: "/2019-09-30-Hasil-Liga-Inggris-Everton-vs-Manchester-City-1-3.jpg"
 hero_source: Premier League
 
 ---
-This weekend's game between Everton and Man City saw one of the most delicious assists in recent memory from Kevin De Bruyne. His first time cross between defence and goalkeeper was delivered so perfectly into an area that neither keeper or defender could get to, and landed plum on the forehead of Gabriel Jesus. A David Beckham-esque cross of absolute pinpoint perfection.
+This weekend's game between Everton and Man City saw one of the most delicious assists in recent memory from Kevin De Bruyne. His first time cross between defence and goalkeeper was delivered so perfectly into an area that neither keeper or defender could get to, and landed plum on the forehead of Gabriel Jesus. [A David Beckham-esque cross of the most pinpoint perfection](https://youtu.be/AibzCe9VmQ4?t=26 "Jesus goal v Everton").
+
+That game also however demonstrated just how ridiculous assist stats can be, when - according to Fantasy Premier League at least - Sergio Aguero was awarded an assist for a cross-cum-shot that was parried by Pickford, and then [subsequently finished off by Raheem Sterling](https://youtu.be/AibzCe9VmQ4?t=154 "Sterling goal v Everton").
