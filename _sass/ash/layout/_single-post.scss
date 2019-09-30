@@ -80,7 +80,7 @@ POST
 }
 
 .image__full-width {
-    margin-bottom: 2rem;
+    margin: 3rem 0;
 
     img {
         width: 100vw;
@@ -92,7 +92,10 @@ POST
 
     figcaption {
         margin-top: 1rem;
+        font-family: "Montserrat", Arial, 'Helvetica Neue', Helvetica, sans-serif;
         font-size: 1.4rem;
+        font-style: italic;
+        font-weight: 700;
         color: $grey;
     }
 }
