@@ -78,3 +78,21 @@ POST
         }
     }
 }
+
+.image__full-width {
+    margin-bottom: 2rem;
+
+    img {
+        width: 100vw;
+        max-width: none;
+        position: relative;
+        left: 50%;
+        transform: translateX( -50% );
+    }
+
+    figcaption {
+        margin-top: 1rem;
+        font-size: 1.4rem;
+        color: $grey;
+    }
+}
