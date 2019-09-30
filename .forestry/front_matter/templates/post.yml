@@ -54,6 +54,7 @@ fields:
   label: Hero source
   description: Where did you find that image?
 pages:
+- _drafts/reasons-why-2.md
 - _drafts/reasons-why-1.md
 - _posts/2019-09-30-the-misleading-nature-of-assist-stats.md
 - _posts/2019-09-04-dont-panic-yet.md
@@ -80,4 +81,3 @@ pages:
 - _posts/2015-05-01-popping-their-cherries.markdown
 - _posts/2017-10-08-unrealistic-expectations.markdown
 - _drafts/reasons-why-3-david-beckham.md
-- _drafts/reasons-why-2.md
