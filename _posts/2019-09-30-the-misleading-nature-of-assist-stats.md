@@ -24,6 +24,7 @@ At the same time, some of the most creative players will lose potential assists 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nyoN5Tgtpu8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
 Chance conversion is never 100% for any player or any team, so there are numerous chances that get wasted and not turned into assists due to no fault of the player that created them.
 
 Chance creation therefore is surely a much clearer indication of a player's inventiveness and a look at the Premier League's own figures on [big chances created](https://www.premierleague.com/stats/top/players/big_chance_created "Premier League Big Chances Created 2019/20") vs [assists](https://www.premierleague.com/stats/top/players/goal_assist "Premier League Assists 2019/20") in the 2019/20 season to date (14-10-2019) paints the same picture.
