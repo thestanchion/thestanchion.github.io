@@ -1,5 +1,5 @@
 ---
-date: 2019-09-30T19:20:36Z
+date: 2019-09-30T19:20:36.000+00:00
 author: Ash
 published: true
 title: The misleading nature of assist stats
@@ -8,6 +8,7 @@ subtitle: I've never been an advocate of judging a player's creativity based on 
   amount of assists he makes. Chance creation is by far a better barometer.
 hero: "/2019-09-30-Hasil-Liga-Inggris-Everton-vs-Manchester-City-1-3.jpg"
 hero_source: Premier League
+layout: ''
 
 ---
 This weekend's game between Everton and Man City saw one of the most delicious assists in recent memory from Kevin De Bruyne. His first time cross between defence and goalkeeper was delivered so perfectly into an area that neither keeper or defender could get to, and landed plum on the forehead of Gabriel Jesus. [A David Beckham-esque cross of the most pinpoint perfection](https://youtu.be/AibzCe9VmQ4?t=26 "Jesus goal v Everton").
