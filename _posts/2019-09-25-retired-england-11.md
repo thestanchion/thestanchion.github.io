@@ -8,6 +8,7 @@ subtitle: The best England 11 I could think of, made up of retired players who c
 hero: "/2019-09-25-shearer-england-euro-96.jpg"
 hero_source: thesefootballtimes.co
 published: false
+layout: post
 
 ---
 James
