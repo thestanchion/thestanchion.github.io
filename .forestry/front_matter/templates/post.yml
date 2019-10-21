@@ -53,6 +53,13 @@ fields:
     required: false
   label: Hero source
   description: Where did you find that image?
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  default: post
+  hidden: true
 pages:
 - _drafts/reasons-why-1.md
 - _drafts/reasons-why-2.md
