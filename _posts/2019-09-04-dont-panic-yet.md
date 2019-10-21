@@ -9,6 +9,7 @@ subtitle: '2 wins, 2 draws and 2 defeats from the first 6 games for what is now 
 author: Ash
 hero_source: goal.com
 published: true
+layout: post
 
 ---
 As far as starts to a season go, this has been pretty shocking from Man United. It doesn't take a genius to work that out. However it might take a genius to work out how we begin to get back to anything like the club we used to be.
