@@ -1,40 +1,14 @@
 ---
-date: 2019-09-25T17:02:12.000+00:00
+date: 2019-10-29T18:02:12Z
 author: Ash
-title: Retired England 11
-categories: england
-subtitle: The best England 11 I could think of, made up of retired players who could
-  still do a job today.
-hero: "/2019-09-25-shearer-england-euro-96.jpg"
-hero_source: thesefootballtimes.co
+title: No way back for Xhak
+categories: arsenal
+subtitle: After the way Granit Xhaka left the field on Sunday he should be immediately
+  stripped of the captaincy, and if I supported Arsenal I wouldn't want him representing
+  my club ever again.
+hero: "/2019-10-29-skysports-xhaka-arsenal-booed-off_4817983.jpg"
+hero_source: Sky Sports
 published: false
 layout: post
 
 ---
-James
-
-\--
-
-Neville
-
-Ferdinand
-
-Terry
-
-Cole
-
-\--
-
-Beckham
-
-Scholes
-
-Gerrard
-
-McManaman
-
-\--
-
-Shearer
-
-Owen
