@@ -8,8 +8,8 @@ categories: england
 subtitle: 'Ok let’s get this straight from the off: England are an average international
   team, and as soon as the public gets that into their collective head we can start
   to actually enjoy watching them again.'
-hero: ''
-hero_source: ''
+hero: "/2019-11-07-nintchdbpict000358390517-e1507230150305.jpg"
+hero_source: The Sun
 
 ---
 I think one of the main reasons that we feel so let down with every abject performance, every scraped result against lowly opposition, every early competition exit, is that we have an elevated opinion of how good we really are as a footballing nation, and where we sit in the real world elite.
