@@ -10,3 +10,12 @@ hero: "/2020-05-18-dortmund-schalke.jpg"
 hero_source: khaosod.co.th
 
 ---
+gives people some normality back
+
+will be great for people's mental wellbeing
+
+weird to watch
+
+fairness/integrity
+
+people are still dying
