@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2017-10-18T23:00:00Z
+date: 2017-10-18T23:00:00.000+00:00
 author: Ash
 title: Getting real
 published: true
@@ -54,4 +54,4 @@ England did win the game, unless I’m mistaken. Winning that game meant that we
 
 But back to our qualification performance, how many countries qualified unbeaten, with a game to spare? How many countries qualified conceding just 3 goals in 10 games? How many traditionally big nations haven’t qualified, scraped through or are having to go through playoffs? Holland, Portugal, Italy, Argentina, Chile, Sweden, France. All either just made it, or didn’t make it at all.
 
-The English football need to get a grip, get behind the team and most importantly, stop thinking we should win every game. We might just enjoy watching England a bit more if we did.
+England fans need to get a grip, get behind the team and most importantly, stop thinking we should win every game. We might just enjoy watching England a bit more if we did.
