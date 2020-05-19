@@ -86,12 +86,17 @@ POST
     }
     blockquote {
         margin: rem-calc(30 0);
-        padding: rem-calc(20 0 20 30);
+        padding: rem-calc(0 0 0 30);
         border-left: 10px solid $primary-colour;
         color: $body-text;
 
         p {
+            width: auto;
+            margin-top: 0;
+            margin-bottom: 0;
+            @include title-font-black;
             font-size: rem-calc(18);
+            text-transform: uppercase;
         }
     }
 }
