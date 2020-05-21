@@ -23,7 +23,7 @@ gives people some normality back
 
 will be great for people's mental wellbeing
 
-weird to watch
+sweird to watch
 
 fairness/integrity
 
