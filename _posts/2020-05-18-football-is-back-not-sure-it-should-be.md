@@ -17,8 +17,7 @@ Football every weekend is a massive part of most fans' weekly routine and not ha
 
 It's going to be great for people's mental state to have sport back in our lives. If nothing else it'll provide a much needed morale boost in a funny old world where nothing feels quite normal at the moment. As more and more leagues and more and more sports come back online it will make things feel a bit less shit than they have done in recent months.
 
-<picture class="image__full-width"> <img src="/assets/img/2020-05-21-schalke-dortmund-2019-20-mascherine-1400x840.jpg" alt="Covid Subs" /> <figcaption>Subs take their socially distanced seats in the stands_</figcaption_>
-</picture>
+<picture class="image__full-width"> <img src="/assets/img/2020-05-21-schalke-dortmund-2019-20-mascherine-1400x840.jpg" alt="Covid Subs" /> <figcaption>Subs take their socially distanced seats in the stands_</figcaption_></picture>
 
 gives people some normality back
 
