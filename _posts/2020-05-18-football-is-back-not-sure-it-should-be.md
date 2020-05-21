@@ -20,11 +20,7 @@ It's going to be great for people's mental state to have sport back in our lives
 <picture class="image__full-width"> <img src="/assets/img/2020-05-21-schalke-dortmund-2019-20-mascherine-1400x840.jpg" alt="Covid Subs" /> <figcaption>Subs take their socially distanced seats in the stands_</figcaption_>
 </picture>
 
-![](/2020-05-21-schalke-dortmund-2019-20-mascherine-1400x840.jpg)
-
 gives people some normality back
-
-j
 
 will be great for people's mental wellbeing
 
