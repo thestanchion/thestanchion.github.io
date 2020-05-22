@@ -19,11 +19,13 @@ It's going to be great for people's mental state to have sport back in our lives
 
 <picture class="image__full-width"> <img src="/assets/img/2020-05-21-schalke-subs.jpg" alt="Covid Subs" /> <figcaption>Schalke substitutes take their socially distanced seats in the stands</figcaption></picture>
 
-gives people some normality back
+It looks like the majority of Premier League games are going to be televised which is ace, but it'll be a strange old watch if German football's return is anything to go by.
 
-will be great for people's mental wellbeing
+Empty stadiums are a given. No questions asked on that one, anyone with a brain can see that's the right decision for the rest of this season and I'd say probably even the majority of next season too.
 
-sweird to watch
+Seeing subs sat in the front row of the stands, 2 or 3 metres apart and wearing face masks was a strange one, especially when the actual match itself is just taking place as normal with full contact allowed. But if you think about it that also makes sense, they're simply trying to limit the risk of infection as much as possible, so if you're not playing why wouldn't you wear a mask and keep your distance.
+
+The social distancing celebrations will take some time to get used to as well, but I'm sure players will get creative with it and we'll see some entertaining stuff soon.
 
 fairness/integrity
 
