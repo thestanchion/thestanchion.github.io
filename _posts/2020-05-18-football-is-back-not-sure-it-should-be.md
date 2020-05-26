@@ -27,10 +27,18 @@ Seeing subs sat in the front row of the stands, 2 or 3 metres apart and wearing 
 
 The social distancing celebrations will take some time to get used to as well, but I'm sure players will get creative with it and we'll see some entertaining stuff soon.
 
-There's also the question of the integrity of the game. As I've said above there's absolutely no chance of playing in front of a crowd any time soon, so any home team will lose a massive part of their home advantage straight away. In every season of football, playing each other home and away means that at the very least there is fair competition in terms of location, planning, travel, comfort, preparation and - most importantly - home fans. A home atmosphere is often the difference maker in a tight contest. It's no surprise that "big" teams can often lose away to Burnley or Bournemouth.
-
 > Liverpool will always have an asterisk next to their title win this season, and that's perfect
+
+There's also the question of the integrity of the game. As I've said above there's absolutely no chance of playing in front of a crowd any time soon, so any home team will lose a massive part of their home advantage straight away. In every season of football, playing each other home and away means that at the very least there is fair competition in terms of location, planning, travel, comfort, preparation and - most importantly - home fans. A home atmosphere is often the difference maker in a tight contest. It's no surprise that "big" teams can often lose away to Burnley or Bournemouth.
 
 But without that, you're not getting a fully true picture of how the season would have panned out. Important positions and European qualification and relegation can and probably will be decided by a couple of points, and the teams that lose out will no doubt be up in arms about it. The only good thing is that Liverpool will always have an asterisk next to their title win this season, and that's perfect.
 
-people are still dying
+The thing that doesn't sit right with me though above any sporting factors or details, is that hundreds of people are still dying every day. I'm not sure why football feels it's so important that it needs to come back as quickly as possible when people are still losing their lives to COVID-19.
+
+> hundreds of people are still dying every day. I'm not sure why football feels it's so important that it needs to come back as quick as possible
+
+Plenty of players have voiced their opinions on this and quite rightly so. Troy Deeney being one, who feels going back to training would jeopardise the health of his young son. N'Golo Kante has publicly stated that he's prepared to miss the rest of the season due to the fact that BAME people seem to be more susceptible to this virus.
+
+The players are being tested all the time which is great, but why should these tests be going to sportsmen and women instead of frontline key workers who are fighting to keep people alive and keep the country going. The company producing the tests for the Premier League say that it will have no negative impact on the NHS's testing ability, but if those tests went to NSH workers, obviously they'd be able to use the test instead of footballers.
+
+It feels very entitled to me. I love football and I want things back to normal soon, but I'd rather it happened when we had a handle on this thing. Right now things are getting better but sport should be one of the last things to return if you ask me.
