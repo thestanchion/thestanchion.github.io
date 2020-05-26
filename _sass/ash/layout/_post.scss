@@ -98,5 +98,9 @@ POST
             font-size: rem-calc(18);
             text-transform: uppercase;
         }
+
+        @media (max-width: 600px) {
+            padding-left: 0;
+        }
     }
 }
