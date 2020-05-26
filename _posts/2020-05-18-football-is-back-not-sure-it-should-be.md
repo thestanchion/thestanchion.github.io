@@ -29,8 +29,8 @@ The social distancing celebrations will take some time to get used to as well, b
 
 There's also the question of the integrity of the game. As I've said above there's absolutely no chance of playing in front of a crowd any time soon, so any home team will lose a massive part of their home advantage straight away. In every season of football, playing each other home and away means that at the very least there is fair competition in terms of location, planning, travel, comfort, preparation and - most importantly - home fans. A home atmosphere is often the difference maker in a tight contest. It's no surprise that "big" teams can often lose away to Burnley or Bournemouth.
 
-But without that, you're not getting a fully true picture of how the season would have panned out. Important positions and European qualification and relegation can and probably will be decided by a couple of points, and the teams that lose out will no doubt be up in arms about it. The only good thing is that Liverpool will always have an asterisk next to their title win this season, and that's perfect 👌🏼.
+> Liverpool will always have an asterisk next to their title win this season, and that's perfect
 
-> Liverpool will always have an asterisk next to their title win this season, and that's perfect 👌🏼
+But without that, you're not getting a fully true picture of how the season would have panned out. Important positions and European qualification and relegation can and probably will be decided by a couple of points, and the teams that lose out will no doubt be up in arms about it. The only good thing is that Liverpool will always have an asterisk next to their title win this season, and that's perfect.
 
 people are still dying
