@@ -39,6 +39,6 @@ The thing that doesn't sit right with me though above any sporting factors or de
 
 Plenty of players have voiced their opinions on this and quite rightly so. Troy Deeney being one, who feels going back to training would jeopardise the health of his young son. N'Golo Kante has publicly stated that he's prepared to miss the rest of the season due to the fact that BAME people seem to be more susceptible to this virus.
 
-The players are being tested all the time which is great, but why should these tests be going to sportsmen and women instead of frontline key workers who are fighting to keep people alive and keep the country going. The company producing the tests for the Premier League say that it will have no negative impact on the NHS's testing ability, but if those tests went to NSH workers, obviously they'd be able to use the test instead of footballers.
+The players are being tested all the time which is great, but why should these tests be going to sportsmen and women instead of frontline key workers who are fighting to keep people alive and keep the country going. The company producing the tests for the Premier League say that it will have no negative impact on the NHS's testing ability, but if those tests went to NHS workers, obviously they'd be able to use the test instead of footballers.
 
 It feels very entitled to me. I love football and I want things back to normal soon, but I'd rather it happened when we had a handle on this thing. Right now things are getting better but sport should be one of the last things to return if you ask me.
