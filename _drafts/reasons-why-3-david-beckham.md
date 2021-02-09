@@ -7,5 +7,6 @@ subtitle: ''
 hero: ''
 hero_source: H
 published: false
+layout: ''
 
 ---
