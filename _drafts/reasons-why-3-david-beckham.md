@@ -5,7 +5,7 @@ title: 'Reasons why #1: David Beckham'
 categories: reasons-why
 subtitle: ''
 hero: "/2021-02-09-bent.png"
-hero_source: H
+hero_source: premierleague.com
 published: true
 layout: ''
 
