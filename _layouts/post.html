@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="hero" style="background-image: url(/assets/img/{{ page.hero }});">
   <a href="/" class="c-heading--siteTitle" alt="{{ site.title }} - {{ site.description }}"><span>The</span> Stanchion</a>
-  <h1 class="c-heading--page">{{ page.title | escape }}</h1>
+  <h1 class="c-heading--page header-logo">{{ page.title | escape }}</h1>
   <p class="c-post__date">
     <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
