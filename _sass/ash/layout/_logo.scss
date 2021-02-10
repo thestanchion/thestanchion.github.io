@@ -22,7 +22,8 @@ LOGO
 // }
 
 .header-logo {
-    a {
+    a,
+    .hero & {
         color: black;
     }
     
