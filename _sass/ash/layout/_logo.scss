@@ -1,22 +1,30 @@
 /******************************************
 LOGO
 ******************************************/
-.c-logo,
-.c-logo:visited {
-    display: inline-block;
-    margin-bottom: rem-calc(50);
-    padding-bottom: rem-calc(5);
-    @include title-font-black;
-    font-size: rem-calc(40);
-    line-height: 1;
-    color: $black;
-    border-bottom: 5px solid $black;
-}
+// .c-logo,
+// .c-logo:visited {
+//     display: inline-block;
+//     margin-bottom: rem-calc(50);
+//     padding-bottom: rem-calc(5);
+//     @include title-font-black;
+//     font-size: rem-calc(40);
+//     line-height: 1;
+//     color: $black;
+//     border-bottom: 5px solid $black;
+// }
 
-@include bp_max(600) {
-    .c-logo {
-        margin-bottom: rem-calc(30);
-        font-size: rem-calc(30);
-        border-bottom-width: rem-calc(3);
+// @include bp_max(600) {
+//     .c-logo {
+//         margin-bottom: rem-calc(30);
+//         font-size: rem-calc(30);
+//         border-bottom-width: rem-calc(3);
+//     }
+// }
+
+.header-logo {
+    span {
+        color: transparent;
+        -webkit-text-stroke-width: 1.5px;
+        -webkit-text-stroke-color: black;
     }
 }
