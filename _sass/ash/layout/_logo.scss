@@ -22,6 +22,10 @@ LOGO
 // }
 
 .header-logo {
+    a {
+        color: black;
+    }
+    
     span {
         color: transparent;
         -webkit-text-stroke-width: 1.5px;
