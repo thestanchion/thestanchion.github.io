@@ -11,6 +11,24 @@ hero: "/2021-02-10-1286935228-scaled.jpeg"
 hero_source: utdreport.co.uk
 
 ---
-When Manchester United slapped £50 odd million on the table for 19 year old Anthony Martial on the last day of the 2015 summer transfer window my reaction was not an excited one. Normally when your club splashes that sort of cash you've heard of the player before. When you spending that sort of money on a teenager, normally he's being spoken about regularly and linked with all sorts of big clubs.
+When Manchester United slapped £50 odd million on the table for 19 year old Anthony Martial on the last day of the 2015 summer transfer window my reaction was not an excited one. Normally when your club splashes that sort of cash you've heard of the player before. When you spend that sort of money on a teenager, normally he's being spoken about regularly, is well known to the average football fan and is being linked with all sorts of big clubs.
 
-The fact that 
+Instead desperation
+
+price tag not his fault
+
+never looks interested
+
+doesnt give enough
+
+hold play is poor
+
+he is good for a piece of magic once every 6 or 7 games, which isn't good enough.
+
+yes he scored 20 goals last season, but that was the one and only time that has happened in his career, and he has just 2 league goals this season in XXX apps
+
+not a centre forward - never win the league with him playing number 9
+
+Ole seems to agree as Cavani now starts most games
+
+best thing about him is his song
