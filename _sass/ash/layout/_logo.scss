@@ -23,7 +23,7 @@ LOGO
 
 .header-logo {
     a {
-        color: black !important;
+        color: $black !important;
     }
     
     span {
@@ -32,11 +32,33 @@ LOGO
         -webkit-text-stroke-color: black;
     }
     
+    &:hover {
+        
+        a {
+            color: $primary-colour;
+        }
+        
+        span {
+            -webkit-text-stroke-color: $primary-colour;
+        }
+    }
+    
     .post-hero & {
         color: white !important;
         
         span {
             -webkit-text-stroke-color: white;
+        }
+        
+        &:hover {
+        
+            a {
+                color: $black;
+            }
+
+            span {
+                -webkit-text-stroke-color: $black;
+            }
         }
     }
 }
