@@ -49,16 +49,5 @@ LOGO
         span {
             -webkit-text-stroke-color: white !important;
         }
-        
-        &:hover {
-        
-            a {
-                color: $black !important;
-            }
-
-            span {
-                -webkit-text-stroke-color: $black !important;
-            }
-        }
     }
 }
