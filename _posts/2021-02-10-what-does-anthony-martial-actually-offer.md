@@ -21,8 +21,6 @@ Despite that he made an instant impact, scoring on his debut vs Liverpool and fo
 
 <picture class="image__full-width"> <img src="/assets/img/2021-02-11-el_pyxswkaqwpzx.jpeg" alt="Martial celebrates vs Liverpool" /> <figcaption>Anthony Martial celebrates scoring against Liverpool</figcaption> </picture>
 
-price tag not his fault
-
 never looks interested
 
 doesnt give enough
@@ -36,5 +34,7 @@ yes he scored 20 goals last season, but that was the one and only time that has 
 not a centre forward - never win the league with him playing number 9
 
 Ole seems to agree as Cavani now starts most games
+
+I’d be happy having him coming off the left but as a backup to rashford
 
 best thing about him is his song
