@@ -23,7 +23,7 @@ LOGO
 
 .header-logo {
     a {
-        color: black;
+        color: black !important;
     }
     
     span {
@@ -33,7 +33,7 @@ LOGO
     }
     
     .post-hero & {
-        color: white;
+        color: white !important;
         
         span {
             -webkit-text-stroke-color: white;
