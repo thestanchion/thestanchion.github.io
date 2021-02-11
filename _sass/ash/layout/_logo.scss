@@ -29,17 +29,17 @@ LOGO
     span {
         color: transparent;
         -webkit-text-stroke-width: 1.5px;
-        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-color: black !important;
     }
     
     &:hover {
         
         a {
-            color: $primary-colour;
+            color: $primary-colour !important;
         }
         
         span {
-            -webkit-text-stroke-color: $primary-colour;
+            -webkit-text-stroke-color: $primary-colour !important;
         }
     }
     
@@ -47,17 +47,17 @@ LOGO
         color: white !important;
         
         span {
-            -webkit-text-stroke-color: white;
+            -webkit-text-stroke-color: white !important;
         }
         
         &:hover {
         
             a {
-                color: $black;
+                color: $black !important;
             }
 
             span {
-                -webkit-text-stroke-color: $black;
+                -webkit-text-stroke-color: $black !important;
             }
         }
     }
