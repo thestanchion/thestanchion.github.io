@@ -61,6 +61,7 @@ fields:
   label: Hero source
   description: Where did you find that image?
 pages:
+- _drafts/favourite-football-game.md
 - _drafts/reasons-why-1.md
 - _drafts/reasons-why-2.md
 - _drafts/reasons-why-3-david-beckham.md
