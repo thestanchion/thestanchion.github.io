@@ -13,7 +13,9 @@ hero_source: utdreport.co.uk
 ---
 When Manchester United slapped £50 odd million on the table for 19 year old Anthony Martial on the last day of the 2015 summer transfer window my reaction was not an excited one. Normally when your club splashes that sort of cash you've heard of the player before. When you spend that sort of money on a teenager, normally he's being spoken about regularly, is well known to the average football fan and is being linked with all sorts of big clubs.
 
-Instead desperation
+Instead it was a transfer that reeked of desperation. The club had already spent fairly heavily on Depay, Schneiderlin, Schweinsteiger and Darmian but van Persie and Chicharito had been sold, leaving van Gaal with very few options up front.
+
+United had just had two really poor seasons finishing in 7th and 4th following the retirement of Sir Alex Ferguson in 2013. So it could have been potentially more difficult to attract top top players hence the signing of Martial, but they _did_ finish in the Champions League places, which is the standard pre-requisite you hear top players wanting if they're going to change clubs. The signing of Martial felt a bit deflating all things considered.
 
 price tag not his fault
 
