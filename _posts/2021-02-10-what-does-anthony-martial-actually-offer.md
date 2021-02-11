@@ -17,6 +17,10 @@ Instead it was a transfer that reeked of desperation. Obviously the price tag wa
 
 United had also just had two really poor seasons finishing in 7th and 4th following the retirement of Sir Alex Ferguson in 2013. So it could have been potentially more difficult to attract top top players hence the signing of Martial, but they _did_ finish in the Champions League places, which is the standard pre-requisite you hear top players wanting if they're going to change clubs. The signing of Martial felt a bit deflating all things considered.
 
+Despite that he made an instant impact, scoring on his debut vs Liverpool and following that up with another 3 goals in the following 3 games. The United fans wasted no time coming up with a new song for him - "Tony Marshall, came from France..." - and the signing seemed like a masterstroke at the end of the first 6 weeks.
+
+<picture class="image__full-width"> <img src="/assets/img/2021-02-11-el_pyxswkaqwpzx.jpeg" alt="Martial celebrates vs Liverpool" /> <figcaption>Anthony Martial celebrates scoring against Liverpool</figcaption> </picture>
+
 price tag not his fault
 
 never looks interested
