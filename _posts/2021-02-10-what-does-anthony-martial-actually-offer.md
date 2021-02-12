@@ -17,19 +17,19 @@ Instead it was a transfer that reeked of desperation. Obviously the price tag wa
 
 United had also just had two really poor seasons finishing in 7th and 4th following the retirement of Sir Alex Ferguson in 2013. So it could have been potentially more difficult to attract top top players hence the signing of Martial, but they _did_ finish in the Champions League places, which is the standard pre-requisite you hear top players wanting if they're going to change clubs. The signing of Martial felt a bit deflating all things considered.
 
-Despite that he made an instant impact, scoring on his debut vs Liverpool and following that up with another 3 goals in the following 3 games. The United fans wasted no time coming up with a new song for him - "Tony Marshall, came from France..." - and the signing seemed like a masterstroke at the end of the first 6 weeks.
+Despite that he made an instant impact, scoring on his debut vs Liverpool and following that up with another 3 goals in the next 3 games. The United fans wasted no time coming up with a new song for him - "Tony Marshall, came from France..." - and the signing seemed like a masterstroke at the end of his first 6 weeks.
 
 <picture class="image__full-width"> <img src="/assets/img/2021-02-11-el_pyxswkaqwpzx.jpeg" alt="Martial celebrates vs Liverpool" /> <figcaption>Anthony Martial celebrates scoring against Liverpool</figcaption> </picture>
+
+But throughout the whole time he’s been at the club he’s just never taken his game to that next level. He sees himself as a centre forward, yet the fact that van Gaal played Fellini there instead of him at times tells you all you need to know about how well Martial can play that position. 
+
+His finishing is poor, the amount of clear cut chances he misses or hits straight at the keeper is frightening for an international forward, you’re  more likely to get one worldie strike from him every 12 games. And that’s part of the problem, you can’t rely on him to get the scrappy goals in the 6 yard box which is the real top strikers earn their corn. It’s not good enough. 
+
+Yes he scored 20 goals last season, but that was the one and only time that has happened in his career, and he has just 2 league goals this season in XXX apps
 
 never looks interested
 
 doesnt give enough
-
-hold play is poor
-
-he is good for a piece of magic once every 6 or 7 games, which isn't good enough.
-
-yes he scored 20 goals last season, but that was the one and only time that has happened in his career, and he has just 2 league goals this season in XXX apps
 
 not a centre forward - never win the league with him playing number 9
 
