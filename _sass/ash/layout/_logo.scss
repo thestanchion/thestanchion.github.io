@@ -39,17 +39,6 @@ LOGO
         -webkit-text-stroke-color: black !important;
     }
     
-    &:hover {
-        
-        a {
-            color: $primary-colour !important;
-        }
-        
-        span {
-            -webkit-text-stroke-color: $primary-colour !important;
-        }
-    }
-    
     .post-hero & {
         color: white !important;
         
