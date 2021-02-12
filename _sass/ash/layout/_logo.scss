@@ -26,6 +26,12 @@ LOGO
         color: $black !important;
     }
     
+    img {
+        position: relative;
+        top: 3px;
+        height: 4.3rem;
+    }
+    
     span {
         color: transparent;
         -webkit-text-stroke-width: 1.5px;
