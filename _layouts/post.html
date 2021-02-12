@@ -2,7 +2,10 @@
 layout: default
 ---
 <div class="hero post-hero" style="background-image: url(/assets/img/{{ page.hero }});">
-  <a href="/" class="c-heading--siteTitle header-logo" alt="{{ site.title }} - {{ site.description }}"><span>The</span> Stanchion</a>
+  <a href="/" class="c-heading--siteTitle header-logo" alt="{{ site.title }} - {{ site.description }}">
+        <img src="/assets/img/logo-v1_white.png" alt="The Stanchion logo" />
+        <span>The</span> Stanchion
+    </a>
   <h1 class="c-heading--page">{{ page.title | escape }}</h1>
   <p class="c-post__date">
     <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
