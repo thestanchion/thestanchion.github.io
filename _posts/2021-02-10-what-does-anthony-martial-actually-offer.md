@@ -29,7 +29,7 @@ Yes he scored 20 goals last season, but that was the one and only time that has 
 
 I’ve been saying for years there’s no chance we’ll ever win the league with him playing up front, and it looks like Solskjaer is starting to come round to that way of thinking too. Edinson Cavani has been starting up top more often than not lately and it’s no surprise that the team has looked more dangerous as a result of having a top class focal point leading the line. Martial is a good player to have in the squad but you can’t rely on him.
 
-<picture class="image__full-width"> <img src="/assets/img/2021-02-15-fulham-v-manchester-united-premier-league-min.jpeg" alt="Cavani celebrates scoring"_/> <figcaption>S_ource: thepeoplesperson._om</figcaption>_
+<picture class="image__full-width"> <img src="/assets/img/2021-02-15-fulham-v-manchester-united-premier-league-min.jpeg" alt="Cavani celebrates scoring"/> <figcaption>Source: thepeoplesperson.com</figcaption>
 </picture>
 
 Perhaps the most infuriating thing for me as a fan is the sheer lack of effort he gives you. The other week in the defeat to Sheffield United gave two perfect examples of that. He gave the ball away in the build up to their winner but instead of busting his nuts to win it back he just sulks and ambles back. Then when we’re chasing an equaliser he just basically stands on the edge of the box looking uninterested, not offering an option to the man on the ball.
