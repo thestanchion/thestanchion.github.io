@@ -23,7 +23,7 @@ Despite that he made an instant impact, scoring on his debut vs Liverpool and fo
 
 But throughout the whole time he’s been at the club he’s just never taken his game to that next level. He sees himself as a centre forward, yet the fact that van Gaal played Fellini there instead of him at times tells you all you need to know about how well Martial can play that position.
 
-His finishing is poor, the amount of clear cut chances he misses or hits straight at the keeper is frightening for an international forward, you’re  more likely to get one worldie strike from him every 12 games. And that’s part of the problem, you can’t rely on him to get the scrappy goals in the 6 yard box which is the real top strikers earn their corn. It’s not good enough.
+His finishing is poor, the amount of clear cut chances he misses or hits straight at the keeper is frightening for an international forward, you’re  more likely to get one worldie strike from him every 12 games. And that’s part of the problem, you can’t rely on him to get the scrappy goals in the 6 yard box which is where the real top strikers earn their corn. It’s not good enough.
 
 Yes he scored 20 goals last season, but that was the one and only time that has happened in his career, and he has just 7 league goals in all competitions this season in 28 appearances. Again, it’s not good enough.
 
