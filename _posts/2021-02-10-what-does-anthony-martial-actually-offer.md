@@ -34,6 +34,6 @@ I’ve been saying for years there’s no chance we’ll ever win the league wit
 
 Perhaps the most infuriating thing for me as a fan is the sheer lack of effort he gives you. The other week in the defeat to Sheffield United gave two perfect examples of that. He gave the ball away in the build up to their winner but instead of busting his nuts to win it back he just sulks and ambles back. Then when we’re chasing an equaliser he just basically stands on the edge of the box looking uninterested, not offering an option to the man on the ball.
 
-Long story short is he doesn’t offer enough, both interns of effort or goal threat to warrant a place in the team. I’d be happy having him coming off the left but that can only be as a backup to Rashford, who at least gives his all for the team even when he isn’t scoring.
+Long story short is he doesn’t offer enough, both in terms of effort or goal threat to warrant a place in the team. I’d be happy having him coming off the left but that can only be as a backup to Rashford, who at least gives his all for the team even when he isn’t scoring.
 
 The best thing about him is his song. For the past 4 years the team has been below the level it needs to be, so Martial didn’t look out of place that much. An average player playing alongside other average players. But now we need to be pushing on and competing for titles, and he’s not the striker to help us do that.
