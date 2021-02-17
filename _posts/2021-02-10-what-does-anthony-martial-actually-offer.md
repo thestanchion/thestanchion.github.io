@@ -7,8 +7,8 @@ published: true
 categories: man-united
 subtitle: Poor finishing, a major lack of effort and desire, I don't understand why
   the United fanbase has such big affection for Tony Marshall.
-hero: "/2021-02-10-1286935228-scaled.jpeg"
-hero_source: utdreport.co.uk
+hero: "/2021-02-17-0_gettyimages-1296038986.jpeg"
+hero_source: liverpoolecho.co.uk
 
 ---
 When Manchester United slapped £50 odd million on the table for 19 year old Anthony Martial on the last day of the 2015 summer transfer window my reaction was not an excited one. Normally when your club splashes that sort of cash you've heard of the player before. When you spend that sort of money on a teenager, normally he's being spoken about regularly, is well known to the average football fan and is being linked with all sorts of big clubs.
