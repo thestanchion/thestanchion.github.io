@@ -1,0 +1,9 @@
+{
+    "workbench.colorCustomizations": {
+        "titleBar.activeForeground": "#000000",
+        "titleBar.inactiveForeground": "#000000",
+        "titleBar.activeBackground": "#FFFFFF",
+        "titleBar.inactiveBackground": "#FFFFFF"
+    },
+    "files.trimTrailingWhitespace": true,
+}
