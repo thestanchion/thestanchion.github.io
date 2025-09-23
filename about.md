@@ -8,7 +8,7 @@ subtitle: I don't know about you, but I love football.
 author: Ash
 
 ---
-There's nothing else on earth that can bring people together, evoke deep-rooted tribal hatred, make someone laugh, someone cry and amaze you all within one match in the same way that football can.
+There's nothing else on earth that can bring people together, evoke deep-rooted tribal hatred, make someone laugh, make someone cry and amaze you all within one match in the same way that football can.
 
 Sometimes you'll see something so ridiculously incredible that you have no choice but to stop in complete awe of the sheer audacity of the player to even attempt it. Ronaldo from 40 yards against Porto. Andros Townsend's volley against City. Ronaldinho controlling a cross field pass on his back.
 
@@ -20,6 +20,6 @@ And that's what The Stanchion is: A place for ranting and raving about football,
 
 ###### Cheers, Ash
 
-### What you sayin?
+### Got something to say?
 
 The Stanchion is open to contributions from any football fan, on any topic, for any reason. Longform pieces, top fives, match analysis, reasons why you love the game, your favourite kit - if you want to write about it, [get in touch](https://www.twitter.com/stanchionfc "The Stanchion on Twitter") on Twitter.
