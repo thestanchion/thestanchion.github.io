@@ -1,9 +1,14 @@
 {
     "workbench.colorCustomizations": {
-        "titleBar.activeForeground": "#000000",
-        "titleBar.inactiveForeground": "#000000",
-        "titleBar.activeBackground": "#FFFFFF",
-        "titleBar.inactiveBackground": "#FFFFFF"
+        "statusBar.background": "#dd4b54",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.border": "#000000",
+        "titleBar.activeBackground": "#dd4b54",
+        "titleBar.border": "#000000",
+        "titleBar.activeForeground": "#ffffff"
     },
-    "files.trimTrailingWhitespace": true,
+    "sonarlint.connectedMode.project": {
+        "connectionId": "pulselive",
+        "projectKey": "pulselive_premier-league-25-web"
+    }
 }
