@@ -105,10 +105,12 @@ POST LIST
         }
 
         .c-post__date {
+            display: initial;
             padding: .5rem 0 0;
             @include title-font-heavy;
             font-size: 1.4rem;
             text-align: left;
+            border: 0;
         }
     }
 }
