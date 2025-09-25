@@ -60,6 +60,13 @@ POST
 .c-post__category {
     display: inline-block;
     font-size: rem-calc(14);
+
+    &::before {
+        content: '';
+        margin-right: rem-calc(12);
+        padding-right: rem-calc(12);
+        border-right: 3px solid #fff;
+    }
 }
 .c-post__category + .c-post__category:before {
     display: inline-block;

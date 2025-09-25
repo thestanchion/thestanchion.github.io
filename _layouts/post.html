@@ -8,6 +8,7 @@ layout: default
     </a>
   <h1 class="c-heading--page">{{ page.title | escape }}</h1>
   <p class="c-post__date">
+    <span class="c-post__category">{{ page.categories | replace: '-', ' ' | capitalize }}</span>
     <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
       {{ page.date | date: date_format }}
